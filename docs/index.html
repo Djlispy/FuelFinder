@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gas Price Locator</title>
-    <!-- Link to your CSS file -->
     <link rel="stylesheet" href="static/css/styles.css">
 </head>
 <body>
@@ -14,7 +13,7 @@
 
     <main>
         <section id="search">
-            <input type="text" id="zip-code" placeholder="Enter ZIP code">
+            <input type="text" id="zip-code" placeholder="Enter ZIP code" />
             <button id="search-button">Search</button>
         </section>
 
@@ -22,13 +21,17 @@
             <h2>Gas Stations Near You</h2>
             <ul id="gas-stations-list"></ul>
         </section>
+
+        <section id="cheapest">
+            <h2>Cheapest Gas Station</h2>
+            <p id="cheapest-station"></p>
+        </section>
     </main>
 
     <footer>
         <p>Powered by Gas Price Locator</p>
     </footer>
 
-    <!-- Link to your JavaScript file -->
     <script src="static/scripts/scripts.js"></script>
 </body>
 </html>
