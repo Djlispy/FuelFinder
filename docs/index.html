@@ -3,27 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gas Price Finder</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS -->
+    <title>Gas Price Locator</title>
+    <!-- Link to your CSS file -->
+    <link rel="stylesheet" href="static/css/styles.css">
 </head>
 <body>
     <header>
-        <h1>Find the Cheapest Gas Stations Near You</h1>
-        <p>Enter your zip code to see the gas prices!</p>
+        <h1>Gas Price Locator</h1>
     </header>
 
-    <section id="search-section">
-        <input type="text" id="zip-code" placeholder="Enter Zip Code">
-        <button onclick="getGasPrices()">Search</button>
-    </section>
+    <main>
+        <section id="search">
+            <input type="text" id="zip-code" placeholder="Enter ZIP code">
+            <button id="search-button">Search</button>
+        </section>
 
-    <section id="results-section">
-        <h2>Gas Stations Nearby</h2>
-        <ul id="gas-stations-list">
-            <!-- Gas stations will be displayed here -->
-        </ul>
-    </section>
+        <section id="results">
+            <h2>Gas Stations Near You</h2>
+            <ul id="gas-stations-list"></ul>
+        </section>
+    </main>
 
-    <script src="scripts.js"></script> <!-- Link to your JavaScript -->
+    <footer>
+        <p>Powered by Gas Price Locator</p>
+    </footer>
+
+    <!-- Link to your JavaScript file -->
+    <script src="static/scripts/scripts.js"></script>
 </body>
 </html>
