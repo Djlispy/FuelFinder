@@ -16,14 +16,15 @@ fetch('locations.json')
     // Filter locations that have a valid price
     const locationsWithPrice = data.filter(loc => loc.price !== undefined && loc.price !== null);
 
-    if (locationsWithPrice.length > 0) {
-      // Find the cheapest location
-      const cheapest = locationsWithPrice.reduce((min, loc) => {
-        return parseFloat(loc.price) < parseFloat(min.price) ? loc : min;
-      });
+	if (locationsWithPrice.length > 0) {
+	const cheapest = locationsWithPrice.reduce((min, loc) => {
+		return parseFloat(loc.price) < parseFloat(min.price) ? loc : min;
+	});
 
-      console.log(`Cheapest Station: ${cheapest.address} - Price: $${parseFloat(cheapest.price).toFixed(2)}`);
-    }
+	const priceFormatted = String(cheapest.price).match(/^\d+\.\d{0,2}/)[0];
+	console.log(`Cheapest Station: ${cheapest.address} - Price: $${priceFormatted}`);
+	}
+
 
     // Now add all markers
     data.forEach(location => {
