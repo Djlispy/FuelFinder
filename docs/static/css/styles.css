@@ -51,7 +51,7 @@
     }
 
     .price-text {
-      font-weight: bold;
+      /* font-weight: bold; */
       font-size: 13px;
       margin-bottom: 2px;
       color: white;
@@ -61,7 +61,7 @@
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  background-color: white; /* ✅ White circle background */
-  padding: 2px;             /* Optional: adds space around the image */
+  background-color: white; 
+  padding: 2px;             
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
 }
