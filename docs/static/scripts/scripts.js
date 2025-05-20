@@ -13,28 +13,32 @@ var Stadia_AlidadeSmoothDark = L.tileLayer(
 fetch('locations.json')
   .then(response => response.json())
   .then(data => {
-    // Filter locations that have a valid price
     const locationsWithPrice = data.filter(loc => loc.price !== undefined && loc.price !== null);
 
-	if (locationsWithPrice.length > 0) {
-	const cheapest = locationsWithPrice.reduce((min, loc) => {
-		return parseFloat(loc.price) < parseFloat(min.price) ? loc : min;
-	});
+    let cheapest = null;
+    if (locationsWithPrice.length > 0) {
+      cheapest = locationsWithPrice.reduce((min, loc) => {
+        return parseFloat(loc.price) < parseFloat(min.price) ? loc : min;
+      });
 
-	const priceFormatted = String(cheapest.price).match(/^\d+\.\d{0,2}/)[0];
-	console.log(`Cheapest Station: ${cheapest.address} - Price: $${priceFormatted}`);
-	}
+      const priceFormatted = String(cheapest.price).match(/^\d+\.\d{0,2}/)[0];
+      console.log(`Cheapest Station: ${cheapest.address} - Price: $${priceFormatted}`);
+    }
 
-
-    // Now add all markers
     data.forEach(location => {
       const hasPrice = location.price !== undefined && location.price !== null;
+      const isCheapest = cheapest && location.address === cheapest.address;
+
+      const strokeStyle = isCheapest ? 'stroke="green" stroke-width="3"' : '';
 
       const customIcon = L.divIcon({
         className: 'price-marker',
         html: `
           ${hasPrice ? `<div class="price-text">$${String(location.price).match(/^\d+\.\d{0,2}/)[0]}</div>` : ''}
-          <img class="gas-image" src="https://www.7-eleven.com/assets/img/store/7E_Logo_App-Icon_RGB.svg" />
+          <svg width="40" height="40" viewBox="0 0 40 40">
+            <circle cx="20" cy="20" r="16" fill="white" ${strokeStyle} />
+            <image href="https://www.7-eleven.com/assets/img/store/7E_Logo_App-Icon_RGB.svg" x="8" y="8" width="24" height="24" />
+          </svg>
         `,
         iconSize: [40, 50],
         iconAnchor: [20, 50]
