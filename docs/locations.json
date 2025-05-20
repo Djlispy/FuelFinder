@@ -61,8 +61,8 @@
   },
   {
     "address": "7-Eleven at 13150 Us Highway 41 S",
-    "latitude": 38.0986883,
-    "longitude": -87.5558478
+    "latitude": 27.79317166472491,
+    "longitude": -82.38361112328256
   },
   {
     "address": "7-Eleven at 11775 131St St North",
@@ -106,8 +106,8 @@
   },
   {
     "address": "7-Eleven at 10887 Trinity Blvd",
-    "latitude": 32.8079718,
-    "longitude": -97.13667269999999
+    "latitude": 28.185833578864862,
+    "longitude": -82.6355225903689
   },
   {
     "address": "7-Eleven at 205 N Belcher Rd @ Drew",
@@ -352,8 +352,8 @@
   },
   {
     "address": "7-Eleven at 8002 North 56Th St",
-    "latitude": 33.5572531,
-    "longitude": -111.9605928
+    "latitude": 28.020653138980368,
+    "longitude": -82.3940658693271
   },
   {
     "address": "7-Eleven at 12049 W Linebaugh Ave @ Country Way",
@@ -587,8 +587,8 @@
   },
   {
     "address": "7-Eleven at 6315 Rowan Rd @ Nebraska",
-    "latitude": 41.4925374,
-    "longitude": -99.9018131
+    "latitude": 28.25017227588395,
+    "longitude": -82.6994965586433
   },
   {
     "address": "7-Eleven at 11224 Land O'Lakes Blvd",
@@ -622,8 +622,8 @@
   },
   {
     "address": "7-Eleven at 6839 Ridge Rd",
-    "latitude": 45.0638771,
-    "longitude": -87.0943982
+    "latitude": 28.28086648958735, 
+    "longitude": -82.700919373409
   },
   {
     "address": "7-Eleven at 3560 West Waters Ave",
@@ -804,11 +804,6 @@
     "address": "7-Eleven at 801 County Road 1",
     "latitude": 40.7968347,
     "longitude": -73.6227175
-  },
-  {
-    "address": "7-Eleven at 1215 Gulf Rd",
-    "latitude": 41.405542,
-    "longitude": -82.0849365
   },
   {
     "address": "7-Eleven at 34511 Pure Water Way",
