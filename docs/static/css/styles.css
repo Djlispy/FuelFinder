@@ -43,9 +43,12 @@ html, body {
   }
 
 #map {
-  flex: 1;
   width: 100%;
-  height: 60vh; /* 60% of the screen height for map */
+  height: 60vh;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  margin: 1rem;
 }
 
       .price-marker {
