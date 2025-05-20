@@ -52,14 +52,16 @@
 
     .price-text {
       font-weight: bold;
-      font-size: 14px;
+      font-size: 13px;
       margin-bottom: 2px;
-      color: black;
+      color: white;
     }
 
-    .gas-image {
-      width: 30px;
-      height: 30px;
-      border-radius: 50%;
-      box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
-    }
+.gas-image {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: white; /* ✅ White circle background */
+  padding: 2px;             /* Optional: adds space around the image */
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+}
