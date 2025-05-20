@@ -23,6 +23,18 @@ fetch('locations.json')
 
       const priceFormatted = String(cheapest.price).match(/^\d+\.\d{0,2}/)[0];
       console.log(`Cheapest Station: ${cheapest.address} - Price: $${priceFormatted}`);
+	  if (cheapest) {
+		const priceFormatted = String(cheapest.price).match(/^\d+\.\d{0,2}/)[0];
+		const stationInfoDiv = document.getElementById('cheapest-station-info');
+
+		stationInfoDiv.innerHTML = `
+			<strong>Cheapest Station</strong><br>
+			Address: ${cheapest.address}<br>
+			Coordinates: ${cheapest.latitude.toFixed(6)}, ${cheapest.longitude.toFixed(6)}<br>
+			Price: <strong>$${priceFormatted}</strong>
+		`;
+		}
+
     }
 
     data.forEach(location => {
