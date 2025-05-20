@@ -7,3 +7,15 @@ var Stadia_AlidadeSmoothDark = L.tileLayer('https://tiles.stadiamaps.com/tiles/a
 	maxZoom: 10,
 	ext: 'png'
 }).addTo(map)
+
+// Load the JSON file
+fetch('locations.json')
+	.then(response => response.json())
+	.then(data => {
+		data.forEach(location => {
+			L.marker([location.latitude, location.longitude])
+				.addTo(map)
+				.bindPopup(location.address);
+		});
+	})
+	.catch(error => console.error('Error loading locations:', error));
