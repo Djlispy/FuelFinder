@@ -1,1803 +1,908 @@
 [
-    {
-        "address": "7-Eleven at 32 Bay Esplanade",
-        "latitude": 27.9853585,
-        "longitude": -82.82695059999999
-    },
-    {
-        "address": "7-Eleven at 601 Bayway Blvd",
-        "latitude": 27.9675989,
-        "longitude": -82.82651469999999
-    },
-    {
-        "address": "7-Eleven at 4747 W Gandy Blvd",
-        "latitude": 27.8937241,
-        "longitude": -82.52638639999999
-    },
-    {
-        "address": "7-Eleven at 5602 S Dale Mabry Hwy",
-        "latitude": 27.8842919,
-        "longitude": -82.50583170000002
-    },
-    {
-        "address": "7-Eleven at 2301 W Linebaugh Ave",
-        "latitude": 28.0401764,
-        "longitude": -82.480035
-    },
-    {
-        "address": "7-Eleven at 3444 W Columbus Dr",
-        "latitude": 27.9662941,
-        "longitude": -82.5011411
-    },
-    {
-        "address": "7-Eleven at 5601 East Fletcher Ave",
-        "latitude": 28.0686243,
-        "longitude": -82.3928727
-    },
-    {
-        "address": "7-Eleven at 3101 W. Gandy Blvd.",
-        "latitude": 27.8941606,
-        "longitude": -82.4941092
-    },
-    {
-        "address": "7-Eleven at 2990 16Th Street North",
-        "latitude": 33.547289,
-        "longitude": -86.83282849999999
-    },
-    {
-        "address": "7-Eleven at 6190 N Us Highway 41",
-        "latitude": 27.7686125,
-        "longitude": -82.3927734
-    },
-    {
-        "address": "7-Eleven at 1930 N Dale Mabry Hwy",
-        "latitude": 27.9591613,
-        "longitude": -82.50609949999999
-    },
-    {
-        "address": "7-Eleven at 1001 S. Howard Avenue",
-        "latitude": 27.9334869,
-        "longitude": -82.4832782
-    },
-    {
-        "address": "7-Eleven at 13150 Us Highway 41 S",
-        "latitude": 38.0986883,
-        "longitude": -87.5558478
-    },
-    {
-        "address": "7-Eleven at 11775 131St St North",
-        "latitude": 27.8798246,
-        "longitude": -82.8204478
-    },
-    {
-        "address": "7-Eleven at 4320 N Armenia Ave",
-        "latitude": 27.9808876,
-        "longitude": -82.4851662
-    },
-    {
-        "address": "7-Eleven at 902 E Hillsborough Ave",
-        "latitude": 27.9966369,
-        "longitude": -82.4507866
-    },
-    {
-        "address": "7-Eleven at 6845 N 22Nd Street",
-        "latitude": 28.010342,
-        "longitude": -82.4340909
-    },
-    {
-        "address": "7-Eleven at 311 E Davis Blvd",
-        "latitude": 27.9258006,
-        "longitude": -82.45251999999999
-    },
-    {
-        "address": "7-Eleven at 3801 S Dale Mabry Hwy",
-        "latitude": 27.9084226,
-        "longitude": -82.5066849
-    },
-    {
-        "address": "7-Eleven at 13440 State Road 54",
-        "latitude": 28.1934615,
-        "longitude": -82.5927868
-    },
-    {
-        "address": "7-Eleven at 2474 Fencepost Dr",
-        "latitude": 28.1945954,
-        "longitude": -82.595053
-    },
-    {
-        "address": "7-Eleven at 10887 Trinity Blvd",
-        "latitude": 32.8079718,
-        "longitude": -97.13667269999999
-    },
-    {
-        "address": "7-Eleven at 205 N Belcher Rd @ Drew",
-        "latitude": 27.9634664,
-        "longitude": -82.7456488
-    },
-    {
-        "address": "7-Eleven at 12852 State Road 52 @ Moonlake Rd",
-        "latitude": 28.3341427,
-        "longitude": -82.6024999
-    },
-    {
-        "address": "7-Eleven at 403 S. Macdill Avenue",
-        "latitude": 27.9407805,
-        "longitude": -82.4937399
-    },
-    {
-        "address": "7-Eleven at 11505 Walsingham Road",
-        "latitude": 27.8806948,
-        "longitude": -82.7982825
-    },
-    {
-        "address": "7-Eleven at 802 E Martin Luther King",
-        "latitude": 27.981772651966892,
-        "longitude": -82.45287392144826
-    },
-    {
-        "address": "7-Eleven at 702 S 50Th St",
-        "latitude": 27.9426293,
-        "longitude": -82.4015994
-    },
-    {
-        "address": "7-Eleven at 4250 S 78Th St",
-        "latitude": 27.9088553,
-        "longitude": -82.3679624
-    },
-    {
-        "address": "7-Eleven at 3603 S Falkenburg Rd",
-        "latitude": 27.9160517,
-        "longitude": -82.3478543
-    },
-    {
-        "address": "7-Eleven at 10201 Seminole Blvd",
-        "latitude": 27.8657081,
-        "longitude": -82.7866226
-    },
-    {
-        "address": "7-Eleven at 14361 Gulf Blvd",
-        "latitude": 27.7974317,
-        "longitude": -82.7960152
-    },
-    {
-        "address": "7-Eleven at 31571 Mccabe Rd",
-        "latitude": 28.325298,
-        "longitude": -82.294254
-    },
-    {
-        "address": "7-Eleven at 2717 W Hillsborough Ave",
-        "latitude": 27.9967305,
-        "longitude": -82.4882686
-    },
-    {
-        "address": "7-Eleven at 8402 Gunn Hwy",
-        "latitude": 28.0843933,
-        "longitude": -82.5792407
-    },
-    {
-        "address": "7-Eleven at 5102 Pointe Of Tampa Way",
-        "latitude": 28.1185543,
-        "longitude": -82.3786655
-    },
-    {
-        "address": "7-Eleven at 17621 Bruce B Downs Blvd @ Richmond Place",
-        "latitude": 28.1294445,
-        "longitude": -82.3660305
-    },
-    {
-        "address": "7-Eleven at 2030 Gulf To Bay Blvd",
-        "latitude": 27.9610382,
-        "longitude": -82.753163
-    },
-    {
-        "address": "7-Eleven at 1725 Drew St",
-        "latitude": 27.9676199,
-        "longitude": -82.7657713
-    },
-    {
-        "address": "7-Eleven at 9023 State Road 54 @ Little Road",
-        "latitude": 28.2064792,
-        "longitude": -82.66538159999999
-    },
-    {
-        "address": "7-Eleven at 27219 Wesley Chapel Blvd",
-        "latitude": 28.2385402,
-        "longitude": -82.3660819
-    },
-    {
-        "address": "7-Eleven at 657 Court St",
-        "latitude": 40.6695096,
-        "longitude": -74.0013701
-    },
-    {
-        "address": "7-Eleven at 2371 E Shell Point Road",
-        "latitude": 27.72046,
-        "longitude": -82.4054137
-    },
-    {
-        "address": "7-Eleven at 6008 West Linebaugh Ave @ Anderson Rd",
-        "latitude": 28.0398281,
-        "longitude": -82.54242529999999
-    },
-    {
-        "address": "7-Eleven at 10906 N Nebraska Ave",
-        "latitude": 28.0475677,
-        "longitude": -82.4515167
-    },
-    {
-        "address": "7-Eleven at 2928 E Fowler Ave",
-        "latitude": 28.055114,
-        "longitude": -82.4266866
-    },
-    {
-        "address": "7-Eleven at 5601 E Fowler Ave",
-        "latitude": 28.0537929,
-        "longitude": -82.3929706
-    },
-    {
-        "address": "7-Eleven at 7142 E Fowler Ave",
-        "latitude": 28.0547933,
-        "longitude": -82.3690118
-    },
-    {
-        "address": "7-Eleven at 1521 W Fletcher Ave",
-        "latitude": 28.0696681,
-        "longitude": -82.47526460000002
-    },
-    {
-        "address": "7-Eleven at 18431 Livingston Ave",
-        "latitude": 40.7824205,
-        "longitude": -74.3151432
-    },
-    {
-        "address": "7-Eleven at 20073 Us Hwy 19 North @ Seville",
-        "latitude": 29.3169208,
-        "longitude": -81.4925714
-    },
-    {
-        "address": "7-Eleven at 2110 9Th St North",
-        "latitude": 26.1721729,
-        "longitude": -81.7984796
-    },
-    {
-        "address": "7-Eleven at 8890 Ulmerton Rd",
-        "latitude": 27.8939401,
-        "longitude": -82.7615009
-    },
-    {
-        "address": "7-Eleven at 8018 Moon Lake Road @ Ridge Road",
-        "latitude": 28.2735948,
-        "longitude": -82.62480219999999
-    },
-    {
-        "address": "7-Eleven at 19123 Wingshooter Way",
-        "latitude": 28.1927971,
-        "longitude": -82.49907370000001
-    },
-    {
-        "address": "7-Eleven at 22826 State Road 54",
-        "latitude": 28.1854349,
-        "longitude": -82.4384713
-    },
-    {
-        "address": "7-Eleven at 2400 Land O'Lakes Blvd @ S R 54",
-        "latitude": 28.1919513,
-        "longitude": -82.4652907
-    },
-    {
-        "address": "7-Eleven at 19677 State Rd 54",
-        "latitude": 28.1982264,
-        "longitude": -82.4922596
-    },
-    {
-        "address": "7-Eleven at 12550 49Th St N",
-        "latitude": 27.886045,
-        "longitude": -82.7010675
-    },
-    {
-        "address": "7-Eleven at 5790 34Th St N",
-        "latitude": 27.8240177,
-        "longitude": -82.6799444
-    },
-    {
-        "address": "7-Eleven at 3353 Lithia Pinecrest Rd",
-        "latitude": 27.8943175,
-        "longitude": -82.24352309999999
-    },
-    {
-        "address": "7-Eleven at 6926 Little Road @ Decubellis",
-        "latitude": 28.2584342,
-        "longitude": -82.6739124
-    },
-    {
-        "address": "7-Eleven at 3001 66Th St N",
-        "latitude": 27.7995266,
-        "longitude": -82.7277476
-    },
-    {
-        "address": "7-Eleven at 855 Tyrone Blvd N",
-        "latitude": 27.780591,
-        "longitude": -82.7135254
-    },
-    {
-        "address": "7-Eleven at 9695 Gulf Blvd",
-        "latitude": 27.7556196,
-        "longitude": -82.76401589999999
-    },
-    {
-        "address": "7-Eleven at 4920 Moccasin Wallow Rd",
-        "latitude": 27.6020622,
-        "longitude": -82.5125961
-    },
-    {
-        "address": "7-Eleven at 7124 N Dale Mabry Hwy",
-        "latitude": 28.0142343,
-        "longitude": -82.50564949999999
-    },
-    {
-        "address": "7-Eleven at 6332 N Dale Mabry Hwy",
-        "latitude": 28.0062453,
-        "longitude": -82.50586009999999
-    },
-    {
-        "address": "7-Eleven at 4703 W Hillsborough Ave",
-        "latitude": 27.9965976,
-        "longitude": -82.52348800000001
-    },
-    {
-        "address": "7-Eleven at 5001 Memorial Hwy",
-        "latitude": 27.9821893,
-        "longitude": -82.550899
-    },
-    {
-        "address": "7-Eleven at 4943 E Busch Blvd",
-        "latitude": 28.0323652,
-        "longitude": -82.4020144
-    },
-    {
-        "address": "7-Eleven at 8002 North 56Th St",
-        "latitude": 33.5572531,
-        "longitude": -111.9605928
-    },
-    {
-        "address": "7-Eleven at 12049 W Linebaugh Ave @ Country Way",
-        "latitude": 28.0558319,
-        "longitude": -82.62318859999999
-    },
-    {
-        "address": "7-Eleven at 7301 Temple Terrace Hwy",
-        "latitude": 28.0322354,
-        "longitude": -82.3730056
-    },
-    {
-        "address": "7-Eleven at 13151 Race Track Rd",
-        "latitude": 28.0701981,
-        "longitude": -82.6304428
-    },
-    {
-        "address": "7-Eleven at 10820 Gandy Blvd N",
-        "latitude": 27.8683662,
-        "longitude": -82.6209823
-    },
-    {
-        "address": "7-Eleven at 11590 4Th St North",
-        "latitude": 27.8771557,
-        "longitude": -82.6397874
-    },
-    {
-        "address": "7-Eleven at 3130 Gulf-To-Bay Blvd.",
-        "latitude": 27.9610527,
-        "longitude": -82.70743039999999
-    },
-    {
-        "address": "7-Eleven at 8405 4Th St N",
-        "latitude": 27.8478091,
-        "longitude": -82.63846880000001
-    },
-    {
-        "address": "7-Eleven at 891 83Rd Ave N",
-        "latitude": 27.8480592,
-        "longitude": -82.64657179999999
-    },
-    {
-        "address": "7-Eleven at 2980 Roosevelt Blvd",
-        "latitude": 30.3130564,
-        "longitude": -81.70490989999999
-    },
-    {
-        "address": "7-Eleven at 6270 150Th Ave N",
-        "latitude": 27.908378,
-        "longitude": -82.7215181
-    },
-    {
-        "address": "7-Eleven at 6333 Ulmerton Rd N",
-        "latitude": 27.8943256,
-        "longitude": -82.7238629
-    },
-    {
-        "address": "7-Eleven at 9401 49Th St N",
-        "latitude": 27.8580183,
-        "longitude": -82.69985129999999
-    },
-    {
-        "address": "7-Eleven at 3660 Gandy Blvd",
-        "latitude": 27.839493,
-        "longitude": -82.682926
-    },
-    {
-        "address": "7-Eleven at 11787 66Th Street N",
-        "latitude": 27.878787602310403, 
-        "longitude": -82.72857546839533
-    },
-    {
-        "address": "7-Eleven at 100 Palm Harbor Blvd",
-        "latitude": 28.0678177,
-        "longitude": -82.76878880000001
-    },
-    {
-        "address": "7-Eleven at 4275 Park Blvd N",
-        "latitude": 27.8396037,
-        "longitude": -82.6913742
-    },
-    {
-        "address": "7-Eleven at 5151 Park Blvd",
-        "latitude": 27.8396417,
-        "longitude": -82.7034632
-    },
-    {
-        "address": "7-Eleven at 3225 34Th St N",
-        "latitude": 27.8015201,
-        "longitude": -82.6790982
-    },
-    {
-        "address": "7-Eleven at 27741 Wesley Chapel Blvd",
-        "latitude": 28.237777,
-        "longitude": -82.35686969999999
-    },
-    {
-        "address": "7-Eleven at 475 34Th St N",
-        "latitude": 27.776958,
-        "longitude": -82.6786984
-    },
-    {
-        "address": "7-Eleven at 11708 Seminole Blvd",
-        "latitude": 27.8797225,
-        "longitude": -82.7876641
-    },
-    {
-        "address": "7-Eleven at 7612 Starkey Rd",
-        "latitude": 27.8414447,
-        "longitude": -82.7627924
-    },
-    {
-        "address": "7-Eleven at 14361 S Us Hwy 301",
-        "latitude": 27.767773481517256,
-        "longitude": -82.33587419064891
-    },
-    {
-        "address": "7-Eleven at 3017 19Th Avenue Ne",
-        "latitude": 35.7516889,
-        "longitude": -81.2743832
-    },
-    {
-        "address": "7-Eleven at 15014 Us Highway 19",
-        "latitude": 28.3753289,
-        "longitude": -82.68180029999999
-    },
-    {
-        "address": "7-Eleven at 8606 Citrus Park Dr",
-        "latitude": 28.0651105,
-        "longitude": -82.5802428
-    },
-    {
-        "address": "7-Eleven at 1606 S Parsons Ave",
-        "latitude": 27.9821035,
-        "longitude": -82.2853362
-    },
-    {
-        "address": "7-Eleven at 1808 Bruce B Downs Blvd",
-        "latitude": 28.1837688,
-        "longitude": -82.3530009
-    },
-    {
-        "address": "7-Eleven at 2525 Bruce B Downs Blvd",
-        "latitude": 28.1932731,
-        "longitude": -82.3544496
-    },
-    {
-        "address": "7-Eleven at 2575 Mansfield Blvd",
-        "latitude": 28.19181,
-        "longitude": -82.32327
-    },
-    {
-        "address": "7-Eleven at 1200 East Bay Dr",
-        "latitude": 27.9164668,
-        "longitude": -82.7586441
-    },
-    {
-        "address": "7-Eleven at 28232 Wesley Chapel Blvd",
-        "latitude": 28.2360887,
-        "longitude": -82.3488828
-    },
-    {
-        "address": "7-Eleven at 10 Missouri Ave N",
-        "latitude": 27.9171592,
-        "longitude": -82.7873766
-    },
-    {
-        "address": "7-Eleven at 13220 Us Highway 301 S",
-        "latitude": 27.7914912,
-        "longitude": -82.33424219999999
-    },
-    {
-        "address": "7-Eleven at 4 Indian Rocks Rd N",
-        "latitude": 27.9171522,
-        "longitude": -82.81736599999999
-    },
-    {
-        "address": "7-Eleven at 30052 Overpass Rd",
-        "latitude": 28.272614,
-        "longitude": -82.31945999999999
-    },
-    {
-        "address": "7-Eleven at 10017 State Road 52",
-        "latitude": 28.3316805,
-        "longitude": -82.6491641
-    },
-    {
-        "address": "7-Eleven at 7329 State Road 52",
-        "latitude": 28.3319466,
-        "longitude": -82.6934821
-    },
-    {
-        "address": "7-Eleven at 2320 W Waters Ave",
-        "latitude": 28.0249446,
-        "longitude": -82.48377889999999
-    },
-    {
-        "address": "7-Eleven at 824 W Waters Ave",
-        "latitude": 28.0250073,
-        "longitude": -82.4673153
-    },
-    {
-        "address": "7-Eleven at 11302 N Dale Mabry Hwy",
-        "latitude": 28.0514875,
-        "longitude": -82.50475270000001
-    },
-    {
-        "address": "7-Eleven at 11303 N Dale Mabry Hwy",
-        "latitude": 28.0514557,
-        "longitude": -82.5033825
-    },
-    {
-        "address": "7-Eleven at 6016 Gunn Hwy @ Henderson Rd",
-        "latitude": 28.063111,
-        "longitude": -82.5491874
-    },
-    {
-        "address": "7-Eleven at 5125 W Cypress St",
-        "latitude": 27.9527862,
-        "longitude": -82.53128760000001
-    },
-    {
-        "address": "7-Eleven at 1290 East Lake Rd S Ridge Line Blvd",
-        "latitude": 28.1261879,
-        "longitude": -82.6974697
-    },
-    {
-        "address": "7-Eleven at 2411 Seven Springs Blvd",
-        "latitude": 28.1940468,
-        "longitude": -82.6995633
-    },
-    {
-        "address": "7-Eleven at 9077 Land O' Lakes Blvd",
-        "latitude": 28.2893485,
-        "longitude": -82.48947849999999
-    },
-    {
-        "address": "7-Eleven at 6315 Rowan Rd @ Nebraska",
-        "latitude": 41.4925374,
-        "longitude": -99.9018131
-    },
-    {
-        "address": "7-Eleven at 11224 Land O'Lakes Blvd",
-        "latitude": 28.3209616,
-        "longitude": -82.5023212
-    },
-    {
-        "address": "7-Eleven at 150 Pinellas Bayway S",
-        "latitude": 27.6902529,
-        "longitude": -82.7206135
-    },
-    {
-        "address": "7-Eleven at 18902 N Dale Mabry Hwy",
-        "latitude": 28.1508261,
-        "longitude": -82.4930315
-    },
-    {
-        "address": "7-Eleven at 1902 N Us Highway 301",
-        "latitude": 29.3821635,
-        "longitude": -82.1282464
-    },
-    {
-        "address": "7-Eleven at 700 W Brandon Blvd",
-        "latitude": 27.9382031,
-        "longitude": -82.2943162
-    },
-    {
-        "address": "7-Eleven at 9306 Little Road @ Hilltop Drive",
-        "latitude": 28.2920285,
-        "longitude": -82.6751961
-    },
-    {
-        "address": "7-Eleven at 7131 Ridge Rd @ Regency Park Blvd",
-        "latitude": 28.280659,
-        "longitude": -82.69918799999999
-    },
-    {
-        "address": "7-Eleven at 6839 Ridge Rd",
-        "latitude": 45.0638771,
-        "longitude": -87.0943982
-    },
-    {
-        "address": "7-Eleven at 3560 West Waters Ave",
-        "latitude": 28.024934583100663,
-        "longitude": -82.50035519842743
+  {
+    "address": "7-Eleven at 32 Bay Esplanade",
+    "latitude": 27.9853585,
+    "longitude": -82.82695059999999
+  },
+  {
+    "address": "7-Eleven at 601 Bayway Blvd",
+    "latitude": 27.9675989,
+    "longitude": -82.82651469999999
+  },
+  {
+    "address": "7-Eleven at 4747 W Gandy Blvd",
+    "latitude": 27.8937241,
+    "longitude": -82.52638639999999
+  },
+  {
+    "address": "7-Eleven at 5602 S Dale Mabry Hwy",
+    "latitude": 27.8842919,
+    "longitude": -82.50583170000002
+  },
+  {
+    "address": "7-Eleven at 2301 W Linebaugh Ave",
+    "latitude": 28.0401764,
+    "longitude": -82.480035
+  },
+  {
+    "address": "7-Eleven at 3444 W Columbus Dr",
+    "latitude": 27.9662941,
+    "longitude": -82.5011411
+  },
+  {
+    "address": "7-Eleven at 5601 East Fletcher Ave",
+    "latitude": 28.0686243,
+    "longitude": -82.3928727
+  },
+  {
+    "address": "7-Eleven at 3101 W. Gandy Blvd.",
+    "latitude": 27.8941606,
+    "longitude": -82.4941092
+  },
+  {
+    "address": "7-Eleven at 2990 16Th Street North",
+    "latitude": 33.547289,
+    "longitude": -86.83282849999999
+  },
+  {
+    "address": "7-Eleven at 6190 N Us Highway 41",
+    "latitude": 27.7686125,
+    "longitude": -82.3927734
+  },
+  {
+    "address": "7-Eleven at 1930 N Dale Mabry Hwy",
+    "latitude": 27.9591613,
+    "longitude": -82.50609949999999
+  },
+  {
+    "address": "7-Eleven at 1001 S. Howard Avenue",
+    "latitude": 27.9334869,
+    "longitude": -82.4832782
+  },
+  {
+    "address": "7-Eleven at 13150 Us Highway 41 S",
+    "latitude": 38.0986883,
+    "longitude": -87.5558478
+  },
+  {
+    "address": "7-Eleven at 11775 131St St North",
+    "latitude": 27.8798246,
+    "longitude": -82.8204478
+  },
+  {
+    "address": "7-Eleven at 4320 N Armenia Ave",
+    "latitude": 27.9808876,
+    "longitude": -82.4851662
+  },
+  {
+    "address": "7-Eleven at 902 E Hillsborough Ave",
+    "latitude": 27.9966369,
+    "longitude": -82.4507866
+  },
+  {
+    "address": "7-Eleven at 6845 N 22Nd Street",
+    "latitude": 28.010342,
+    "longitude": -82.4340909
+  },
+  {
+    "address": "7-Eleven at 311 E Davis Blvd",
+    "latitude": 27.9258006,
+    "longitude": -82.45251999999999
+  },
+  {
+    "address": "7-Eleven at 3801 S Dale Mabry Hwy",
+    "latitude": 27.9084226,
+    "longitude": -82.5066849
+  },
+  {
+    "address": "7-Eleven at 13440 State Road 54",
+    "latitude": 28.1934615,
+    "longitude": -82.5927868
+  },
+  {
+    "address": "7-Eleven at 2474 Fencepost Dr",
+    "latitude": 28.1945954,
+    "longitude": -82.595053
+  },
+  {
+    "address": "7-Eleven at 10887 Trinity Blvd",
+    "latitude": 32.8079718,
+    "longitude": -97.13667269999999
+  },
+  {
+    "address": "7-Eleven at 205 N Belcher Rd @ Drew",
+    "latitude": 27.9634664,
+    "longitude": -82.7456488
+  },
+  {
+    "address": "7-Eleven at 12852 State Road 52 @ Moonlake Rd",
+    "latitude": 28.3341427,
+    "longitude": -82.6024999
+  },
+  {
+    "address": "7-Eleven at 403 S. Macdill Avenue",
+    "latitude": 27.9407805,
+    "longitude": -82.4937399
+  },
+  {
+    "address": "7-Eleven at 11505 Walsingham Road",
+    "latitude": 27.8806948,
+    "longitude": -82.7982825
+  },
+  {
+    "address": "7-Eleven at 802 E Martin Luther King",
+    "latitude": 27.981772651966892,
+    "longitude": -82.45287392144826
+  },
+  {
+    "address": "7-Eleven at 702 S 50Th St",
+    "latitude": 27.9426293,
+    "longitude": -82.4015994
+  },
+  {
+    "address": "7-Eleven at 4250 S 78Th St",
+    "latitude": 27.9088553,
+    "longitude": -82.3679624
+  },
+  {
+    "address": "7-Eleven at 3603 S Falkenburg Rd",
+    "latitude": 27.9160517,
+    "longitude": -82.3478543
+  },
+  {
+    "address": "7-Eleven at 10201 Seminole Blvd",
+    "latitude": 27.8657081,
+    "longitude": -82.7866226
+  },
+  {
+    "address": "7-Eleven at 14361 Gulf Blvd",
+    "latitude": 27.7974317,
+    "longitude": -82.7960152
+  },
+  {
+    "address": "7-Eleven at 31571 Mccabe Rd",
+    "latitude": 28.325298,
+    "longitude": -82.294254
+  },
+  {
+    "address": "7-Eleven at 2717 W Hillsborough Ave",
+    "latitude": 27.9967305,
+    "longitude": -82.4882686
+  },
+  {
+    "address": "7-Eleven at 8402 Gunn Hwy",
+    "latitude": 28.0843933,
+    "longitude": -82.5792407
+  },
+  {
+    "address": "7-Eleven at 5102 Pointe Of Tampa Way",
+    "latitude": 28.1185543,
+    "longitude": -82.3786655
+  },
+  {
+    "address": "7-Eleven at 17621 Bruce B Downs Blvd @ Richmond Place",
+    "latitude": 28.1294445,
+    "longitude": -82.3660305
+  },
+  {
+    "address": "7-Eleven at 2030 Gulf To Bay Blvd",
+    "latitude": 27.9610382,
+    "longitude": -82.753163
+  },
+  {
+    "address": "7-Eleven at 1725 Drew St",
+    "latitude": 27.9676199,
+    "longitude": -82.7657713
+  },
+  {
+    "address": "7-Eleven at 9023 State Road 54 @ Little Road",
+    "latitude": 28.2064792,
+    "longitude": -82.66538159999999
+  },
+  {
+    "address": "7-Eleven at 27219 Wesley Chapel Blvd",
+    "latitude": 28.2385402,
+    "longitude": -82.3660819
+  },
+  {
+    "address": "7-Eleven at 657 Court St",
+    "latitude": 40.6695096,
+    "longitude": -74.0013701
+  },
+  {
+    "address": "7-Eleven at 2371 E Shell Point Road",
+    "latitude": 27.72046,
+    "longitude": -82.4054137
+  },
+  {
+    "address": "7-Eleven at 6008 West Linebaugh Ave @ Anderson Rd",
+    "latitude": 28.0398281,
+    "longitude": -82.54242529999999
+  },
+  {
+    "address": "7-Eleven at 10906 N Nebraska Ave",
+    "latitude": 28.0475677,
+    "longitude": -82.4515167
+  },
+  {
+    "address": "7-Eleven at 2928 E Fowler Ave",
+    "latitude": 28.055114,
+    "longitude": -82.4266866
+  },
+  {
+    "address": "7-Eleven at 5601 E Fowler Ave",
+    "latitude": 28.0537929,
+    "longitude": -82.3929706
+  },
+  {
+    "address": "7-Eleven at 7142 E Fowler Ave",
+    "latitude": 28.0547933,
+    "longitude": -82.3690118
+  },
+  {
+    "address": "7-Eleven at 1521 W Fletcher Ave",
+    "latitude": 28.0696681,
+    "longitude": -82.47526460000002
+  },
+  {
+    "address": "7-Eleven at 18431 Livingston Ave",
+    "latitude": 40.7824205,
+    "longitude": -74.3151432
+  },
 
-    },
-    {
-        "address": "7-Eleven at 8305 W Hillsborough Ave",
-        "latitude": 27.9971496,
-        "longitude": -82.5754508
-    },
-    {
-        "address": "7-Eleven at 8801 Memorial Hwy",
-        "latitude": 27.9987899,
-        "longitude": -82.5836848
-    },
-    {
-        "address": "7-Eleven at 7711 Causeway Blvd",
-        "latitude": 27.9222358,
-        "longitude": -82.36922419999999
-    },
-    {
-        "address": "7-Eleven at 2789 State Road 580",
-        "latitude": 28.021772,
-        "longitude": -82.70985859999999
-    },
-    {
-        "address": "7-Eleven at 915 Providence Rd",
-        "latitude": 35.1966179,
-        "longitude": -80.8265438
-    },
-    {
-        "address": "7-Eleven at 4230 Land O'Lakes Blvd",
-        "latitude": 28.2194888,
-        "longitude": -82.4575553
-    },
-    {
-        "address": "7-Eleven at 2198 Main St",
-        "latitude": 28.01979540475473,
-        "longitude": -82.74734643326833
-    },
-    {
-        "address": "7-Eleven at 1971 Sunset Point Rd",
-        "latitude": 27.9895026,
-        "longitude": -82.75553
-    },
-    {
-        "address": "7-Eleven at 810 E Brandon Blvd",
-        "latitude": 27.9381313,
-        "longitude": -82.2729387
-    },
-    {
-        "address": "7-Eleven at 1531 E Brandon Blvd",
-        "latitude": 27.9370478,
-        "longitude": -82.26153959999999
-    },
-    {
-        "address": "7-Eleven at 2101 State Road 60",
-        "latitude": 27.9329746,
-        "longitude": -82.0839272
-    },
-    {
-        "address": "7-Eleven at 10016 Mcmullen Rd",
-        "latitude": 27.854033592189708,
-        "longitude": -82.30131978298834
-    },
-    {
-        "address": "7-Eleven at 13411 Fishhawk Blvd",
-        "latitude": 27.852814,
-        "longitude": -82.2686519
-    },
-    {
-        "address": "7-Eleven at 3629 E State Road 60",
-        "latitude": 27.9370015,
-        "longitude": -82.2200529
-    },
-    {
-        "address": "7-Eleven at 12204 Balm Riverview Rd",
-        "latitude": 27.8211185,
-        "longitude": -82.2968782
-    },
-    {
-        "address": "7-Eleven at 5301 34Th Street S",
-        "latitude": 27.71985147366057,
-        "longitude": -82.67987322735546
-    },
-    {
-        "address": "7-Eleven at 10007 Us Highway 19",
-        "latitude": 28.3026721,
-        "longitude": -82.70484400000001
-    },
-    {
-        "address": "7-Eleven at 4301 Ehrlich Rd",
-        "latitude": 28.0848629,
-        "longitude": -82.5174438
-    },
-    {
-        "address": "7-Eleven at 11292 W Hillsborough Ave",
-        "latitude": 28.0113318,
-        "longitude": -82.61015730000001
-    },
-    {
-        "address": "7-Eleven at 5555 E Hillsborough Ave",
-        "latitude": 27.9956662,
-        "longitude": -82.3941645
-    },
-    {
-        "address": "7-Eleven at 8350 E Mlk Jr Blvd",
-        "latitude": 27.9821809,
-        "longitude": -82.360804
-    },
-    {
-        "address": "7-Eleven at 1020 S Kings Ave",
-        "latitude": 27.9212348,
-        "longitude": -82.29447429999999
-    },
-    {
-        "address": "7-Eleven at 12902 Newsome Rd",
-        "latitude": 28.3101966,
-        "longitude": -82.17127579999999
-    },
-    {
-        "address": "7-Eleven at 4540 Rowan Rd",
-        "latitude": 28.2254378,
-        "longitude": -82.6902125
-    },
-    {
-        "address": "7-Eleven at 909 S 78Th St",
-        "latitude": 27.9414949,
-        "longitude": -82.3693473
-    },
-    {
-        "address": "7-Eleven at 1001 S Us Highway 301",
-        "latitude": 37.5067036,
-        "longitude": -77.447003
-    },
-    {
-        "address": "7-Eleven at 914 S Falkenberg Rd",
-        "latitude": 27.9407019,
-        "longitude": -82.3359995
-    },
-    {
-        "address": "7-Eleven at 11348 Us Hwy 301",
-        "latitude": 27.83560757395321,
-        "longitude": -82.327659827141
-    },
-    {
-        "address": "7-Eleven at 13949 W Hillsborough Ave",
-        "latitude": 28.0341737,
-        "longitude": -82.6479855
-    },
-    {
-        "address": "7-Eleven at 5010 Tampa Rd",
-        "latitude": 28.033521,
-        "longitude": -82.649672
-    },
-    {
-        "address": "7-Eleven at 3855 Tampa Road @ Pine Ave",
-        "latitude": 28.0422438,
-        "longitude": -82.67149909999999
-    },
-    {
-        "address": "7-Eleven at 3437 Us Highway 19",
-        "latitude": 28.2093139,
-        "longitude": -82.7404902
-    },
-    {
-        "address": "7-Eleven at 4431 Us Hwy 19",
-        "latitude": 28.2240231,
-        "longitude": -82.7346989
-    },
-    {
-        "address": "7-Eleven at 9817 Us 301 Gibsonton Rd",
-        "latitude": 27.8557328,
-        "longitude": -82.32757699999999
-    },
-    {
-        "address": "7-Eleven at 801 County Road 1",
-        "latitude": 40.7968347,
-        "longitude": -73.6227175
-    },
-    {
-        "address": "7-Eleven at 1215 Gulf Rd",
-        "latitude": 41.405542,
-        "longitude": -82.0849365
-    },
-    {
-        "address": "7-Eleven at 34511 Pure Water Way",
-        "latitude": 28.2192627,
-        "longitude": -82.24584329999999
-    },
-    {
-        "address": "7-Eleven at 3398 Tampa Road",
-        "latitude": 28.0670991,
-        "longitude": -82.7226754
-    },
-    {
-        "address": "7-Eleven at 4547 Sunray Dr",
-        "latitude": 28.1986049,
-        "longitude": -82.7392406
-    },
-    {
-        "address": "7-Eleven at 6001 Trouble Creek Rd",
-        "latitude": 28.2248573,
-        "longitude": -82.7150502
-    },
-    {
-        "address": "7-Eleven at 13014 Balm Riverview Rd",
-        "latitude": 27.8059448,
-        "longitude": -82.2889793
-    },
-    {
-        "address": "7-Eleven at 6328 Us Hwy 19",
-        "latitude": 28.2506666,
-        "longitude": -82.727243
-    },
-    {
-        "address": "7-Eleven at 2401 James Redman Pkwy",
-        "latitude": 27.9885254,
-        "longitude": -82.12243300000002
-    },
-    {
-        "address": "7-Eleven at 1324 Us Highway 19",
-        "latitude": 28.1779324,
-        "longitude": -82.7397294
-    },
-    {
-        "address": "7-Eleven at 2023 Us Highway 19",
-        "latitude": 28.1887373,
-        "longitude": -82.74085939999999
-    },
-    {
-        "address": "7-Eleven at 38544 5Th Ave",
-        "latitude": 36.1579319,
-        "longitude": -85.6376289
-    },
-    {
-        "address": "7-Eleven at 36445 W Fl-54 Highway",
-        "latitude": 28.230404155160404,
-        "longitude": -82.21376753205587
-    },
-    {
-        "address": "7-Eleven at 6050 Dean Dairy Road",
-        "latitude": 28.2452387,
-        "longitude": -82.2129023
-    },
-    {
-        "address": "7-Eleven at 7317 Gall Blvd",
-        "latitude": 28.2648961,
-        "longitude": -82.18900699999999
-    },
-    {
-        "address": "7-Eleven at 7600 Gall Blvd.",
-        "latitude": 28.2684597,
-        "longitude": -82.1877307
-    },
-    {
-        "address": "7-Eleven at 1133 Us Alt Hwy 19",
-        "latitude": 35.5498296,
-        "longitude": -82.6480236
-    },
-    {
-        "address": "7-Eleven at 33600 Us Highway 19 N",
-        "latitude": 28.0774705,
-        "longitude": -82.739632
-    },
-    {
-        "address": "7-Eleven at 36763 Us Highway 19 N",
-        "latitude": 28.1062148,
-        "longitude": -82.7390003
-    },
-    {
-        "address": "7-Eleven at 38611 Us Highway 19 N",
-        "latitude": 28.1234021,
-        "longitude": -82.7391817
-    },
-    {
-        "address": "7-Eleven at 6026 Gall Blvd",
-        "latitude": 28.2454111,
-        "longitude": -82.1892706
-    },
-    {
-        "address": "    7-Eleven at 32 Bay Esplanade",
-        "latitude": 27.9853585,
-        "longitude": -82.82695059999999
-    },
-    {
-        "address": "7-Eleven at 601 Bayway Blvd",
-        "latitude": 27.9675989,
-        "longitude": -82.82651469999999
-    },
-    {
-        "address": "7-Eleven at 4747 W Gandy Blvd",
-        "latitude": 27.8937241,
-        "longitude": -82.52638639999999
-    },
-    {
-        "address": "7-Eleven at 5602 S Dale Mabry Hwy",
-        "latitude": 27.8842919,
-        "longitude": -82.50583170000002
-    },
-    {
-        "address": "7-Eleven at 2301 W Linebaugh Ave",
-        "latitude": 28.0401764,
-        "longitude": -82.480035
-    },
-    {
-        "address": "7-Eleven at 3444 W Columbus Dr",
-        "latitude": 27.9662941,
-        "longitude": -82.5011411
-    },
-    {
-        "address": "7-Eleven at 5601 East Fletcher Ave",
-        "latitude": 28.0686243,
-        "longitude": -82.3928727
-    },
-    {
-        "address": "7-Eleven at 3101 W. Gandy Blvd.",
-        "latitude": 27.8941606,
-        "longitude": -82.4941092
-    },
-    {
-        "address": "7-Eleven at 2990 16Th Street North",
-        "latitude": 33.547289,
-        "longitude": -86.83282849999999
-    },
-    {
-        "address": "7-Eleven at 6190 N Us Highway 41",
-        "latitude": 27.7686125,
-        "longitude": -82.3927734
-    },
-    {
-        "address": "7-Eleven at 1930 N Dale Mabry Hwy",
-        "latitude": 27.9591613,
-        "longitude": -82.50609949999999
-    },
-    {
-        "address": "7-Eleven at 1001 S. Howard Avenue",
-        "latitude": 27.9334869,
-        "longitude": -82.4832782
-    },
-    {
-        "address": "7-Eleven at 13150 Us Highway 41 S",
-        "latitude": 38.0986883,
-        "longitude": -87.5558478
-    },
-    {
-        "address": "7-Eleven at 11775 131St St North",
-        "latitude": 27.8798246,
-        "longitude": -82.8204478
-    },
-    {
-        "address": "7-Eleven at 4320 N Armenia Ave",
-        "latitude": 27.9808876,
-        "longitude": -82.4851662
-    },
-    {
-        "address": "7-Eleven at 902 E Hillsborough Ave",
-        "latitude": 27.9966369,
-        "longitude": -82.4507866
-    },
-    {
-        "address": "7-Eleven at 6845 N 22Nd Street",
-        "latitude": 28.010342,
-        "longitude": -82.4340909
-    },
-    {
-        "address": "7-Eleven at 311 E Davis Blvd",
-        "latitude": 27.9258006,
-        "longitude": -82.45251999999999
-    },
-    {
-        "address": "7-Eleven at 3801 S Dale Mabry Hwy",
-        "latitude": 27.9084226,
-        "longitude": -82.5066849
-    },
-    {
-        "address": "7-Eleven at 13440 State Road 54",
-        "latitude": 28.1934615,
-        "longitude": -82.5927868
-    },
-    {
-        "address": "7-Eleven at 2474 Fencepost Dr",
-        "latitude": 28.1945954,
-        "longitude": -82.595053
-    },
-    {
-        "address": "7-Eleven at 10887 Trinity Blvd",
-        "latitude": 32.8079718,
-        "longitude": -97.13667269999999
-    },
-    {
-        "address": "7-Eleven at 205 N Belcher Rd @ Drew",
-        "latitude": 27.9634664,
-        "longitude": -82.7456488
-    },
-    {
-        "address": "7-Eleven at 12852 State Road 52 @ Moonlake Rd",
-        "latitude": 28.3341427,
-        "longitude": -82.6024999
-    },
-    {
-        "address": "7-Eleven at 403 S. Macdill Avenue",
-        "latitude": 27.9407805,
-        "longitude": -82.4937399
-    },
-    {
-        "address": "7-Eleven at 11505 Walsingham Road",
-        "latitude": 27.8806948,
-        "longitude": -82.7982825
-    },
-    {
-        "address": "7-Eleven at 702 S 50Th St",
-        "latitude": 27.9426293,
-        "longitude": -82.4015994
-    },
-    {
-        "address": "7-Eleven at 4250 S 78Th St",
-        "latitude": 27.9088553,
-        "longitude": -82.3679624
-    },
-    {
-        "address": "7-Eleven at 3603 S Falkenburg Rd",
-        "latitude": 27.9160517,
-        "longitude": -82.3478543
-    },
-    {
-        "address": "7-Eleven at 10201 Seminole Blvd",
-        "latitude": 27.8657081,
-        "longitude": -82.7866226
-    },
-    {
-        "address": "7-Eleven at 14361 Gulf Blvd",
-        "latitude": 27.7974317,
-        "longitude": -82.7960152
-    },
-    {
-        "address": "7-Eleven at 31571 Mccabe Rd",
-        "latitude": 28.325298,
-        "longitude": -82.294254
-    },
-    {
-        "address": "7-Eleven at 2717 W Hillsborough Ave",
-        "latitude": 27.9967305,
-        "longitude": -82.4882686
-    },
-    {
-        "address": "7-Eleven at 8402 Gunn Hwy",
-        "latitude": 28.0843933,
-        "longitude": -82.5792407
-    },
-    {
-        "address": "7-Eleven at 5102 Pointe Of Tampa Way",
-        "latitude": 28.1185543,
-        "longitude": -82.3786655
-    },
-    {
-        "address": "7-Eleven at 17621 Bruce B Downs Blvd @ Richmond Place",
-        "latitude": 28.1294445,
-        "longitude": -82.3660305
-    },
-    {
-        "address": "7-Eleven at 2030 Gulf To Bay Blvd",
-        "latitude": 27.9610382,
-        "longitude": -82.753163
-    },
-    {
-        "address": "7-Eleven at 1725 Drew St",
-        "latitude": 27.9676199,
-        "longitude": -82.7657713
-    },
-    {
-        "address": "7-Eleven at 9023 State Road 54 @ Little Road",
-        "latitude": 28.2064792,
-        "longitude": -82.66538159999999
-    },
-    {
-        "address": "7-Eleven at 27219 Wesley Chapel Blvd",
-        "latitude": 28.2385402,
-        "longitude": -82.3660819
-    },
-    {
-        "address": "7-Eleven at 657 Court St",
-        "latitude": 40.6695096,
-        "longitude": -74.0013701
-    },
-    {
-        "address": "7-Eleven at 2371 E Shell Point Road",
-        "latitude": 27.72046,
-        "longitude": -82.4054137
-    },
-    {
-        "address": "7-Eleven at 6008 West Linebaugh Ave @ Anderson Rd",
-        "latitude": 28.0398281,
-        "longitude": -82.54242529999999
-    },
-    {
-        "address": "7-Eleven at 10906 N Nebraska Ave",
-        "latitude": 28.0475677,
-        "longitude": -82.4515167
-    },
-    {
-        "address": "7-Eleven at 2928 E Fowler Ave",
-        "latitude": 28.055114,
-        "longitude": -82.4266866
-    },
-    {
-        "address": "7-Eleven at 5601 E Fowler Ave",
-        "latitude": 28.0537929,
-        "longitude": -82.3929706
-    },
-    {
-        "address": "7-Eleven at 7142 E Fowler Ave",
-        "latitude": 28.0547933,
-        "longitude": -82.3690118
-    },
-    {
-        "address": "7-Eleven at 1521 W Fletcher Ave",
-        "latitude": 28.0696681,
-        "longitude": -82.47526460000002
-    },
-    {
-        "address": "7-Eleven at 18431 Livingston Ave",
-        "latitude": 40.7824205,
-        "longitude": -74.3151432
-    },
-    {
-        "address": "7-Eleven at 20073 Us Hwy 19 North @ Seville",
-        "latitude": 29.3169208,
-        "longitude": -81.4925714
-    },
-    {
-        "address": "7-Eleven at 2110 9Th St North",
-        "latitude": 26.1721729,
-        "longitude": -81.7984796
-    },
-    {
-        "address": "7-Eleven at 8890 Ulmerton Rd",
-        "latitude": 27.8939401,
-        "longitude": -82.7615009
-    },
-    {
-        "address": "7-Eleven at 8018 Moon Lake Road @ Ridge Road",
-        "latitude": 28.2735948,
-        "longitude": -82.62480219999999
-    },
-    {
-        "address": "7-Eleven at 19123 Wingshooter Way",
-        "latitude": 28.1927971,
-        "longitude": -82.49907370000001
-    },
-    {
-        "address": "7-Eleven at 22826 State Road 54",
-        "latitude": 28.1854349,
-        "longitude": -82.4384713
-    },
-    {
-        "address": "7-Eleven at 2400 Land O'Lakes Blvd @ S R 54",
-        "latitude": 28.1919513,
-        "longitude": -82.4652907
-    },
-    {
-        "address": "7-Eleven at 19677 State Rd 54",
-        "latitude": 28.1982264,
-        "longitude": -82.4922596
-    },
-    {
-        "address": "7-Eleven at 12550 49Th St N",
-        "latitude": 27.886045,
-        "longitude": -82.7010675
-    },
-    {
-        "address": "7-Eleven at 5790 34Th St N",
-        "latitude": 27.8240177,
-        "longitude": -82.6799444
-    },
-    {
-        "address": "7-Eleven at 3353 Lithia Pinecrest Rd",
-        "latitude": 27.8943175,
-        "longitude": -82.24352309999999
-    },
-    {
-        "address": "7-Eleven at 6926 Little Road @ Decubellis",
-        "latitude": 28.2584342,
-        "longitude": -82.6739124
-    },
-    {
-        "address": "7-Eleven at 3001 66Th St N",
-        "latitude": 27.7995266,
-        "longitude": -82.7277476
-    },
-    {
-        "address": "7-Eleven at 855 Tyrone Blvd N",
-        "latitude": 27.780591,
-        "longitude": -82.7135254
-    },
-    {
-        "address": "7-Eleven at 9695 Gulf Blvd",
-        "latitude": 27.7556196,
-        "longitude": -82.76401589999999
-    },
-    {
-        "address": "7-Eleven at 4920 Moccasin Wallow Rd",
-        "latitude": 27.6020622,
-        "longitude": -82.5125961
-    },
-    {
-        "address": "7-Eleven at 7124 N Dale Mabry Hwy",
-        "latitude": 28.0142343,
-        "longitude": -82.50564949999999
-    },
-    {
-        "address": "7-Eleven at 6332 N Dale Mabry Hwy",
-        "latitude": 28.0062453,
-        "longitude": -82.50586009999999
-    },
-    {
-        "address": "7-Eleven at 4703 W Hillsborough Ave",
-        "latitude": 27.9965976,
-        "longitude": -82.52348800000001
-    },
-    {
-        "address": "7-Eleven at 5001 Memorial Hwy",
-        "latitude": 27.9821893,
-        "longitude": -82.550899
-    },
-    {
-        "address": "7-Eleven at 4943 E Busch Blvd",
-        "latitude": 28.0323652,
-        "longitude": -82.4020144
-    },
-    {
-        "address": "7-Eleven at 8002 North 56Th St",
-        "latitude": 33.5572531,
-        "longitude": -111.9605928
-    },
-    {
-        "address": "7-Eleven at 12049 W Linebaugh Ave @ Country Way",
-        "latitude": 28.0558319,
-        "longitude": -82.62318859999999
-    },
-    {
-        "address": "7-Eleven at 7301 Temple Terrace Hwy",
-        "latitude": 28.0322354,
-        "longitude": -82.3730056
-    },
-    {
-        "address": "7-Eleven at 13151 Race Track Rd",
-        "latitude": 28.0701981,
-        "longitude": -82.6304428
-    },
-    {
-        "address": "7-Eleven at 10820 Gandy Blvd N",
-        "latitude": 27.8683662,
-        "longitude": -82.6209823
-    },
-    {
-        "address": "7-Eleven at 11590 4Th St North",
-        "latitude": 27.8771557,
-        "longitude": -82.6397874
-    },
-    {
-        "address": "7-Eleven at 3130 Gulf-To-Bay Blvd.",
-        "latitude": 27.9610527,
-        "longitude": -82.70743039999999
-    },
-    {
-        "address": "7-Eleven at 8405 4Th St N",
-        "latitude": 27.8478091,
-        "longitude": -82.63846880000001
-    },
-    {
-        "address": "7-Eleven at 891 83Rd Ave N",
-        "latitude": 27.8480592,
-        "longitude": -82.64657179999999
-    },
-    {
-        "address": "7-Eleven at 2980 Roosevelt Blvd",
-        "latitude": 30.3130564,
-        "longitude": -81.70490989999999
-    },
-    {
-        "address": "7-Eleven at 6270 150Th Ave N",
-        "latitude": 27.908378,
-        "longitude": -82.7215181
-    },
-    {
-        "address": "7-Eleven at 6333 Ulmerton Rd N",
-        "latitude": 27.8943256,
-        "longitude": -82.7238629
-    },
-    {
-        "address": "7-Eleven at 9401 49Th St N",
-        "latitude": 27.8580183,
-        "longitude": -82.69985129999999
-    },
-    {
-        "address": "7-Eleven at 3660 Gandy Blvd",
-        "latitude": 27.839493,
-        "longitude": -82.682926
-    },
-    {
-        "address": "7-Eleven at 100 Palm Harbor Blvd",
-        "latitude": 28.0678177,
-        "longitude": -82.76878880000001
-    },
-    {
-        "address": "7-Eleven at 4275 Park Blvd N",
-        "latitude": 27.8396037,
-        "longitude": -82.6913742
-    },
-    {
-        "address": "7-Eleven at 5151 Park Blvd",
-        "latitude": 27.8396417,
-        "longitude": -82.7034632
-    },
-    {
-        "address": "7-Eleven at 3225 34Th St N",
-        "latitude": 27.8015201,
-        "longitude": -82.6790982
-    },
-    {
-        "address": "7-Eleven at 27741 Wesley Chapel Blvd",
-        "latitude": 28.237777,
-        "longitude": -82.35686969999999
-    },
-    {
-        "address": "7-Eleven at 475 34Th St N",
-        "latitude": 27.776958,
-        "longitude": -82.6786984
-    },
-    {
-        "address": "7-Eleven at 11708 Seminole Blvd",
-        "latitude": 27.8797225,
-        "longitude": -82.7876641
-    },
-    {
-        "address": "7-Eleven at 7612 Starkey Rd",
-        "latitude": 27.8414447,
-        "longitude": -82.7627924
-    },
-    {
-        "address": "7-Eleven at 3017 19Th Avenue Ne",
-        "latitude": 35.7516889,
-        "longitude": -81.2743832
-    },
-    {
-        "address": "7-Eleven at 15014 Us Highway 19",
-        "latitude": 28.3753289,
-        "longitude": -82.68180029999999
-    },
-    {
-        "address": "7-Eleven at 8606 Citrus Park Dr",
-        "latitude": 28.0651105,
-        "longitude": -82.5802428
-    },
-    {
-        "address": "7-Eleven at 1606 S Parsons Ave",
-        "latitude": 27.9821035,
-        "longitude": -82.2853362
-    },
-    {
-        "address": "7-Eleven at 1808 Bruce B Downs Blvd",
-        "latitude": 28.1837688,
-        "longitude": -82.3530009
-    },
-    {
-        "address": "7-Eleven at 2525 Bruce B Downs Blvd",
-        "latitude": 28.1932731,
-        "longitude": -82.3544496
-    },
-    {
-        "address": "7-Eleven at 2575 Mansfield Blvd",
-        "latitude": 28.19181,
-        "longitude": -82.32327
-    },
-    {
-        "address": "7-Eleven at 1200 East Bay Dr",
-        "latitude": 27.9164668,
-        "longitude": -82.7586441
-    },
-    {
-        "address": "7-Eleven at 28232 Wesley Chapel Blvd",
-        "latitude": 28.2360887,
-        "longitude": -82.3488828
-    },
-    {
-        "address": "7-Eleven at 10 Missouri Ave N",
-        "latitude": 27.9171592,
-        "longitude": -82.7873766
-    },
-    {
-        "address": "7-Eleven at 13220 Us Highway 301 S",
-        "latitude": 27.7914912,
-        "longitude": -82.33424219999999
-    },
-    {
-        "address": "7-Eleven at 4 Indian Rocks Rd N",
-        "latitude": 27.9171522,
-        "longitude": -82.81736599999999
-    },
-    {
-        "address": "7-Eleven at 30052 Overpass Rd",
-        "latitude": 28.272614,
-        "longitude": -82.31945999999999
-    },
-    {
-        "address": "7-Eleven at 10017 State Road 52",
-        "latitude": 28.3316805,
-        "longitude": -82.6491641
-    },
-    {
-        "address": "7-Eleven at 7329 State Road 52",
-        "latitude": 28.3319466,
-        "longitude": -82.6934821
-    },
-    {
-        "address": "7-Eleven at 2320 W Waters Ave",
-        "latitude": 28.0249446,
-        "longitude": -82.48377889999999
-    },
-    {
-        "address": "7-Eleven at 824 W Waters Ave",
-        "latitude": 28.0250073,
-        "longitude": -82.4673153
-    },
-    {
-        "address": "7-Eleven at 11302 N Dale Mabry Hwy",
-        "latitude": 28.0514875,
-        "longitude": -82.50475270000001
-    },
-    {
-        "address": "7-Eleven at 11303 N Dale Mabry Hwy",
-        "latitude": 28.0514557,
-        "longitude": -82.5033825
-    },
-    {
-        "address": "7-Eleven at 6016 Gunn Hwy @ Henderson Rd",
-        "latitude": 28.063111,
-        "longitude": -82.5491874
-    },
-    {
-        "address": "7-Eleven at 5125 W Cypress St",
-        "latitude": 27.9527862,
-        "longitude": -82.53128760000001
-    },
-    {
-        "address": "7-Eleven at 1290 East Lake Rd S Ridge Line Blvd",
-        "latitude": 28.1261879,
-        "longitude": -82.6974697
-    },
-    {
-        "address": "7-Eleven at 2411 Seven Springs Blvd",
-        "latitude": 28.1940468,
-        "longitude": -82.6995633
-    },
-    {
-        "address": "7-Eleven at 9077 Land O' Lakes Blvd",
-        "latitude": 28.2893485,
-        "longitude": -82.48947849999999
-    },
-    {
-        "address": "7-Eleven at 6315 Rowan Rd @ Nebraska",
-        "latitude": 41.4925374,
-        "longitude": -99.9018131
-    },
-    {
-        "address": "7-Eleven at 11224 Land O'Lakes Blvd",
-        "latitude": 28.3209616,
-        "longitude": -82.5023212
-    },
-    {
-        "address": "7-Eleven at 150 Pinellas Bayway S",
-        "latitude": 27.6902529,
-        "longitude": -82.7206135
-    },
-    {
-        "address": "7-Eleven at 18902 N Dale Mabry Hwy",
-        "latitude": 28.1508261,
-        "longitude": -82.4930315
-    },
-    {
-        "address": "7-Eleven at 1902 N Us Highway 301",
-        "latitude": 29.3821635,
-        "longitude": -82.1282464
-    },
-    {
-        "address": "7-Eleven at 700 W Brandon Blvd",
-        "latitude": 27.9382031,
-        "longitude": -82.2943162
-    },
-    {
-        "address": "7-Eleven at 9306 Little Road @ Hilltop Drive",
-        "latitude": 28.2920285,
-        "longitude": -82.6751961
-    },
-    {
-        "address": "7-Eleven at 7131 Ridge Rd @ Regency Park Blvd",
-        "latitude": 28.280659,
-        "longitude": -82.69918799999999
-    },
-    {
-        "address": "7-Eleven at 6839 Ridge Rd",
-        "latitude": 45.0638771,
-        "longitude": -87.0943982
-    },
-    {
-        "address": "7-Eleven at 8305 W Hillsborough Ave",
-        "latitude": 27.9971496,
-        "longitude": -82.5754508
-    },
-    {
-        "address": "7-Eleven at 8801 Memorial Hwy",
-        "latitude": 27.9987899,
-        "longitude": -82.5836848
-    },
-    {
-        "address": "7-Eleven at 7711 Causeway Blvd",
-        "latitude": 27.9222358,
-        "longitude": -82.36922419999999
-    },
-    {
-        "address": "7-Eleven at 2789 State Road 580",
-        "latitude": 28.021772,
-        "longitude": -82.70985859999999
-    },
-    {
-        "address": "7-Eleven at 915 Providence Rd",
-        "latitude": 35.1966179,
-        "longitude": -80.8265438
-    },
-    {
-        "address": "7-Eleven at 4230 Land O'Lakes Blvd",
-        "latitude": 28.2194888,
-        "longitude": -82.4575553
-    },
-    {
-        "address": "7-Eleven at 1971 Sunset Point Rd",
-        "latitude": 27.9895026,
-        "longitude": -82.75553
-    },
-    {
-        "address": "7-Eleven at 810 E Brandon Blvd",
-        "latitude": 27.9381313,
-        "longitude": -82.2729387
-    },
-    {
-        "address": "7-Eleven at 1531 E Brandon Blvd",
-        "latitude": 27.9370478,
-        "longitude": -82.26153959999999
-    },
-    {
-        "address": "7-Eleven at 2101 State Road 60",
-        "latitude": 27.9329746,
-        "longitude": -82.0839272
-    },
-    {
-        "address": "7-Eleven at 13411 Fishhawk Blvd",
-        "latitude": 27.852814,
-        "longitude": -82.2686519
-    },
-    {
-        "address": "7-Eleven at 3629 E State Road 60",
-        "latitude": 27.9370015,
-        "longitude": -82.2200529
-    },
-    {
-        "address": "7-Eleven at 12204 Balm Riverview Rd",
-        "latitude": 27.8211185,
-        "longitude": -82.2968782
-    },
-    {
-        "address": "7-Eleven at 10007 Us Highway 19",
-        "latitude": 28.3026721,
-        "longitude": -82.70484400000001
-    },
-    {
-        "address": "7-Eleven at 4301 Ehrlich Rd",
-        "latitude": 28.0848629,
-        "longitude": -82.5174438
-    },
-    {
-        "address": "7-Eleven at 11292 W Hillsborough Ave",
-        "latitude": 28.0113318,
-        "longitude": -82.61015730000001
-    },
-    {
-        "address": "7-Eleven at 5555 E Hillsborough Ave",
-        "latitude": 27.9956662,
-        "longitude": -82.3941645
-    },
-    {
-        "address": "7-Eleven at 8350 E Mlk Jr Blvd",
-        "latitude": 27.9821809,
-        "longitude": -82.360804
-    },
-    {
-        "address": "7-Eleven at 1020 S Kings Ave",
-        "latitude": 27.9212348,
-        "longitude": -82.29447429999999
-    },
-    {
-        "address": "7-Eleven at 12902 Newsome Rd",
-        "latitude": 28.3101966,
-        "longitude": -82.17127579999999
-    },
-    {
-        "address": "7-Eleven at 4540 Rowan Rd",
-        "latitude": 28.2254378,
-        "longitude": -82.6902125
-    },
-    {
-        "address": "7-Eleven at 909 S 78Th St",
-        "latitude": 27.9414949,
-        "longitude": -82.3693473
-    },
-    {
-        "address": "7-Eleven at 1001 S Us Highway 301",
-        "latitude": 37.5067036,
-        "longitude": -77.447003
-    },
-    {
-        "address": "7-Eleven at 914 S Falkenberg Rd",
-        "latitude": 27.9407019,
-        "longitude": -82.3359995
-    },
-    {
-        "address": "7-Eleven at 13949 W Hillsborough Ave",
-        "latitude": 28.0341737,
-        "longitude": -82.6479855
-    },
-    {
-        "address": "7-Eleven at 5010 Tampa Rd",
-        "latitude": 28.033521,
-        "longitude": -82.649672
-    },
-    {
-        "address": "7-Eleven at 3855 Tampa Road @ Pine Ave",
-        "latitude": 28.0422438,
-        "longitude": -82.67149909999999
-    },
-    {
-        "address": "7-Eleven at 3437 Us Highway 19",
-        "latitude": 28.2093139,
-        "longitude": -82.7404902
-    },
-    {
-        "address": "7-Eleven at 4431 Us Hwy 19",
-        "latitude": 28.2240231,
-        "longitude": -82.7346989
-    },
-    {
-        "address": "7-Eleven at 9817 Us 301 Gibsonton Rd",
-        "latitude": 27.8557328,
-        "longitude": -82.32757699999999
-    },
-    {
-        "address": "7-Eleven at 801 County Road 1",
-        "latitude": 40.7968347,
-        "longitude": -73.6227175
-    },
-    {
-        "address": "7-Eleven at 1215 Gulf Rd",
-        "latitude": 41.405542,
-        "longitude": -82.0849365
-    },
-    {
-        "address": "7-Eleven at 34511 Pure Water Way",
-        "latitude": 28.2192627,
-        "longitude": -82.24584329999999
-    },
-    {
-        "address": "7-Eleven at 3398 Tampa Road",
-        "latitude": 28.0670991,
-        "longitude": -82.7226754
-    },
-    {
-        "address": "7-Eleven at 4547 Sunray Dr",
-        "latitude": 28.1986049,
-        "longitude": -82.7392406
-    },
-    {
-        "address": "7-Eleven at 6001 Trouble Creek Rd",
-        "latitude": 28.2248573,
-        "longitude": -82.7150502
-    },
-    {
-        "address": "7-Eleven at 13014 Balm Riverview Rd",
-        "latitude": 27.8059448,
-        "longitude": -82.2889793
-    },
-    {
-        "address": "7-Eleven at 6328 Us Hwy 19",
-        "latitude": 28.2506666,
-        "longitude": -82.727243
-    },
-    {
-        "address": "7-Eleven at 2401 James Redman Pkwy",
-        "latitude": 27.9885254,
-        "longitude": -82.12243300000002
-    },
-    {
-        "address": "7-Eleven at 1324 Us Highway 19",
-        "latitude": 28.1779324,
-        "longitude": -82.7397294
-    },
-    {
-        "address": "7-Eleven at 2023 Us Highway 19",
-        "latitude": 28.1887373,
-        "longitude": -82.74085939999999
-    },
-    {
-        "address": "7-Eleven at 38544 5Th Ave",
-        "latitude": 36.1579319,
-        "longitude": -85.6376289
-    },
-    {
-        "address": "7-Eleven at 6050 Dean Dairy Road",
-        "latitude": 28.2452387,
-        "longitude": -82.2129023
-    },
-    {
-        "address": "7-Eleven at 7317 Gall Blvd",
-        "latitude": 28.2648961,
-        "longitude": -82.18900699999999
-    },
-    {
-        "address": "7-Eleven at 7600 Gall Blvd.",
-        "latitude": 28.2684597,
-        "longitude": -82.1877307
-    },
-    {
-        "address": "7-Eleven at 1133 Us Alt Hwy 19",
-        "latitude": 35.5498296,
-        "longitude": -82.6480236
-    },
-    {
-        "address": "7-Eleven at 33600 Us Highway 19 N",
-        "latitude": 28.0774705,
-        "longitude": -82.739632
-    },
-    {
-        "address": "7-Eleven at 36763 Us Highway 19 N",
-        "latitude": 28.1062148,
-        "longitude": -82.7390003
-    },
-    {
-        "address": "7-Eleven at 38611 Us Highway 19 N",
-        "latitude": 28.1234021,
-        "longitude": -82.7391817
-    },
-    {
-        "address": "7-Eleven at 6026 Gall Blvd",
-        "latitude": 28.2454111,
-        "longitude": -82.1892706
-    },
-    {
-        "address": "7-Eleven at 18575 N Us Highway 41",
-        "latitude": 28.143840544425007,
-        "longitude": -82.46179550541255
-    }
+  {
+    "address": "7-Eleven at 2110 9Th St North",
+    "latitude": 26.1721729,
+    "longitude": -81.7984796
+  },
+  {
+    "address": "7-Eleven at 8890 Ulmerton Rd",
+    "latitude": 27.8939401,
+    "longitude": -82.7615009
+  },
+  {
+    "address": "7-Eleven at 8018 Moon Lake Road @ Ridge Road",
+    "latitude": 28.2735948,
+    "longitude": -82.62480219999999
+  },
+  {
+    "address": "7-Eleven at 19123 Wingshooter Way",
+    "latitude": 28.1927971,
+    "longitude": -82.49907370000001
+  },
+  {
+    "address": "7-Eleven at 22826 State Road 54",
+    "latitude": 28.1854349,
+    "longitude": -82.4384713
+  },
+  {
+    "address": "7-Eleven at 2400 Land O'Lakes Blvd @ S R 54",
+    "latitude": 28.1919513,
+    "longitude": -82.4652907
+  },
+  {
+    "address": "7-Eleven at 19677 State Rd 54",
+    "latitude": 28.1982264,
+    "longitude": -82.4922596
+  },
+  {
+    "address": "7-Eleven at 12550 49Th St N",
+    "latitude": 27.886045,
+    "longitude": -82.7010675
+  },
+  {
+    "address": "7-Eleven at 5790 34Th St N",
+    "latitude": 27.8240177,
+    "longitude": -82.6799444
+  },
+  {
+    "address": "7-Eleven at 3353 Lithia Pinecrest Rd",
+    "latitude": 27.8943175,
+    "longitude": -82.24352309999999
+  },
+  {
+    "address": "7-Eleven at 6926 Little Road @ Decubellis",
+    "latitude": 28.2584342,
+    "longitude": -82.6739124
+  },
+  {
+    "address": "7-Eleven at 3001 66Th St N",
+    "latitude": 27.7995266,
+    "longitude": -82.7277476
+  },
+  {
+    "address": "7-Eleven at 855 Tyrone Blvd N",
+    "latitude": 27.780591,
+    "longitude": -82.7135254
+  },
+  {
+    "address": "7-Eleven at 9695 Gulf Blvd",
+    "latitude": 27.7556196,
+    "longitude": -82.76401589999999
+  },
+  {
+    "address": "7-Eleven at 4920 Moccasin Wallow Rd",
+    "latitude": 27.6020622,
+    "longitude": -82.5125961
+  },
+  {
+    "address": "7-Eleven at 7124 N Dale Mabry Hwy",
+    "latitude": 28.0142343,
+    "longitude": -82.50564949999999
+  },
+  {
+    "address": "7-Eleven at 6332 N Dale Mabry Hwy",
+    "latitude": 28.0062453,
+    "longitude": -82.50586009999999
+  },
+  {
+    "address": "7-Eleven at 4703 W Hillsborough Ave",
+    "latitude": 27.9965976,
+    "longitude": -82.52348800000001
+  },
+  {
+    "address": "7-Eleven at 5001 Memorial Hwy",
+    "latitude": 27.9821893,
+    "longitude": -82.550899
+  },
+  {
+    "address": "7-Eleven at 4943 E Busch Blvd",
+    "latitude": 28.0323652,
+    "longitude": -82.4020144
+  },
+  {
+    "address": "7-Eleven at 8002 North 56Th St",
+    "latitude": 33.5572531,
+    "longitude": -111.9605928
+  },
+  {
+    "address": "7-Eleven at 12049 W Linebaugh Ave @ Country Way",
+    "latitude": 28.0558319,
+    "longitude": -82.62318859999999
+  },
+  {
+    "address": "7-Eleven at 7301 Temple Terrace Hwy",
+    "latitude": 28.0322354,
+    "longitude": -82.3730056
+  },
+  {
+    "address": "7-Eleven at 13151 Race Track Rd",
+    "latitude": 28.0701981,
+    "longitude": -82.6304428
+  },
+  {
+    "address": "7-Eleven at 10820 Gandy Blvd N",
+    "latitude": 27.8683662,
+    "longitude": -82.6209823
+  },
+  {
+    "address": "7-Eleven at 11590 4Th St North",
+    "latitude": 27.8771557,
+    "longitude": -82.6397874
+  },
+  {
+    "address": "7-Eleven at 3130 Gulf-To-Bay Blvd.",
+    "latitude": 27.9610527,
+    "longitude": -82.70743039999999
+  },
+  {
+    "address": "7-Eleven at 8405 4Th St N",
+    "latitude": 27.8478091,
+    "longitude": -82.63846880000001
+  },
+  {
+    "address": "7-Eleven at 891 83Rd Ave N",
+    "latitude": 27.8480592,
+    "longitude": -82.64657179999999
+  },
+  {
+    "address": "7-Eleven at 6270 150Th Ave N",
+    "latitude": 27.908378,
+    "longitude": -82.7215181
+  },
+  {
+    "address": "7-Eleven at 6333 Ulmerton Rd N",
+    "latitude": 27.8943256,
+    "longitude": -82.7238629
+  },
+  {
+    "address": "7-Eleven at 9401 49Th St N",
+    "latitude": 27.8580183,
+    "longitude": -82.69985129999999
+  },
+  {
+    "address": "7-Eleven at 3660 Gandy Blvd",
+    "latitude": 27.839493,
+    "longitude": -82.682926
+  },
+  {
+    "address": "7-Eleven at 11787 66Th Street N",
+    "latitude": 27.878787602310403,
+    "longitude": -82.72857546839533
+  },
+  {
+    "address": "7-Eleven at 100 Palm Harbor Blvd",
+    "latitude": 28.0678177,
+    "longitude": -82.76878880000001
+  },
+  {
+    "address": "7-Eleven at 4275 Park Blvd N",
+    "latitude": 27.8396037,
+    "longitude": -82.6913742
+  },
+  {
+    "address": "7-Eleven at 5151 Park Blvd",
+    "latitude": 27.8396417,
+    "longitude": -82.7034632
+  },
+  {
+    "address": "7-Eleven at 3225 34Th St N",
+    "latitude": 27.8015201,
+    "longitude": -82.6790982
+  },
+  {
+    "address": "7-Eleven at 27741 Wesley Chapel Blvd",
+    "latitude": 28.237777,
+    "longitude": -82.35686969999999
+  },
+  {
+    "address": "7-Eleven at 475 34Th St N",
+    "latitude": 27.776958,
+    "longitude": -82.6786984
+  },
+  {
+    "address": "7-Eleven at 11708 Seminole Blvd",
+    "latitude": 27.8797225,
+    "longitude": -82.7876641
+  },
+  {
+    "address": "7-Eleven at 7612 Starkey Rd",
+    "latitude": 27.8414447,
+    "longitude": -82.7627924
+  },
+  {
+    "address": "7-Eleven at 14361 S Us Hwy 301",
+    "latitude": 27.767773481517256,
+    "longitude": -82.33587419064891
+  },
+  {
+    "address": "7-Eleven at 3017 19Th Avenue Ne",
+    "latitude": 35.7516889,
+    "longitude": -81.2743832
+  },
+  {
+    "address": "7-Eleven at 15014 Us Highway 19",
+    "latitude": 28.3753289,
+    "longitude": -82.68180029999999
+  },
+  {
+    "address": "7-Eleven at 8606 Citrus Park Dr",
+    "latitude": 28.0651105,
+    "longitude": -82.5802428
+  },
+  {
+    "address": "7-Eleven at 1606 S Parsons Ave",
+    "latitude": 27.9821035,
+    "longitude": -82.2853362
+  },
+  {
+    "address": "7-Eleven at 1808 Bruce B Downs Blvd",
+    "latitude": 28.1837688,
+    "longitude": -82.3530009
+  },
+  {
+    "address": "7-Eleven at 2525 Bruce B Downs Blvd",
+    "latitude": 28.1932731,
+    "longitude": -82.3544496
+  },
+  {
+    "address": "7-Eleven at 2575 Mansfield Blvd",
+    "latitude": 28.19181,
+    "longitude": -82.32327
+  },
+  {
+    "address": "7-Eleven at 1200 East Bay Dr",
+    "latitude": 27.9164668,
+    "longitude": -82.7586441
+  },
+  {
+    "address": "7-Eleven at 28232 Wesley Chapel Blvd",
+    "latitude": 28.2360887,
+    "longitude": -82.3488828
+  },
+  {
+    "address": "7-Eleven at 10 Missouri Ave N",
+    "latitude": 27.9171592,
+    "longitude": -82.7873766
+  },
+  {
+    "address": "7-Eleven at 13220 Us Highway 301 S",
+    "latitude": 27.7914912,
+    "longitude": -82.33424219999999
+  },
+  {
+    "address": "7-Eleven at 4 Indian Rocks Rd N",
+    "latitude": 27.9171522,
+    "longitude": -82.81736599999999
+  },
+  {
+    "address": "7-Eleven at 30052 Overpass Rd",
+    "latitude": 28.272614,
+    "longitude": -82.31945999999999
+  },
+  {
+    "address": "7-Eleven at 10017 State Road 52",
+    "latitude": 28.3316805,
+    "longitude": -82.6491641
+  },
+  {
+    "address": "7-Eleven at 7329 State Road 52",
+    "latitude": 28.3319466,
+    "longitude": -82.6934821
+  },
+  {
+    "address": "7-Eleven at 2320 W Waters Ave",
+    "latitude": 28.0249446,
+    "longitude": -82.48377889999999
+  },
+  {
+    "address": "7-Eleven at 824 W Waters Ave",
+    "latitude": 28.0250073,
+    "longitude": -82.4673153
+  },
+  {
+    "address": "7-Eleven at 11302 N Dale Mabry Hwy",
+    "latitude": 28.0514875,
+    "longitude": -82.50475270000001
+  },
+  {
+    "address": "7-Eleven at 11303 N Dale Mabry Hwy",
+    "latitude": 28.0514557,
+    "longitude": -82.5033825
+  },
+  {
+    "address": "7-Eleven at 6016 Gunn Hwy @ Henderson Rd",
+    "latitude": 28.063111,
+    "longitude": -82.5491874
+  },
+  {
+    "address": "7-Eleven at 5125 W Cypress St",
+    "latitude": 27.9527862,
+    "longitude": -82.53128760000001
+  },
+  {
+    "address": "7-Eleven at 1290 East Lake Rd S Ridge Line Blvd",
+    "latitude": 28.1261879,
+    "longitude": -82.6974697
+  },
+  {
+    "address": "7-Eleven at 2411 Seven Springs Blvd",
+    "latitude": 28.1940468,
+    "longitude": -82.6995633
+  },
+  {
+    "address": "7-Eleven at 9077 Land O' Lakes Blvd",
+    "latitude": 28.2893485,
+    "longitude": -82.48947849999999
+  },
+  {
+    "address": "7-Eleven at 6315 Rowan Rd @ Nebraska",
+    "latitude": 41.4925374,
+    "longitude": -99.9018131
+  },
+  {
+    "address": "7-Eleven at 11224 Land O'Lakes Blvd",
+    "latitude": 28.3209616,
+    "longitude": -82.5023212
+  },
+  {
+    "address": "7-Eleven at 150 Pinellas Bayway S",
+    "latitude": 27.6902529,
+    "longitude": -82.7206135
+  },
+  {
+    "address": "7-Eleven at 18902 N Dale Mabry Hwy",
+    "latitude": 28.1508261,
+    "longitude": -82.4930315
+  },
+  {
+    "address": "7-Eleven at 700 W Brandon Blvd",
+    "latitude": 27.9382031,
+    "longitude": -82.2943162
+  },
+  {
+    "address": "7-Eleven at 9306 Little Road @ Hilltop Drive",
+    "latitude": 28.2920285,
+    "longitude": -82.6751961
+  },
+  {
+    "address": "7-Eleven at 7131 Ridge Rd @ Regency Park Blvd",
+    "latitude": 28.280659,
+    "longitude": -82.69918799999999
+  },
+  {
+    "address": "7-Eleven at 6839 Ridge Rd",
+    "latitude": 45.0638771,
+    "longitude": -87.0943982
+  },
+  {
+    "address": "7-Eleven at 3560 West Waters Ave",
+    "latitude": 28.024934583100663,
+    "longitude": -82.50035519842743
+  },
+  {
+    "address": "7-Eleven at 8305 W Hillsborough Ave",
+    "latitude": 27.9971496,
+    "longitude": -82.5754508
+  },
+  {
+    "address": "7-Eleven at 8801 Memorial Hwy",
+    "latitude": 27.9987899,
+    "longitude": -82.5836848
+  },
+  {
+    "address": "7-Eleven at 7711 Causeway Blvd",
+    "latitude": 27.9222358,
+    "longitude": -82.36922419999999
+  },
+  {
+    "address": "7-Eleven at 2789 State Road 580",
+    "latitude": 28.021772,
+    "longitude": -82.70985859999999
+  },
+  {
+    "address": "7-Eleven at 915 Providence Rd",
+    "latitude": 35.1966179,
+    "longitude": -80.8265438
+  },
+  {
+    "address": "7-Eleven at 4230 Land O'Lakes Blvd",
+    "latitude": 28.2194888,
+    "longitude": -82.4575553
+  },
+  {
+    "address": "7-Eleven at 2198 Main St",
+    "latitude": 28.01979540475473,
+    "longitude": -82.74734643326833
+  },
+  {
+    "address": "7-Eleven at 1971 Sunset Point Rd",
+    "latitude": 27.9895026,
+    "longitude": -82.75553
+  },
+  {
+    "address": "7-Eleven at 810 E Brandon Blvd",
+    "latitude": 27.9381313,
+    "longitude": -82.2729387
+  },
+  {
+    "address": "7-Eleven at 1531 E Brandon Blvd",
+    "latitude": 27.9370478,
+    "longitude": -82.26153959999999
+  },
+  {
+    "address": "7-Eleven at 2101 State Road 60",
+    "latitude": 27.9329746,
+    "longitude": -82.0839272
+  },
+  {
+    "address": "7-Eleven at 10016 Mcmullen Rd",
+    "latitude": 27.854033592189708,
+    "longitude": -82.30131978298834
+  },
+  {
+    "address": "7-Eleven at 13411 Fishhawk Blvd",
+    "latitude": 27.852814,
+    "longitude": -82.2686519
+  },
+  {
+    "address": "7-Eleven at 3629 E State Road 60",
+    "latitude": 27.9370015,
+    "longitude": -82.2200529
+  },
+  {
+    "address": "7-Eleven at 12204 Balm Riverview Rd",
+    "latitude": 27.8211185,
+    "longitude": -82.2968782
+  },
+  {
+    "address": "7-Eleven at 5301 34Th Street S",
+    "latitude": 27.71985147366057,
+    "longitude": -82.67987322735546
+  },
+  {
+    "address": "7-Eleven at 10007 Us Highway 19",
+    "latitude": 28.3026721,
+    "longitude": -82.70484400000001
+  },
+  {
+    "address": "7-Eleven at 4301 Ehrlich Rd",
+    "latitude": 28.0848629,
+    "longitude": -82.5174438
+  },
+  {
+    "address": "7-Eleven at 11292 W Hillsborough Ave",
+    "latitude": 28.0113318,
+    "longitude": -82.61015730000001
+  },
+  {
+    "address": "7-Eleven at 5555 E Hillsborough Ave",
+    "latitude": 27.9956662,
+    "longitude": -82.3941645
+  },
+  {
+    "address": "7-Eleven at 8350 E Mlk Jr Blvd",
+    "latitude": 27.9821809,
+    "longitude": -82.360804
+  },
+  {
+    "address": "7-Eleven at 1020 S Kings Ave",
+    "latitude": 27.9212348,
+    "longitude": -82.29447429999999
+  },
+  {
+    "address": "7-Eleven at 12902 Newsome Rd",
+    "latitude": 28.3101966,
+    "longitude": -82.17127579999999
+  },
+  {
+    "address": "7-Eleven at 4540 Rowan Rd",
+    "latitude": 28.2254378,
+    "longitude": -82.6902125
+  },
+  {
+    "address": "7-Eleven at 909 S 78Th St",
+    "latitude": 27.9414949,
+    "longitude": -82.3693473
+  },
+  {
+    "address": "7-Eleven at 1001 S Us Highway 301",
+    "latitude": 37.5067036,
+    "longitude": -77.447003
+  },
+  {
+    "address": "7-Eleven at 914 S Falkenberg Rd",
+    "latitude": 27.9407019,
+    "longitude": -82.3359995
+  },
+  {
+    "address": "7-Eleven at 11348 Us Hwy 301",
+    "latitude": 27.83560757395321,
+    "longitude": -82.327659827141
+  },
+  {
+    "address": "7-Eleven at 13949 W Hillsborough Ave",
+    "latitude": 28.0341737,
+    "longitude": -82.6479855
+  },
+  {
+    "address": "7-Eleven at 5010 Tampa Rd",
+    "latitude": 28.033521,
+    "longitude": -82.649672
+  },
+  {
+    "address": "7-Eleven at 3855 Tampa Road @ Pine Ave",
+    "latitude": 28.0422438,
+    "longitude": -82.67149909999999
+  },
+  {
+    "address": "7-Eleven at 3437 Us Highway 19",
+    "latitude": 28.2093139,
+    "longitude": -82.7404902
+  },
+  {
+    "address": "7-Eleven at 4431 Us Hwy 19",
+    "latitude": 28.2240231,
+    "longitude": -82.7346989
+  },
+  {
+    "address": "7-Eleven at 9817 Us 301 Gibsonton Rd",
+    "latitude": 27.8557328,
+    "longitude": -82.32757699999999
+  },
+  {
+    "address": "7-Eleven at 801 County Road 1",
+    "latitude": 40.7968347,
+    "longitude": -73.6227175
+  },
+  {
+    "address": "7-Eleven at 1215 Gulf Rd",
+    "latitude": 41.405542,
+    "longitude": -82.0849365
+  },
+  {
+    "address": "7-Eleven at 34511 Pure Water Way",
+    "latitude": 28.2192627,
+    "longitude": -82.24584329999999
+  },
+  {
+    "address": "7-Eleven at 3398 Tampa Road",
+    "latitude": 28.0670991,
+    "longitude": -82.7226754
+  },
+  {
+    "address": "7-Eleven at 4547 Sunray Dr",
+    "latitude": 28.1986049,
+    "longitude": -82.7392406
+  },
+  {
+    "address": "7-Eleven at 6001 Trouble Creek Rd",
+    "latitude": 28.2248573,
+    "longitude": -82.7150502
+  },
+  {
+    "address": "7-Eleven at 13014 Balm Riverview Rd",
+    "latitude": 27.8059448,
+    "longitude": -82.2889793
+  },
+  {
+    "address": "7-Eleven at 6328 Us Hwy 19",
+    "latitude": 28.2506666,
+    "longitude": -82.727243
+  },
+  {
+    "address": "7-Eleven at 2401 James Redman Pkwy",
+    "latitude": 27.9885254,
+    "longitude": -82.12243300000002
+  },
+  {
+    "address": "7-Eleven at 1324 Us Highway 19",
+    "latitude": 28.1779324,
+    "longitude": -82.7397294
+  },
+  {
+    "address": "7-Eleven at 2023 Us Highway 19",
+    "latitude": 28.1887373,
+    "longitude": -82.74085939999999
+  },
+  {
+    "address": "7-Eleven at 38544 5Th Ave",
+    "latitude": 36.1579319,
+    "longitude": -85.6376289
+  },
+  {
+    "address": "7-Eleven at 6050 Dean Dairy Road",
+    "latitude": 28.2452387,
+    "longitude": -82.2129023
+  },
+  {
+    "address": "7-Eleven at 7317 Gall Blvd",
+    "latitude": 28.2648961,
+    "longitude": -82.18900699999999
+  },
+  {
+    "address": "7-Eleven at 7600 Gall Blvd.",
+    "latitude": 28.2684597,
+    "longitude": -82.1877307
+  },
+  {
+    "address": "7-Eleven at 1133 Us Alt Hwy 19",
+    "latitude": 35.5498296,
+    "longitude": -82.6480236
+  },
+  {
+    "address": "7-Eleven at 33600 Us Highway 19 N",
+    "latitude": 28.0774705,
+    "longitude": -82.739632
+  },
+  {
+    "address": "7-Eleven at 36763 Us Highway 19 N",
+    "latitude": 28.1062148,
+    "longitude": -82.7390003
+  },
+  {
+    "address": "7-Eleven at 38611 Us Highway 19 N",
+    "latitude": 28.1234021,
+    "longitude": -82.7391817
+  },
+  {
+    "address": "7-Eleven at 6026 Gall Blvd",
+    "latitude": 28.2454111,
+    "longitude": -82.1892706
+  },
+  {
+    "address": "7-Eleven at 18575 N Us Highway 41",
+    "latitude": 28.143840544425007,
+    "longitude": -82.46179550541255
+  }
 ]
