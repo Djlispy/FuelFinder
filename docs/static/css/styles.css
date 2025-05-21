@@ -1,11 +1,3 @@
-/* Reset styles if needed
- * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-*/
-
 html, body {
   margin: 0;
   padding: 0;
@@ -50,8 +42,6 @@ html, body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   box-sizing: border-box;
 }
-
-
 
 
 /* Price marker styles */

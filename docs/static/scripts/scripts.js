@@ -31,8 +31,7 @@ fetch('locations.json')
 			<strong>Cheapest Station</strong><br>
 			Address: ${cheapest.address}<br>
 			Coordinates: ${cheapest.latitude.toFixed(6)}, ${cheapest.longitude.toFixed(6)}<br>
-			Price: <strong>$${priceFormatted}</strong>
-		`;
+			Price: <strong>$${priceFormatted}</strong>`;
 		}
 
     }
@@ -49,9 +48,8 @@ fetch('locations.json')
           ${hasPrice ? `<div class="price-text">$${String(location.price).match(/^\d+\.\d{0,2}/)[0]}</div>` : ''}
           <svg width="40" height="40" viewBox="0 0 40 40">
             <circle cx="20" cy="20" r="16" fill="white" ${strokeStyle} />
-            <image href="https://www.7-eleven.com/assets/img/store/7E_Logo_App-Icon_RGB.svg" x="8" y="8" width="24" height="24" />
-          </svg>
-        `,
+            <image href="https://www.7-eleven.com/assets/img/store/7E_Logo_App-Icon_RGB.svg" x="4" y="4" width="32" height="32" />
+          </svg>`,
         iconSize: [40, 50],
         iconAnchor: [20, 50]
       });
