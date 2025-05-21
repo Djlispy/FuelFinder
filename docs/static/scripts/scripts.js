@@ -45,11 +45,27 @@ fetch('locations.json')
       const customIcon = L.divIcon({
         className: 'price-marker',
         html: `
-          ${hasPrice ? `<div class="price-text">$${String(location.price).match(/^\d+\.\d{0,2}/)[0]}</div>` : ''}
-          <svg width="40" height="40" viewBox="0 0 40 40">
-            <circle cx="20" cy="20" r="16" fill="white" ${strokeStyle} />
-            <image href="https://www.7-eleven.com/assets/img/store/7E_Logo_App-Icon_RGB.svg" x="4" y="4" width="32" height="32" />
-          </svg>`,
+		${hasPrice ? `
+		<div style="
+			display: flex; 
+			align-items: center; 
+			justify-content: center; 
+			gap: 4px;
+			background: white; 
+			color: black; 
+			padding: 1px 3px; 
+			border-radius: 4px; 
+			font-size: 10px; 
+			width: fit-content;
+			margin: 0 auto;">
+			<img src="https://www.7-eleven.com/assets/img/store-locator/fuel.svg" 
+				alt="Fuel" width="10" height="10" display: inline-block;" />
+		$${String(location.price).match(/^\d+\.\d{0,2}/)[0]}
+		</div>` : ''}
+		<svg width="40" height="40" viewBox="0 0 40 40">
+			<circle cx="20" cy="20" r="16" fill="white" ${strokeStyle} />
+			<image href="https://www.7-eleven.com/assets/img/store/7E_Logo_App-Icon_RGB.svg" x="4" y="4" width="32" height="32" />
+		</svg>`,
         iconSize: [40, 50],
         iconAnchor: [20, 50]
       });
