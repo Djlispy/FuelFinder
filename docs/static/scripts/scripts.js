@@ -13,6 +13,14 @@ var Stadia_AlidadeSmoothDark = L.tileLayer(
 fetch('locations.json')
   .then(response => response.json())
   .then(data => {
+    // Normalize the data
+    data.forEach(loc => {
+      loc.price = loc.regular_price;
+      loc.address = `${loc.name}, ${loc.city}, ${loc.state} ${loc.postal_code}`;
+      loc.latitude = loc.lat;
+      loc.longitude = loc.lon;
+    });
+
     const locationsWithPrice = data.filter(loc => loc.price !== undefined && loc.price !== null);
 
     let cheapest = null;
@@ -22,19 +30,18 @@ fetch('locations.json')
       });
 
       const priceFormatted = String(cheapest.price).match(/^\d+\.\d{0,2}/)[0];
-      console.log(`Cheapest Station: ${cheapest.address} - Price: $${priceFormatted}`);
-	  if (cheapest) {
-		const priceFormatted = String(cheapest.price).match(/^\d+\.\d{0,2}/)[0];
-		const stationInfoDiv = document.getElementById('cheapest-station-info');
-
-		stationInfoDiv.innerHTML = `
-			<strong>Cheapest Station</strong><br>
-			Address: ${cheapest.address}<br>
-			Coordinates: ${cheapest.latitude.toFixed(6)}, ${cheapest.longitude.toFixed(6)}<br>
-			Price: <strong>$${priceFormatted}</strong>`;
-		}
-
+      const stationInfoDiv = document.getElementById('cheapest-station-info');
+      if (stationInfoDiv) {
+        stationInfoDiv.innerHTML = `
+          <strong>Cheapest Station</strong><br>
+          Address: ${cheapest.address}<br>
+          Coordinates: ${cheapest.latitude.toFixed(6)}, ${cheapest.longitude.toFixed(6)}<br>
+          Price: <strong>$${priceFormatted}</strong>`;
+      }
     }
+
+    // Helper to format price or show N/A
+    const formatPrice = (price) => price !== null && price !== undefined ? `$${price.toFixed(3)}` : 'N/A';
 
     data.forEach(location => {
       const hasPrice = location.price !== undefined && location.price !== null;
@@ -45,34 +52,42 @@ fetch('locations.json')
       const customIcon = L.divIcon({
         className: 'price-marker',
         html: `
-		${hasPrice ? `
-		<div style="
-			display: flex; 
-			align-items: center; 
-			justify-content: center; 
-			gap: 4px;
-			background: white; 
-			color: black; 
-			padding: 1px 3px; 
-			border-radius: 4px; 
-			font-size: 10px; 
-			width: fit-content;
-			margin: 0 auto;">
-			<img src="https://www.7-eleven.com/assets/img/store-locator/fuel.svg" 
-				alt="Fuel" width="10" height="10" display: inline-block;" />
-		$${String(location.price).match(/^\d+\.\d{0,2}/)[0]}
-		</div>` : ''}
-		<svg width="40" height="40" viewBox="0 0 40 40">
-			<circle cx="20" cy="20" r="16" fill="white" ${strokeStyle} />
-			<image href="https://www.7-eleven.com/assets/img/store/7E_Logo_App-Icon_RGB.svg" x="4" y="4" width="32" height="32" />
-		</svg>`,
+        ${hasPrice ? `
+        <div style="
+          display: flex; 
+          align-items: center; 
+          justify-content: center; 
+          gap: 4px;
+          background: white; 
+          color: black; 
+          padding: 1px 3px; 
+          border-radius: 4px; 
+          font-size: 10px; 
+          width: fit-content;
+          margin: 0 auto;">
+          <img src="https://www.7-eleven.com/assets/img/store-locator/fuel.svg" 
+            alt="Fuel" width="10" height="10" style="display: inline-block;" />
+          $${String(location.price).match(/^\d+\.\d{0,2}/)[0]}
+        </div>` : ''}
+        <svg width="40" height="40" viewBox="0 0 40 40">
+          <circle cx="20" cy="20" r="16" fill="white" ${strokeStyle} />
+          <image href="https://www.7-eleven.com/assets/img/store/7E_Logo_App-Icon_RGB.svg" x="4" y="4" width="32" height="32" />
+        </svg>`,
         iconSize: [40, 50],
         iconAnchor: [20, 50]
       });
 
+      const popupContent = `
+        <strong>${location.address}</strong><br>
+        Regular: ${formatPrice(location.regular_price)}<br>
+        Mid-Grade: ${formatPrice(location.mid_grade_price)}<br>
+        Premium: ${formatPrice(location.premium_price)}<br>
+        Diesel: ${formatPrice(location.diesel_price)}
+      `;
+
       L.marker([location.latitude, location.longitude], { icon: customIcon })
         .addTo(map)
-        .bindPopup(location.address);
+        .bindPopup(popupContent);
     });
   })
   .catch(error => console.error('Error loading locations:', error));
