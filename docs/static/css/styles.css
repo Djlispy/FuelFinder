@@ -143,6 +143,6 @@ html, body {
 
 
 #fuel-selector button.selected {
-  background-color: #007BFF;
-  color: white;
+  background-color: #cfcfcf;
+  /* color: white; */
 }
