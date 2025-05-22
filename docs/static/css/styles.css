@@ -122,7 +122,7 @@ html, body {
   z-index: 1000;
 }
 
-.fuel-buttons-grid button {
+#fuel-selector button {
   font-size: 14px;
   display: flex;
   align-items: center;
@@ -136,7 +136,13 @@ html, body {
   transition: background-color 0.2s;
 }
 
-.fuel-buttons-grid button:hover {
+.fuel-buttonsxs-grid button:hover {
   background-color: #cfcfcf;
   /* display: inline-block; */
+}
+
+
+#fuel-selector button.selected {
+  background-color: #007BFF;
+  color: white;
 }
