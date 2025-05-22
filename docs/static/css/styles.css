@@ -138,11 +138,9 @@ html, body {
 
 .fuel-buttonsxs-grid button:hover {
   background-color: #cfcfcf;
-  /* display: inline-block; */
 }
 
 
 #fuel-selector button.selected {
   background-color: #cfcfcf;
-  /* color: white; */
 }
