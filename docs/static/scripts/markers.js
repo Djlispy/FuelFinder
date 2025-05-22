@@ -19,9 +19,18 @@ fuelTypes.forEach(({ key, id, label }) => {
   const validStations = data.filter(loc => loc[key] !== null && loc[key] !== undefined);
 
   if (validStations.length > 0) {
-    const cheapest = validStations.reduce((min, loc) =>
-      parseFloat(loc[key]) < parseFloat(min[key]) ? loc : min
-    );
+    const cheapest = validStations.reduce((min, loc) => {
+    const currentPrefix = String(loc[key]).slice(0, 4);
+    const minPrefix = String(min[key]).slice(0, 4);
+
+    if (currentPrefix < minPrefix) return loc;
+    if (currentPrefix > minPrefix) return min;
+
+    // Tie-breaker: fallback to actual float comparison
+    return parseFloat(loc[key]) < parseFloat(min[key]) ? loc : min;
+
+    });
+
 
     cheapestStations[key] = cheapest;
 
@@ -42,14 +51,24 @@ fuelTypes.forEach(({ key, id, label }) => {
     data.forEach(location => {
       const hasAnyPrice = fuelTypes.some(fuel => location[fuel] !== null && location[fuel] !== undefined);
 
-      const isCheapest = fuelTypes.some(fuel => {
-        const cheapest = cheapestStations[fuel];
-        return (
-          cheapest &&
-          location.latitude === cheapest.latitude &&
-          location.longitude === cheapest.longitude
-        );
-      });
+    let displayedFuelKey = null;
+    for (const fuel of fuelTypes) {
+      if (location[fuel.key] !== null && location[fuel.key] !== undefined) {
+        displayedFuelKey = fuel.key;
+        break;
+      }
+    }
+
+    const isCheapest = (() => {
+      if (!displayedFuelKey) return false;
+
+      const cheapest = cheapestStations[displayedFuelKey];
+      return (
+        cheapest &&
+        location.latitude === cheapest.latitude &&
+        location.longitude === cheapest.longitude
+      );
+    })();
 
       const strokeStyle = isCheapest ? 'stroke="green" stroke-width="3"' : '';
 
