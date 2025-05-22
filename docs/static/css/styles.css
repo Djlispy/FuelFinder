@@ -108,3 +108,35 @@ html, body {
   width: fit-content;
   margin: 0 auto;
 }
+
+.fuel-buttons-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  max-width: 300px;
+  margin: 10px auto;
+  padding: 10px;
+  background-color: #222222;
+  border-radius: 7px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  z-index: 1000;
+}
+
+.fuel-buttons-grid button {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.fuel-buttons-grid button:hover {
+  background-color: #cfcfcf;
+  display: inline-block;
+}
