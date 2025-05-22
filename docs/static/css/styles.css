@@ -38,7 +38,7 @@ html, body {
   margin-right: auto;
   margin-top: 1rem;
   border-radius: 1rem;
-  overflow: hidden;
+  /* overflow: hidden; */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   box-sizing: border-box;
 }

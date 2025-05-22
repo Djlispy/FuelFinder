@@ -6,48 +6,68 @@ import { formatPrice } from './utils.js';
 
 fetchLocations()
   .then(data => {
-    const locationsWithPrice = data.filter(
-      loc => loc.price !== undefined && loc.price !== null
+  const fuelTypes = [
+    { key: 'regular_price', id: 'cheapest-regular', label: 'Regular' },
+    { key: 'mid_grade_price', id: 'cheapest-midgrade', label: 'Mid-Grade' },
+    { key: 'premium_price', id: 'cheapest-premium', label: 'Premium' },
+    { key: 'diesel_price', id: 'cheapest-diesel', label: 'Diesel' }
+  ];
+  
+    const cheapestStations = {};
+
+fuelTypes.forEach(({ key, id, label }) => {
+  const validStations = data.filter(loc => loc[key] !== null && loc[key] !== undefined);
+
+  if (validStations.length > 0) {
+    const cheapest = validStations.reduce((min, loc) =>
+      parseFloat(loc[key]) < parseFloat(min[key]) ? loc : min
     );
 
-    let cheapest = null;
-    if (locationsWithPrice.length > 0) {
-      cheapest = locationsWithPrice.reduce((min, loc) => {
-        return parseFloat(loc.price) < parseFloat(min.price) ? loc : min;
+    cheapestStations[key] = cheapest;
+
+    const priceFormatted = parseFloat(cheapest[key]).toFixed(3);
+    const infoDiv = document.getElementById(id);
+    if (infoDiv) {
+      infoDiv.innerHTML = `
+        <strong>Cheapest ${label}</strong><br>
+        Address: ${cheapest.address}<br>
+        Coordinates: ${cheapest.latitude.toFixed(6)}, ${cheapest.longitude.toFixed(6)}<br>
+        Price: <strong>$${priceFormatted}</strong>`;
+    }
+  }
+});
+
+
+    // Add markers to map
+    data.forEach(location => {
+      const hasAnyPrice = fuelTypes.some(fuel => location[fuel] !== null && location[fuel] !== undefined);
+
+      const isCheapest = fuelTypes.some(fuel => {
+        const cheapest = cheapestStations[fuel];
+        return (
+          cheapest &&
+          location.latitude === cheapest.latitude &&
+          location.longitude === cheapest.longitude
+        );
       });
 
-      const priceFormatted = parseFloat(cheapest.price).toFixed(3);
-      const stationInfoDiv = document.getElementById('cheapest-station-info');
-      if (stationInfoDiv) {
-        stationInfoDiv.innerHTML = `
-          <strong>Cheapest Station</strong><br>
-          Address: ${cheapest.address}<br>
-          Coordinates: ${cheapest.latitude.toFixed(6)}, ${cheapest.longitude.toFixed(6)}<br>
-          Price: <strong>$${priceFormatted}</strong>`;
-      }
-    }
-
-    data.forEach(location => {
-      const hasPrice = location.price !== undefined && location.price !== null;
-      const isCheapest =
-        cheapest && parseFloat(location.price).toFixed(3) === parseFloat(cheapest.price).toFixed(3);
-
       const strokeStyle = isCheapest ? 'stroke="green" stroke-width="3"' : '';
+
+      const price = location.regular_price ?? location.mid_grade_price ?? location.premium_price ?? location.diesel_price;
 
       const customIcon = L.divIcon({
         className: 'price-marker',
         html: `
-        ${hasPrice ? `
-        <div class="price-label">
+          ${price !== undefined && price !== null ? `
+          <div class="price-label">
             <img src="https://www.7-eleven.com/assets/img/store-locator/fuel.svg"
-            alt="Fuel" width="10" height="10" />
-            $${parseFloat(location.price).toFixed(3)}
-        </div>` : ''}
-        <svg width="40" height="40" viewBox="0 0 40 40">
+              alt="Fuel" width="10" height="10" />
+            $${parseFloat(price).toFixed(3)}
+          </div>` : ''}
+          <svg width="40" height="40" viewBox="0 0 40 40">
             <circle cx="20" cy="20" r="16" fill="white" ${strokeStyle} />
             <image href="https://www.7-eleven.com/assets/img/store/7E_Logo_App-Icon_RGB.svg" x="4" y="4" width="32" height="32" />
-        </svg>`,
-        
+          </svg>`,
         iconSize: [40, 50],
         iconAnchor: [20, 50]
       });
