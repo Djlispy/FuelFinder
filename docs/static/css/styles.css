@@ -94,3 +94,17 @@ html, body {
   color: #888;
   pointer-events: none;
 }
+
+.price-label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  background: white;
+  color: black;
+  padding: 1px 3px;
+  border-radius: 4px;
+  font-size: 10px;
+  width: fit-content;
+  margin: 0 auto;
+}
