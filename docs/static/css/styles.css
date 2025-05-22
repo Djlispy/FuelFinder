@@ -138,5 +138,5 @@ html, body {
 
 .fuel-buttons-grid button:hover {
   background-color: #cfcfcf;
-  display: inline-block;
+  /* display: inline-block; */
 }
