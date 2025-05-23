@@ -110,4 +110,4 @@ for store in data.get("data", {}).get("stores", []):
 with open("docs/locations.json", "w") as f:
     json.dump(filtered, f, indent=2)
 
-# print("✅ Saved filtered data to 'locations.json'")
+print("✅ Saved filtered data to 'locations.json'")
