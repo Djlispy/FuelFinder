@@ -2,11 +2,12 @@ import requests
 import json
 import os
 
-auth_token = os.environ.get("AUTH_TOKEN")
 
-if not auth_token:
-    print("Error: AUTH_TOKEN environment variable not set")
-    exit(1)
+try:
+    AUTH_TOKEN = os.environ("AUTH_TOKEN")
+except KeyError:
+    print("Token not avaliable!")
+
 
 # API endpoint and headers
 url = "https://apis.7-eleven.com/v5/stores/graphql"
@@ -14,7 +15,7 @@ url = "https://apis.7-eleven.com/v5/stores/graphql"
 
 headers = {
     "Content-Type": "application/json",
-    "Authorization": f"Bearer {auth_token}"
+    "Authorization": f"Bearer {AUTH_TOKEN}"
 }
 
 # Location variables
