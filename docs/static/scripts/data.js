@@ -7,7 +7,7 @@ export async function fetchLocations() {
   // Normalize fields
   data.forEach(loc => {
     loc.price = loc.regular_price;
-    loc.address = `${loc.name}, ${loc.city}, ${loc.state} ${loc.postal_code}`;
+    loc.address = `${loc.address}, ${loc.city}, ${loc.state} ${loc.postal_code}`;
     loc.latitude = loc.lat;
     loc.longitude = loc.lon;
   });
