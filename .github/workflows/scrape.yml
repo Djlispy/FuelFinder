@@ -34,5 +34,6 @@ jobs:
           git config --global user.name 'github-actions'
           git config --global user.email 'github-actions@github.com'
           git add docs/locations.json
-          git commit -m "Update gas data JSON [skip ci]" || echo "No changes to commit"
+          git add FuelFinder.log
+          git commit -m "Update gas data JSON" || echo "No changes to commit"
           git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
