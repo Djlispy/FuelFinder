@@ -5,46 +5,116 @@ html, body {
   font-family: system-ui, sans-serif;
   background-color: #1e1e1e;
   color: #fff;
+  box-sizing: border-box;
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
-  height: 230vh;
-}
-
-#map {
-  height: 60vh;
-
-}
-
-/* Bubble below the map showing cheapest station */
-.station-bubble {
-  background-color: #2a2a2a;
-  padding: 1rem 1.5rem;
-  border-radius: 1rem;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-  font-size: 0.7rem;
-  line-height: 1.6;
-  color: #fff;
-
-}
-
+/* MAP and Bubble Styling */
 #map,
 .station-bubble {
   width: 100%;
-  max-width: calc(100% - 2rem); /* Adds 1rem margin on each side */
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 1rem;
+  max-width: calc(100% - 2rem); /* Adds 1rem margin each side */
+  margin: 1rem auto 0;
   border-radius: 1rem;
-  /* overflow: hidden; */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   box-sizing: border-box;
 }
 
+#map {
+  height: 70vh;
+}
 
-/* Price marker styles */
+/* Station Bubble Styles */
+.station-bubble {
+  background-color: #2a2a2a;
+  padding: 1rem 1.5rem;
+  border-radius: 1rem;
+  font-size: 0.7rem;
+  line-height: 1.6;
+  color: #fff;
+}
+
+.station-bubble strong {
+  color: #28a745;
+}
+
+/* Fuel Button Row */
+.fuel-buttons-row {
+  display: flex;
+  width: 100%;
+  max-width: calc(100% - 2rem); /* Matches map width */
+  margin: 0 auto;
+  gap: 7px;
+  box-sizing: border-box;
+  
+}
+
+.fuel-buttons-row button {
+  flex: 1;
+  padding: 0.65rem;
+  font-size: 0.7rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  background-color: #fcfcfc;
+  color: black;
+  min-width: 0;
+  transition: background-color 0.2s;
+}
+
+.fuel-buttons-row button:hover {
+  background-color: #cfcfcf;
+}
+
+#fuel-selector button.selected,
+#desktop-fuel-selector button.selected {
+  background-color: #cfcfcf;
+}
+
+/* Map + Bubble Wrapper */
+.map-bubble-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 0 1rem;
+  /* height: 140vh; */
+}
+
+/* Map container for desktop layout */
+.map-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+/* Right Column (fuel + bubbles) */
+/* .right-column {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+} */
+
+/* Bubble Section */
+.bubble-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-right: 0.5rem;
+}
+
+/* Last updated text */
+.last-updated {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 0.55rem;
+  color: #dbdbdb;
+}
+
+/* Price Marker Styles */
 .price-marker {
   text-align: center;
 }
@@ -55,7 +125,6 @@ html, body {
   color: white;
 }
 
-/* Gas station image */
 .gas-image {
   width: 30px;
   height: 30px;
@@ -63,36 +132,6 @@ html, body {
   background-color: white;
   padding: 2px;
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
-}
-
-
-.station-bubble strong {
-  color: #28a745;
-}
-
-/* Button styles */
-.find-button {
-  padding: 10px 20px;
-  font-size: 16px;
-  background-color: #007bff;
-  color: white;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-}
-
-.find-button:hover {
-  background-color: #0056b3;
-}
-
-/* Icon inside input/button, if used */
-.icon {
-  position: absolute;
-  right: 12px;
-  top: 50%;
-  transform: translateY(-50%);
-  color: #888;
-  pointer-events: none;
 }
 
 .price-label {
@@ -109,45 +148,66 @@ html, body {
   margin: 0 auto;
 }
 
-.fuel-buttons-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
-  max-width: 300px;
-  margin: 10px auto;
-  padding: 10px;
-  background-color: #222222;
-  border-radius: 7px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
-  z-index: 1000;
+/* Mobile/Desktop visibility classes */
+.desktop-only {
+  display: none;
 }
 
-#fuel-selector button {
-  font-size: 14px;
+.mobile-only {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 6px;
-  padding: 10px;
-  border: none;
-  border-radius: 8px;
-  background-color: #ffffff;
-  cursor: pointer;
-  transition: background-color 0.2s;
 }
 
-.fuel-buttonsxs-grid button:hover {
-  background-color: #cfcfcf;
+/* Responsive Layout for Desktop */
+@media (min-width: 768px) {
+  .map-bubble-wrapper {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .map-container {
+    flex: 2;
+    max-width: 58%;
+  }
+
+  #map {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .right-column {
+    flex: 1;
+    max-width: 40%;
+  }
+
+  .bubble-section {
+    overflow-y: auto;
+  }
+  
+  /* Show desktop buttons, hide mobile buttons */
+  .desktop-only {
+    display: flex;
+  }
+  
+  .mobile-only {
+    display: none;
+  }
 }
 
-
-#fuel-selector button.selected {
-  background-color: #cfcfcf;
+#fuel-selector {
+  margin-top: 0;
 }
 
-.last-updated {
-    text-align: center;
+@media (min-width: 768px) {
+  #fuel-selector {
     margin-top: 1rem;
-    font-size: 0.55rem;
-    color: #dbdbdb;
+  }
+
+}
+
+/* Desktop fuel selector styling */
+#desktop-fuel-selector {
+  width: 100%;
+  max-width: 100%;
+  margin: 0.5rem 0 0 0;
 }

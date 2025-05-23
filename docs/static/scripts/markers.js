@@ -131,18 +131,56 @@ function updateMarkersByFuelType(fuelKey) {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-  const buttons = document.querySelectorAll('#fuel-selector button');
-
-  buttons.forEach(button => {
+  // Get both mobile and desktop button sets
+  const mobileButtons = document.querySelectorAll('#fuel-selector button');
+  const desktopButtons = document.querySelectorAll('#desktop-fuel-selector button');
+  
+  // Function to handle button clicks
+  const handleButtonClick = (button, buttonSet) => {
+    // Get the other set of buttons (mobile or desktop)
+    const otherButtonSet = buttonSet === mobileButtons ? desktopButtons : mobileButtons;
+    
+    // Toggle selected button appearance in current set
+    buttonSet.forEach(btn => btn.classList.remove('selected'));
+    button.classList.add('selected');
+    
+    // Find and select the corresponding button in the other set
+    const fuelKey = button.getAttribute('data-fuel');
+    const correspondingButton = Array.from(otherButtonSet).find(
+      btn => btn.getAttribute('data-fuel') === fuelKey
+    );
+    
+    if (correspondingButton) {
+      otherButtonSet.forEach(btn => btn.classList.remove('selected'));
+      correspondingButton.classList.add('selected');
+    }
+    
+    // Update the markers
+    updateMarkersByFuelType(fuelKey);
+  };
+  
+  // Add click event listeners to mobile buttons
+  mobileButtons.forEach(button => {
     button.addEventListener('click', () => {
-      // Toggle selected button appearance
-      buttons.forEach(btn => btn.classList.remove('selected'));
-      button.classList.add('selected');
-
-      const fuelKey = button.getAttribute('data-fuel');
-      updateMarkersByFuelType(fuelKey);
+      handleButtonClick(button, mobileButtons);
     });
   });
+  
+  // Add click event listeners to desktop buttons
+  desktopButtons.forEach(button => {
+    button.addEventListener('click', () => {
+      handleButtonClick(button, desktopButtons);
+    });
+  });
+  
+  // Set default selected button on both mobile and desktop
+  if (mobileButtons.length > 0) {
+    mobileButtons[0].classList.add('selected');
+  }
+  
+  if (desktopButtons.length > 0) {
+    desktopButtons[0].classList.add('selected');
+  }
 });
 
 
