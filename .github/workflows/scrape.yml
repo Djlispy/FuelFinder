@@ -1,17 +1,19 @@
-name: Run Scraper Every 2 Hours
+name: Scrape and Commit JSON
 
 on:
   schedule:
     - cron: '0 */2 * * *'  # Every 2 hours
-  workflow_dispatch:       # Allows manual trigger
+  workflow_dispatch:       # Manual trigger
 
 jobs:
-  run-script:
+  run-scraper:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -24,4 +26,12 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run scraper
-        run: python FuelFinderRequests.py
+        run: python docs/FuelFinderRequests.py
+
+      - name: Commit changes
+        run: |
+          git config --global user.name 'github-actions'
+          git config --global user.email 'github-actions@github.com'
+          git add docs/location.json
+          git commit -m "Update gas data JSON [skip ci]" || echo "No changes to commit"
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
