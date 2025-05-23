@@ -13,6 +13,8 @@ headers = {
     "Authorization": f"Bearer {auth_token}"
 }
 
+print(headers)
+
 # Location variables
 lat = "28.01459858651087"
 lon = "-82.50638600898436"
