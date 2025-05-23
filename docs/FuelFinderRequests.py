@@ -4,6 +4,17 @@ import os
 import sys
 import logging
 from datetime import datetime
+import time
+
+# --- Set timezone to Eastern Daylight Time (EDT) ---
+os.environ["TZ"] = "America/New_York"
+time.tzset()
+
+# --- Make log timestamps timezone-aware ---
+def custom_time(*args):
+    return datetime.now().astimezone().timetuple()
+
+logging.Formatter.converter = custom_time
 
 # --- Setup logging ---
 log_file = "docs/FuelFinder.log"

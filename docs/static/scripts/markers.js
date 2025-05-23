@@ -144,3 +144,21 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 });
+
+
+
+
+
+// import { fetchLastUpdateFromLog } from './last-updated.js';
+
+// document.addEventListener('DOMContentLoaded', async () => {
+//   try {
+//     const timestamp = await fetchLastUpdateFromLog();
+//     const el = document.getElementById('last-updated');
+//     if (el) {
+//       el.textContent = `Last updated: ${timestamp}`;
+//     }
+//   } catch (err) {
+//     console.error('Could not read update time:', err);
+//   }
+// });
