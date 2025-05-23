@@ -1,4 +1,4 @@
-name: Scrape and Commit JSON
+name: FuelFinderRequests.py
 
 on:
   schedule:
