@@ -6,7 +6,7 @@ import logging
 from datetime import datetime
 
 # --- Setup logging ---
-log_file = "FuelFinder.log"
+log_file = "docs/FuelFinder.log"
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(message)s",
