@@ -4,7 +4,7 @@ import os
 
 
 try:
-    AUTH_TOKEN = os.environ("AUTH_TOKEN")
+    AUTH_TOKEN = os.environ["AUTH_TOKEN"]
 except KeyError:
     print("Token not avaliable!")
 
