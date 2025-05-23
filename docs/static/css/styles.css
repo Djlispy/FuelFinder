@@ -50,7 +50,7 @@ html, body {
 
 .fuel-buttons-row button {
   flex: 1;
-  padding: 0.3rem 0.3rem 0.3rem;
+  padding: 0.55rem 0.55rem;
   font-size: 0.58rem;
   border: none;
   border-radius: 7px;
