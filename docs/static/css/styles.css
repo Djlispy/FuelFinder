@@ -24,7 +24,7 @@ html, body {
   padding: 1rem 1.5rem;
   border-radius: 1rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-  font-size: 1rem;
+  font-size: 0.7rem;
   line-height: 1.6;
   color: #fff;
 
@@ -143,4 +143,11 @@ html, body {
 
 #fuel-selector button.selected {
   background-color: #cfcfcf;
+}
+
+.last-updated {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 0.55rem;
+    color: #dbdbdb;
 }
