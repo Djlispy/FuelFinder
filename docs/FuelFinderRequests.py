@@ -1,12 +1,14 @@
 import requests
 import json
 import os
-
+import sys
 
 try:
     AUTH_TOKEN = os.environ["AUTH_TOKEN"]
 except KeyError:
-    print("Token not avaliable!")
+    print("Error: AUTH_TOKEN not found.")
+    sys.exit(1)
+
 
 
 # API endpoint and headers
@@ -71,43 +73,61 @@ payload = {
     }
 }
 
-# Send the request
-response = requests.post(url, headers=headers, json=payload)
-data = response.json()
+try:
+    response = requests.post(url, headers=headers, json=payload, timeout=10)
+    response.raise_for_status()
+except requests.exceptions.RequestException as e:
+    print(f"❌ Network or request error: {e}")
+    sys.exit(1)
+
+try:
+    data = response.json()
+except json.JSONDecodeError:
+    print("❌ Failed to parse JSON response.")
+    sys.exit(1)
 
 # Filter and format the data
 filtered = []
 
-for store in data.get("data", {}).get("stores", []):
-    if store.get("brand", {}).get("slug") != "7-eleven":
-        continue
+try:
+    stores = data.get("data", {}).get("stores", [])
+    for store in stores:
+        if store.get("brand", {}).get("slug") != "7-eleven":
+            continue
 
-    service_slugs = {s["slug"] for s in store.get("services", [])}
-    if "fuel_price_lock" not in service_slugs:
-        continue
+        service_slugs = {s["slug"] for s in store.get("services", [])}
+        if "fuel_price_lock" not in service_slugs:
+            continue
 
-    grades = {g["abbr"]: g.get("price") for g in (store.get("fuel_data") or {}).get("grades", [])}
+        grades = {g["abbr"]: g.get("price") for g in (store.get("fuel_data") or {}).get("grades", [])}
 
-    formatted = {
-        "lat": store.get("lat"),
-        "lon": store.get("lon"),
-        "address": store.get("address"),
-        "city": store.get("city"),
-        "phone": store.get("phone"),
-        "state": store.get("state"),
-        "country": store.get("country"),
-        "postal_code": store.get("postal_code"),
-        "regular_price": grades.get("RUL") / 1000 if grades.get("RUL") else None,
-        "mid_grade_price": grades.get("NMB") / 1000 if grades.get("NMB") else None,
-        "premium_price": grades.get("PUL") / 1000 if grades.get("PUL") else None,
-        "diesel_price": grades.get("DSL") / 1000 if grades.get("DSL") else None,
-        "last_updated_label": store.get("fuel_data", {}).get("last_updated_label")
-    }
+        formatted = {
+            "lat": store.get("lat"),
+            "lon": store.get("lon"),
+            "address": store.get("address"),
+            "city": store.get("city"),
+            "phone": store.get("phone"),
+            "state": store.get("state"),
+            "country": store.get("country"),
+            "postal_code": store.get("postal_code"),
+            "regular_price": grades.get("RUL") / 1000 if grades.get("RUL") else None,
+            "mid_grade_price": grades.get("NMB") / 1000 if grades.get("NMB") else None,
+            "premium_price": grades.get("PUL") / 1000 if grades.get("PUL") else None,
+            "diesel_price": grades.get("DSL") / 1000 if grades.get("DSL") else None,
+            "last_updated_label": store.get("fuel_data", {}).get("last_updated_label")
+        }
 
-    filtered.append(formatted)
+        filtered.append(formatted)
+except Exception as e:
+    print(f"❌ Error processing store data: {e}")
+    sys.exit(1)
 
 # Save cleaned, filtered output
-with open("docs/locations.json", "w") as f:
-    json.dump(filtered, f, indent=2)
-
-print("✅ Saved filtered data to 'locations.json'")
+try:
+    os.makedirs("docs", exist_ok=True)
+    with open("docs/locations.json", "w") as f:
+        json.dump(filtered, f, indent=2)
+    print("✅ Saved data to 'docs/locations.json'")
+except Exception as e:
+    print(f"❌ Failed to save JSON file: {e}")
+    sys.exit(1)
