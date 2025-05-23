@@ -13,7 +13,7 @@ headers = {
     "Authorization": f"Bearer {auth_token}"
 }
 
-print(headers)
+# print(headers)
 
 # Location variables
 lat = "28.01459858651087"
@@ -107,4 +107,6 @@ for store in data.get("data", {}).get("stores", []):
 with open("docs/locations.json", "w") as f:
     json.dump(filtered, f, indent=2)
 
-print("✅ Saved filtered data to 'locations.json'")
+# print("✅ Saved filtered data to 'locations.json'")
+
+print(headers)
