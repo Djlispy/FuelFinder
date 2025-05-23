@@ -27,14 +27,12 @@ jobs:
         env:
           AUTH_TOKEN: ${{ secrets.AUTH_TOKEN }}
         run: |
-          echo "AUTH_TOKEN is set: $([[ -n "$AUTH_TOKEN" ]] && echo 'yes' || echo 'no')"
-          env | grep AUTH_TOKEN
           python docs/FuelFinderRequests.py
 
-      # - name: Commit changes
-      #   run: |
-      #     git config --global user.name 'github-actions'
-      #     git config --global user.email 'github-actions@github.com'
-      #     git add docs/locations.json
-      #     git commit -m "Update gas data JSON [skip ci]" || echo "No changes to commit"
-      #     git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
+      - name: Commit changes
+        run: |
+          git config --global user.name 'github-actions'
+          git config --global user.email 'github-actions@github.com'
+          git add docs/locations.json
+          git commit -m "Update gas data JSON [skip ci]" || echo "No changes to commit"
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
