@@ -2,30 +2,38 @@ import requests
 import json
 import os
 import sys
+import logging
+from datetime import datetime
 
+# --- Setup logging ---
+log_file = "FuelFinder.log"
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s [%(levelname)s] %(message)s",
+    handlers=[
+        logging.FileHandler(log_file, mode='a'),
+        logging.StreamHandler(sys.stdout)
+    ]
+)
+
+# --- Get AUTH_TOKEN from environment ---
 try:
     AUTH_TOKEN = os.environ["AUTH_TOKEN"]
 except KeyError:
-    print("Error: AUTH_TOKEN not found.")
+    logging.error("AUTH_TOKEN environment variable not found.")
     sys.exit(1)
 
-
-
-# API endpoint and headers
+# --- API setup ---
 url = "https://apis.7-eleven.com/v5/stores/graphql"
-
-
 headers = {
     "Content-Type": "application/json",
     "Authorization": f"Bearer {AUTH_TOKEN}"
 }
 
-# Location variables
 lat = "28.01459858651087"
 lon = "-82.50638600898436"
 radius = 36.223161207437876
 
-# GraphQL query and payload
 payload = {
     "operationName": "stores",
     "query": """
@@ -73,22 +81,23 @@ payload = {
     }
 }
 
+# --- Send request ---
 try:
     response = requests.post(url, headers=headers, json=payload, timeout=10)
     response.raise_for_status()
 except requests.exceptions.RequestException as e:
-    print(f"❌ Network or request error: {e}")
+    logging.error(f"Request failed: {e}")
     sys.exit(1)
 
+# --- Parse JSON response ---
 try:
     data = response.json()
-except json.JSONDecodeError:
-    print("❌ Failed to parse JSON response.")
+except json.JSONDecodeError as e:
+    logging.error(f"JSON decoding failed: {e}")
     sys.exit(1)
 
-# Filter and format the data
+# --- Process store data ---
 filtered = []
-
 try:
     stores = data.get("data", {}).get("stores", [])
     for store in stores:
@@ -119,15 +128,15 @@ try:
 
         filtered.append(formatted)
 except Exception as e:
-    print(f"❌ Error processing store data: {e}")
+    logging.error(f"Error processing data: {e}")
     sys.exit(1)
 
-# Save cleaned, filtered output
+# --- Save data to file ---
 try:
     os.makedirs("docs", exist_ok=True)
     with open("docs/locations.json", "w") as f:
         json.dump(filtered, f, indent=2)
-    print("✅ Saved data to 'docs/locations.json'")
+    logging.info(f"Saved {len(filtered)} stores to 'docs/locations.json'")
 except Exception as e:
-    print(f"❌ Failed to save JSON file: {e}")
+    logging.error(f"Failed to save file: {e}")
     sys.exit(1)
