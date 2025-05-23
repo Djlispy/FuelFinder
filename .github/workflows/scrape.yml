@@ -12,8 +12,6 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          persist-credentials: false  # we use a token manually
 
       - name: Set up Python
         uses: actions/setup-python@v4
