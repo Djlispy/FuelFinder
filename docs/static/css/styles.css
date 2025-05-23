@@ -43,26 +43,27 @@ html, body {
   width: 100%;
   max-width: calc(100% - 2rem); /* Matches map width */
   margin: 0 auto;
-  gap: 7px;
+  gap: 5px;
   box-sizing: border-box;
   
 }
 
 .fuel-buttons-row button {
   flex: 1;
-  padding: 0.65rem;
-  font-size: 0.7rem;
+  padding: 0.3rem 0.3rem 0.3rem;
+  font-size: 0.58rem;
   border: none;
-  border-radius: 8px;
+  border-radius: 7px;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 6px;
+  gap: 5px;
   background-color: #fcfcfc;
   color: black;
   min-width: 0;
   transition: background-color 0.2s;
+  white-space: nowrap;
 }
 
 .fuel-buttons-row button:hover {
@@ -91,12 +92,6 @@ html, body {
   width: 100%;
 }
 
-/* Right Column (fuel + bubbles) */
-/* .right-column {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-} */
 
 /* Bubble Section */
 .bubble-section {
@@ -144,6 +139,7 @@ html, body {
   padding: 1px 3px;
   border-radius: 4px;
   font-size: 10px;
+  
   width: fit-content;
   margin: 0 auto;
 }
@@ -192,22 +188,17 @@ html, body {
   .mobile-only {
     display: none;
   }
+
+  .fuel-buttons-row button {
+  flex: 1;
+  padding: 0.8rem 0.8rem;
+  font-size: 0.9rem;
+  border: none;
+  gap: 8px;
+
+  }
 }
 
 #fuel-selector {
   margin-top: 0;
-}
-
-@media (min-width: 768px) {
-  #fuel-selector {
-    margin-top: 1rem;
-  }
-
-}
-
-/* Desktop fuel selector styling */
-#desktop-fuel-selector {
-  width: 100%;
-  max-width: 100%;
-  margin: 0.5rem 0 0 0;
 }
