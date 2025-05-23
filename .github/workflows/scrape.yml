@@ -13,7 +13,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          persist-credentials: false
+          persist-credentials: false  # we use a token manually
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -26,6 +26,8 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run scraper
+        env:
+          AUTH_TOKEN: ${{ secrets.AUTH_TOKEN }}
         run: python docs/FuelFinderRequests.py
 
       - name: Commit changes

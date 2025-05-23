@@ -1,7 +1,4 @@
 # macOS system files
 .DS_Store
 
-# Secret files
-docs/FuelFinderRequests.py
-
 .git
