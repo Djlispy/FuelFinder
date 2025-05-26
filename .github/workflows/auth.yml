@@ -1,10 +1,7 @@
-name: AuthToken.py
+name: Run AuthToken Script (with GUI)
 
 on:
   workflow_dispatch:
-  push:
-    paths:
-      - 'docs/AuthToken.py'
 
 jobs:
   run-script:
@@ -21,9 +18,11 @@ jobs:
 
       - name: Install dependencies
         run: |
+          sudo apt-get update
+          sudo apt-get install -y xvfb
           python -m pip install --upgrade pip
           pip install undetected-chromedriver selenium
 
-      - name: Run AuthToken.py
+      - name: Run AuthToken.py in virtual display
         run: |
-          python docs/AuthToken.py
+          xvfb-run --auto-servernum python docs/AuthToken.py
