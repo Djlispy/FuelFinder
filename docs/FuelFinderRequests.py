@@ -112,7 +112,8 @@ filtered = []
 try:
     stores = data.get("data", {}).get("stores", [])
     for store in stores:
-        if store.get("brand", {}).get("slug") != "7-eleven":
+        brand = store.get("brand")
+        if not isinstance(brand, dict) or brand.get("slug") != "7-eleven":
             continue
 
         service_slugs = {s["slug"] for s in store.get("services", [])}
