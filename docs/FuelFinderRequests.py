@@ -38,7 +38,7 @@ except KeyError:
 url = "https://apis.7-eleven.com/v5/stores/graphql"
 headers = {
     "Content-Type": "application/json",
-    "Authorization": f"Bearer {AUTH_TOKEN}"
+    "Authorization": f"{AUTH_TOKEN}"
 }
 
 lat = "28.01459858651087"
