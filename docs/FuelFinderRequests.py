@@ -5,6 +5,20 @@ import sys
 import logging
 from datetime import datetime
 import time
+import pgeocode
+
+# --- # ENTER ZIP CODE HERE # --- #
+ZIP_CODE = "33614"
+
+nomi = pgeocode.Nominatim('us')
+location = nomi.query_postal_code(ZIP_CODE)
+
+lat = location.latitude
+lon = location.longitude
+
+print(lat, lon)
+
+
 
 # --- Set timezone to Eastern Daylight Time (EDT) ---
 os.environ["TZ"] = "America/New_York"
@@ -41,9 +55,11 @@ headers = {
     "Authorization": f"{AUTH_TOKEN}"
 }
 
-lat = "28.01459858651087"
-lon = "-82.50638600898436"
+# lat = "28.01459858651087"
+# lon = "-82.50638600898436"
+
 radius = 36.223161207437876
+
 
 payload = {
     "operationName": "stores",
