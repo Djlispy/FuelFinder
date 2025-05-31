@@ -159,12 +159,16 @@ except Exception as e:
     logging.error(f"Error processing data: {e}")
     sys.exit(1)
 
+
 # --- Save data to file ---
 try:
     os.makedirs("docs", exist_ok=True)
     with open("docs/locations.json", "w") as f:
         json.dump(filtered, f, indent=2)
-    logging.info(f"Saved {len(filtered)} stores to 'docs/locations.json'")
+    logging.info(
+        f"Saved {len(filtered)} stores to 'docs/locations.json' "
+        f"ZIP code: {ZIP_CODE}, Latitude: {lat}, Longitude: {lon}"
+    )
 except Exception as e:
     logging.error(f"Failed to save file: {e}")
     sys.exit(1)
