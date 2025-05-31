@@ -8,7 +8,7 @@ import time
 import pgeocode
 
 # --- # ENTER ZIP CODE HERE # --- #
-ZIP_CODE = "33614"
+ZIP_CODE = "33139"
 
 nomi = pgeocode.Nominatim('us')
 location = nomi.query_postal_code(ZIP_CODE)
