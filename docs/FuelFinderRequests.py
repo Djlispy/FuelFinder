@@ -13,11 +13,10 @@ ZIP_CODE = "33614"
 nomi = pgeocode.Nominatim('us')
 location = nomi.query_postal_code(ZIP_CODE)
 
-lat = location.latitude
-lon = location.longitude
+lat = f"{location.latitude:.14f}"
+lon = f"{location.longitude:.14f}"
 
 print(lat, lon)
-
 
 
 # --- Set timezone to Eastern Daylight Time (EDT) ---
@@ -47,6 +46,8 @@ try:
 except KeyError:
     logging.error("AUTH_TOKEN environment variable not found.")
     sys.exit(1)
+
+
 
 # --- API setup ---
 url = "https://apis.7-eleven.com/v5/stores/graphql"
