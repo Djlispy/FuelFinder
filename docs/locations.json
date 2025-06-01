@@ -12,7 +12,7 @@
     "mid_grade_price": 3.449,
     "premium_price": 3.749,
     "diesel_price": null,
-    "last_updated_label": "6 hours ago"
+    "last_updated_label": "8 hours ago"
   },
   {
     "lat": 26.128945,
@@ -27,7 +27,7 @@
     "mid_grade_price": 3.499,
     "premium_price": 3.849,
     "diesel_price": null,
-    "last_updated_label": "6 hours ago"
+    "last_updated_label": "8 hours ago"
   },
   {
     "lat": 26.09546,
@@ -38,11 +38,11 @@
     "state": "FL",
     "country": "US",
     "postal_code": "33317",
-    "regular_price": 3.049,
-    "mid_grade_price": 3.499,
-    "premium_price": 3.799,
+    "regular_price": 2.999,
+    "mid_grade_price": 3.449,
+    "premium_price": 3.749,
     "diesel_price": 3.299,
-    "last_updated_label": "6 hours ago"
+    "last_updated_label": "19 minutes ago"
   },
   {
     "lat": 26.101944,
@@ -57,7 +57,7 @@
     "mid_grade_price": 3.469,
     "premium_price": 3.769,
     "diesel_price": null,
-    "last_updated_label": "10 hours ago"
+    "last_updated_label": "12 hours ago"
   },
   {
     "lat": 26.12093,
@@ -68,11 +68,11 @@
     "state": "FL",
     "country": "US",
     "postal_code": "33312",
-    "regular_price": 3.099,
-    "mid_grade_price": 3.499,
-    "premium_price": 3.899,
+    "regular_price": 2.919,
+    "mid_grade_price": 3.319,
+    "premium_price": 3.719,
     "diesel_price": 3.299,
-    "last_updated_label": "a day ago"
+    "last_updated_label": "15 minutes ago"
   },
   {
     "lat": 26.164131,
@@ -83,11 +83,11 @@
     "state": "FL",
     "country": "US",
     "postal_code": "33313",
-    "regular_price": 3.099,
-    "mid_grade_price": 3.499,
-    "premium_price": 3.899,
+    "regular_price": 2.999,
+    "mid_grade_price": 3.399,
+    "premium_price": 3.799,
     "diesel_price": 3.379,
-    "last_updated_label": "a day ago"
+    "last_updated_label": "19 minutes ago"
   },
   {
     "lat": 26.062397,
@@ -102,7 +102,7 @@
     "mid_grade_price": 3.479,
     "premium_price": 3.779,
     "diesel_price": null,
-    "last_updated_label": "13 hours ago"
+    "last_updated_label": "15 hours ago"
   },
   {
     "lat": 26.167388,
@@ -117,7 +117,7 @@
     "mid_grade_price": 3.499,
     "premium_price": 3.899,
     "diesel_price": null,
-    "last_updated_label": "13 hours ago"
+    "last_updated_label": "15 hours ago"
   },
   {
     "lat": 26.089804,
@@ -132,7 +132,7 @@
     "mid_grade_price": 3.499,
     "premium_price": 3.899,
     "diesel_price": null,
-    "last_updated_label": "a day ago"
+    "last_updated_label": "2 days ago"
   },
   {
     "lat": 26.152226,
@@ -147,7 +147,7 @@
     "mid_grade_price": 3.399,
     "premium_price": 3.749,
     "diesel_price": null,
-    "last_updated_label": "13 hours ago"
+    "last_updated_label": "15 hours ago"
   },
   {
     "lat": 26.121735,
@@ -158,11 +158,11 @@
     "state": "FL",
     "country": "US",
     "postal_code": "33312-1742",
-    "regular_price": 2.999,
-    "mid_grade_price": 3.449,
-    "premium_price": 3.799,
-    "diesel_price": 3.359,
-    "last_updated_label": "18 hours ago"
+    "regular_price": 2.939,
+    "mid_grade_price": 3.389,
+    "premium_price": 3.739,
+    "diesel_price": 3.299,
+    "last_updated_label": "8 minutes ago"
   },
   {
     "lat": 26.032475,
@@ -173,11 +173,11 @@
     "state": "FL",
     "country": "US",
     "postal_code": "33024-4136",
-    "regular_price": 3.159,
-    "mid_grade_price": 3.599,
-    "premium_price": 3.899,
+    "regular_price": 3.099,
+    "mid_grade_price": 3.549,
+    "premium_price": 3.849,
     "diesel_price": null,
-    "last_updated_label": "2 days ago"
+    "last_updated_label": "21 minutes ago"
   },
   {
     "lat": 26.12585,
@@ -188,11 +188,11 @@
     "state": "FL",
     "country": "US",
     "postal_code": "33301-1120",
-    "regular_price": 3.099,
-    "mid_grade_price": 3.549,
-    "premium_price": 3.849,
+    "regular_price": 2.969,
+    "mid_grade_price": 3.419,
+    "premium_price": 3.719,
     "diesel_price": null,
-    "last_updated_label": "a day ago"
+    "last_updated_label": "14 minutes ago"
   },
   {
     "lat": 26.147177,
@@ -203,11 +203,11 @@
     "state": "FL",
     "country": "US",
     "postal_code": "33304-1035",
-    "regular_price": 2.999,
-    "mid_grade_price": 3.449,
-    "premium_price": 3.749,
+    "regular_price": 2.959,
+    "mid_grade_price": 3.409,
+    "premium_price": 3.709,
     "diesel_price": null,
-    "last_updated_label": "a day ago"
+    "last_updated_label": "19 minutes ago"
   },
   {
     "lat": 26.16654,
@@ -222,7 +222,7 @@
     "mid_grade_price": 3.529,
     "premium_price": 3.829,
     "diesel_price": 3.359,
-    "last_updated_label": "19 hours ago"
+    "last_updated_label": "21 hours ago"
   },
   {
     "lat": 26.194472,
@@ -263,11 +263,11 @@
     "state": "FL",
     "country": "US",
     "postal_code": "33024",
-    "regular_price": 3.149,
-    "mid_grade_price": 3.599,
-    "premium_price": 3.949,
+    "regular_price": 3.089,
+    "mid_grade_price": 3.539,
+    "premium_price": 3.889,
     "diesel_price": null,
-    "last_updated_label": "a day ago"
+    "last_updated_label": "14 minutes ago"
   },
   {
     "lat": 26.04907,
@@ -278,11 +278,11 @@
     "state": "FL",
     "country": "US",
     "postal_code": "33004",
-    "regular_price": 3.129,
-    "mid_grade_price": 3.579,
-    "premium_price": 3.879,
+    "regular_price": 3.089,
+    "mid_grade_price": 3.539,
+    "premium_price": 3.839,
     "diesel_price": 3.349,
-    "last_updated_label": "4 minutes ago"
+    "last_updated_label": "an hour ago"
   },
   {
     "lat": 26.174237,
@@ -297,7 +297,7 @@
     "mid_grade_price": 3.479,
     "premium_price": 3.879,
     "diesel_price": null,
-    "last_updated_label": "2 hours ago"
+    "last_updated_label": "4 hours ago"
   },
   {
     "lat": 26.016946,
@@ -308,11 +308,11 @@
     "state": "FL",
     "country": "US",
     "postal_code": "33024-5048",
-    "regular_price": 3.149,
-    "mid_grade_price": 3.599,
-    "premium_price": 3.949,
+    "regular_price": 3.089,
+    "mid_grade_price": 3.539,
+    "premium_price": 3.889,
     "diesel_price": null,
-    "last_updated_label": "a day ago"
+    "last_updated_label": "14 minutes ago"
   },
   {
     "lat": 26.159102,
@@ -327,7 +327,7 @@
     "mid_grade_price": 3.399,
     "premium_price": 3.699,
     "diesel_price": null,
-    "last_updated_label": "2 hours ago"
+    "last_updated_label": "5 hours ago"
   },
   {
     "lat": 26.03373,
@@ -338,11 +338,11 @@
     "state": "FL",
     "country": "US",
     "postal_code": "33004",
-    "regular_price": 3.079,
-    "mid_grade_price": 3.479,
-    "premium_price": 3.879,
+    "regular_price": 3.039,
+    "mid_grade_price": 3.439,
+    "premium_price": 3.839,
     "diesel_price": 3.299,
-    "last_updated_label": "8 minutes ago"
+    "last_updated_label": "an hour ago"
   },
   {
     "lat": 25.995231,
@@ -353,11 +353,11 @@
     "state": "FL",
     "country": "US",
     "postal_code": "33025-5587",
-    "regular_price": 3.059,
-    "mid_grade_price": 3.499,
-    "premium_price": 3.799,
+    "regular_price": 3.029,
+    "mid_grade_price": 3.479,
+    "premium_price": 3.779,
     "diesel_price": null,
-    "last_updated_label": "11 hours ago"
+    "last_updated_label": "6 minutes ago"
   },
   {
     "lat": 26.064062,
@@ -368,11 +368,11 @@
     "state": "FL",
     "country": "US",
     "postal_code": "33331-3195",
-    "regular_price": 3.099,
-    "mid_grade_price": 3.549,
-    "premium_price": 3.899,
+    "regular_price": 3.129,
+    "mid_grade_price": 3.579,
+    "premium_price": 3.929,
     "diesel_price": null,
-    "last_updated_label": "6 hours ago"
+    "last_updated_label": "19 minutes ago"
   },
   {
     "lat": 26.210669,
@@ -387,7 +387,7 @@
     "mid_grade_price": 3.399,
     "premium_price": 3.759,
     "diesel_price": null,
-    "last_updated_label": "22 hours ago"
+    "last_updated_label": "a day ago"
   },
   {
     "lat": 25.984745,
@@ -398,11 +398,11 @@
     "state": "FL",
     "country": "US",
     "postal_code": "33009-5332",
-    "regular_price": 3.099,
-    "mid_grade_price": 3.499,
-    "premium_price": 3.899,
+    "regular_price": 3.089,
+    "mid_grade_price": 3.489,
+    "premium_price": 3.889,
     "diesel_price": 3.399,
-    "last_updated_label": "5 hours ago"
+    "last_updated_label": "an hour ago"
   },
   {
     "lat": 25.972861,
@@ -413,11 +413,11 @@
     "state": "FL",
     "country": "US",
     "postal_code": "33179-1359",
-    "regular_price": 3.089,
-    "mid_grade_price": 3.489,
-    "premium_price": 3.789,
+    "regular_price": 3.029,
+    "mid_grade_price": 3.429,
+    "premium_price": 3.729,
     "diesel_price": null,
-    "last_updated_label": "a day ago"
+    "last_updated_label": "14 minutes ago"
   },
   {
     "lat": 26.24904,
@@ -432,7 +432,7 @@
     "mid_grade_price": 3.519,
     "premium_price": 3.869,
     "diesel_price": 3.279,
-    "last_updated_label": "an hour ago"
+    "last_updated_label": "3 hours ago"
   },
   {
     "lat": 26.258438,
@@ -447,7 +447,7 @@
     "mid_grade_price": 3.319,
     "premium_price": 3.719,
     "diesel_price": null,
-    "last_updated_label": "a week ago"
+    "last_updated_label": "2 weeks ago"
   },
   {
     "lat": 25.987017,
@@ -503,11 +503,11 @@
     "state": "FL",
     "country": "US",
     "postal_code": "33065",
-    "regular_price": 2.979,
-    "mid_grade_price": 3.429,
-    "premium_price": 3.829,
-    "diesel_price": 3.339,
-    "last_updated_label": "a day ago"
+    "regular_price": 2.959,
+    "mid_grade_price": 3.409,
+    "premium_price": 3.809,
+    "diesel_price": 3.299,
+    "last_updated_label": "7 minutes ago"
   },
   {
     "lat": 26.2602,
@@ -533,11 +533,11 @@
     "state": "FL",
     "country": "US",
     "postal_code": "33076-2163",
-    "regular_price": 3.029,
-    "mid_grade_price": 3.479,
-    "premium_price": 3.879,
+    "regular_price": 2.999,
+    "mid_grade_price": 3.449,
+    "premium_price": 3.849,
     "diesel_price": null,
-    "last_updated_label": "a day ago"
+    "last_updated_label": "26 minutes ago"
   },
   {
     "lat": 25.927638,
@@ -552,7 +552,7 @@
     "mid_grade_price": 3.129,
     "premium_price": 3.479,
     "diesel_price": 3.419,
-    "last_updated_label": "a day ago"
+    "last_updated_label": "2 days ago"
   },
   {
     "lat": 26.298888,
@@ -567,7 +567,7 @@
     "mid_grade_price": 3.479,
     "premium_price": 3.879,
     "diesel_price": null,
-    "last_updated_label": "3 hours ago"
+    "last_updated_label": "5 hours ago"
   },
   {
     "lat": 25.915564,
@@ -582,7 +582,7 @@
     "mid_grade_price": 3.299,
     "premium_price": 3.599,
     "diesel_price": null,
-    "last_updated_label": "a day ago"
+    "last_updated_label": "2 days ago"
   },
   {
     "lat": 26.317113,
@@ -593,11 +593,11 @@
     "state": "FL",
     "country": "US",
     "postal_code": "33073-2149",
-    "regular_price": 3.069,
-    "mid_grade_price": 3.519,
-    "premium_price": 3.819,
+    "regular_price": 3.039,
+    "mid_grade_price": 3.489,
+    "premium_price": 3.789,
     "diesel_price": 3.399,
-    "last_updated_label": "2 hours ago"
+    "last_updated_label": "6 minutes ago"
   },
   {
     "lat": 26.317301,
@@ -608,11 +608,11 @@
     "state": "FL",
     "country": "US",
     "postal_code": "33442-9420",
-    "regular_price": 3.049,
-    "mid_grade_price": 3.499,
-    "premium_price": 3.849,
-    "diesel_price": 3.359,
-    "last_updated_label": "2 hours ago"
+    "regular_price": 3.019,
+    "mid_grade_price": 3.469,
+    "premium_price": 3.819,
+    "diesel_price": 3.299,
+    "last_updated_label": "8 minutes ago"
   },
   {
     "lat": 25.892295,
@@ -638,11 +638,11 @@
     "state": "FL",
     "country": "US",
     "postal_code": "33168",
-    "regular_price": 2.779,
-    "mid_grade_price": 3.179,
-    "premium_price": 3.479,
+    "regular_price": 2.749,
+    "mid_grade_price": 3.149,
+    "premium_price": 3.449,
     "diesel_price": 3.299,
-    "last_updated_label": "a day ago"
+    "last_updated_label": "14 minutes ago"
   },
   {
     "lat": 25.88241,
@@ -653,11 +653,11 @@
     "state": "FL",
     "country": "US",
     "postal_code": "33167",
-    "regular_price": 2.779,
-    "mid_grade_price": 3.179,
-    "premium_price": 3.479,
+    "regular_price": 2.699,
+    "mid_grade_price": 3.099,
+    "premium_price": 3.399,
     "diesel_price": 3.219,
-    "last_updated_label": "15 hours ago"
+    "last_updated_label": "21 minutes ago"
   },
   {
     "lat": 25.885616,
@@ -668,11 +668,11 @@
     "state": "FL",
     "country": "US",
     "postal_code": "33181-3181",
-    "regular_price": 2.889,
-    "mid_grade_price": 3.289,
-    "premium_price": 3.589,
+    "regular_price": 2.779,
+    "mid_grade_price": 3.179,
+    "premium_price": 3.479,
     "diesel_price": null,
-    "last_updated_label": "2 days ago"
+    "last_updated_label": "24 minutes ago"
   },
   {
     "lat": 25.86215,
@@ -683,11 +683,11 @@
     "state": "FL",
     "country": "US",
     "postal_code": "33150",
-    "regular_price": 2.829,
-    "mid_grade_price": 3.229,
-    "premium_price": 3.529,
+    "regular_price": 2.799,
+    "mid_grade_price": 3.199,
+    "premium_price": 3.499,
     "diesel_price": 3.429,
-    "last_updated_label": "12 hours ago"
+    "last_updated_label": "6 minutes ago"
   },
   {
     "lat": 25.84671,
@@ -698,11 +698,11 @@
     "state": "FL",
     "country": "US",
     "postal_code": "33150",
-    "regular_price": 2.829,
-    "mid_grade_price": 3.279,
-    "premium_price": 3.579,
-    "diesel_price": 3.399,
-    "last_updated_label": "22 hours ago"
+    "regular_price": 2.799,
+    "mid_grade_price": 3.249,
+    "premium_price": 3.549,
+    "diesel_price": 3.379,
+    "last_updated_label": "14 minutes ago"
   },
   {
     "lat": 25.84714,
@@ -717,7 +717,7 @@
     "mid_grade_price": 3.179,
     "premium_price": 3.529,
     "diesel_price": 3.299,
-    "last_updated_label": "a day ago"
+    "last_updated_label": "2 days ago"
   },
   {
     "lat": 25.845303,
@@ -732,6 +732,6 @@
     "mid_grade_price": 3.249,
     "premium_price": 3.549,
     "diesel_price": 3.299,
-    "last_updated_label": "a day ago"
+    "last_updated_label": "2 days ago"
   }
 ]
