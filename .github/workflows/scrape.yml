@@ -62,7 +62,7 @@ jobs:
         env:
           PERSONAL_ACCESS_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
         run: |
-          xvfb-run --auto-servernum python TokenUpdater.py
+          xvfb-run --auto-servernum python docs/TokenUpdater.py
 
   run-scraper:
     needs: scrape-token
