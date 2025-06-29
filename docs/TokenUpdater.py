@@ -1,8 +1,3 @@
-# ✅ Install dependencies
-# !apt-get update -qq
-# !apt-get install -y unzip xvfb libxi6 libgconf-2-4 > /dev/null
-# !pip install -U selenium pyvirtualdisplay pynacl requests > /dev/null
-
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
