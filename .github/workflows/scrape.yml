@@ -29,14 +29,26 @@ jobs:
 
       - name: Install ChromeDriver and Python packages
         run: |
-          CHROME_VERSION=$(google-chrome --version | grep -oP '\d+\.\d+\.\d+')
-          CHROMEDRIVER_VERSION=$(wget -qO- https://chromedriver.storage.googleapis.com/LATEST_RELEASE_$CHROME_VERSION)
-          wget https://chromedriver.storage.googleapis.com/$CHROMEDRIVER_VERSION/chromedriver_linux64.zip
-          unzip chromedriver_linux64.zip
-          sudo mv chromedriver /usr/local/bin/
-          sudo chmod +x /usr/local/bin/chromedriver
+          echo "Chrome version:"
+          google-chrome --version
+
+          CHROME_VERSION=$(google-chrome --version | grep -oE '[0-9]+\.[0-9]+\.[0-9]+')
+          echo "Parsed Chrome version: $CHROME_VERSION"
+
+          if [ -z "$CHROME_VERSION" ]; then
+            echo "Failed to parse Chrome version, skipping ChromeDriver download"
+          else
+            CHROMEDRIVER_VERSION=$(wget -qO- https://chromedriver.storage.googleapis.com/LATEST_RELEASE_$CHROME_VERSION)
+            echo "ChromeDriver version: $CHROMEDRIVER_VERSION"
+            wget https://chromedriver.storage.googleapis.com/$CHROMEDRIVER_VERSION/chromedriver_linux64.zip
+            unzip chromedriver_linux64.zip
+            sudo mv chromedriver /usr/local/bin/
+            sudo chmod +x /usr/local/bin/chromedriver
+          fi
+
           python -m pip install --upgrade pip
           pip install selenium pyvirtualdisplay pynacl requests
+
 
       - name: Run token scraper
         env:
