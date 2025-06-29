@@ -38,8 +38,15 @@ jobs:
           CHROME_VERSION=$(echo "$FULL_VERSION" | cut -d '.' -f1,2)
           echo "Using Chrome major.minor version: $CHROME_VERSION"
 
-          CHROMEDRIVER_VERSION=$(wget -qO- https://chromedriver.storage.googleapis.com/LATEST_RELEASE_$CHROME_VERSION)
-          echo "ChromeDriver version: $CHROMEDRIVER_VERSION"
+          # Try to get matching chromedriver version
+          CHROMEDRIVER_VERSION=$(wget -qO- https://chromedriver.storage.googleapis.com/LATEST_RELEASE_$CHROME_VERSION || true)
+
+          if [ -z "$CHROMEDRIVER_VERSION" ]; then
+            echo "⚠️ No matching version for $CHROME_VERSION, falling back to latest"
+            CHROMEDRIVER_VERSION=$(wget -qO- https://chromedriver.storage.googleapis.com/LATEST_RELEASE)
+          fi
+
+          echo "ChromeDriver version to use: $CHROMEDRIVER_VERSION"
 
           wget https://chromedriver.storage.googleapis.com/$CHROMEDRIVER_VERSION/chromedriver_linux64.zip
           unzip chromedriver_linux64.zip
@@ -48,6 +55,7 @@ jobs:
 
           python -m pip install --upgrade pip
           pip install selenium pyvirtualdisplay pynacl requests
+
 
 
       - name: Run token scraper
