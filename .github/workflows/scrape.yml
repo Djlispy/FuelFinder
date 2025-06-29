@@ -12,15 +12,23 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Install dependencies and Chrome
+      - name: Install base dependencies
         run: |
           sudo apt-get update
           sudo apt-get install -y wget unzip xvfb libxi6 libnss3 libxss1 fonts-liberation
 
+      - name: Download and install Chrome (ignore errors)
+        run: |
           wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-          sudo dpkg -i google-chrome-stable_current_amd64.deb || true
-          sudo apt-get install -f -y || true
+          sudo dpkg -i google-chrome-stable_current_amd64.deb
+        continue-on-error: true
 
+      - name: Fix missing dependencies (ignore errors)
+        run: sudo apt-get install -f -y
+        continue-on-error: true
+
+      - name: Install ChromeDriver and Python packages
+        run: |
           CHROME_VERSION=$(google-chrome --version | grep -oP '\d+\.\d+\.\d+')
           CHROMEDRIVER_VERSION=$(wget -qO- https://chromedriver.storage.googleapis.com/LATEST_RELEASE_$CHROME_VERSION)
           wget https://chromedriver.storage.googleapis.com/$CHROMEDRIVER_VERSION/chromedriver_linux64.zip
@@ -32,7 +40,7 @@ jobs:
 
       - name: Run token scraper
         env:
-          GITHUB_PAT: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          PERSONAL_ACCESS_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
         run: |
           xvfb-run --auto-servernum python TokenUpdater.py
 
@@ -62,7 +70,7 @@ jobs:
       - name: Commit changes
         run: |
           git config --global user.name 'github-actions'
-          git config --global user.email 'github-actions@github.com'
+          git config --global user.email 'github-actions@github-actions@github.com'
           git add docs/locations.json docs/FuelFinder.log
           git commit -m "Update gas data JSON" || echo "No changes to commit"
           git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
