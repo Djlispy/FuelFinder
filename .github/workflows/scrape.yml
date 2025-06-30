@@ -30,7 +30,8 @@ jobs:
 
     - name: Install Python dependencies
       run: |
-          pip install selenium selenium-wire selenium-stealth pynacl requests
+        pip install selenium selenium-wire selenium-stealth pynacl requests blinker
+
 
 
     - name: Run scraping script
