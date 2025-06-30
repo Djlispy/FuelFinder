@@ -34,7 +34,7 @@ stealth(driver,
 driver.get("https://www.7-eleven.com/locator")
 
 print(driver.title)
-print(driver.page_source[:1000])  
+print(driver.page_source[:4000])  
 # for req in driver.requests:
 #     print(req.url, req.headers.get('authorization'))
 
