@@ -23,6 +23,8 @@ stealth(driver,
 # Visit the site
 driver.get("https://www.7-eleven.com/locator")
 
+print(driver.title)
+
 # Look through requests for the token
 token = None
 for request in driver.requests:
