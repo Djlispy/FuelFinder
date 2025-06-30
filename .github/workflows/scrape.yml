@@ -30,7 +30,9 @@ jobs:
 
     - name: Install Python dependencies
       run: |
-        pip install selenium selenium-wire selenium-stealth
-
+        sudo apt-get update
+        sudo apt-get install -y xvfb libnacl-dev
+        pip install selenium selenium-wire selenium-stealth pyvirtualdisplay pynacl requests
+        
     - name: Run scraping script
       run: python docs/get_token.py
