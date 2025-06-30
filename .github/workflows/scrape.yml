@@ -30,7 +30,8 @@ jobs:
 
     - name: Install Python dependencies
       run: |
-        pip install selenium selenium-wire selenium-stealth pynacl requests blinker
+        pip install selenium selenium-wire selenium-stealth pynacl requests blinker==1.7.0
+
 
 
 
