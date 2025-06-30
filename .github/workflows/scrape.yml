@@ -33,4 +33,4 @@ jobs:
         pip install selenium selenium-wire selenium-stealth
 
     - name: Run scraping script
-      run: python get_token.py
+      run: python docs/get_token.py
