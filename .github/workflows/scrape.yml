@@ -8,65 +8,57 @@ on:
 jobs:
   scrape-token:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Install base dependencies
+      - name: Install Chrome, Chromedriver, and Python packages
         run: |
+          echo "🧩 Installing Chrome and dependencies..."
           sudo apt-get update
           sudo apt-get install -y wget unzip xvfb libxi6 libnss3 libxss1 fonts-liberation
 
-      - name: Download and install Chrome (ignore errors)
-        run: |
           wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-          sudo dpkg -i google-chrome-stable_current_amd64.deb
-        continue-on-error: true
+          sudo dpkg -i google-chrome-stable_current_amd64.deb || true
+          sudo apt-get install -f -y
 
-      - name: Fix missing dependencies (ignore errors)
-        run: sudo apt-get install -f -y
-        continue-on-error: true
-
-      - name: Install ChromeDriver and Python packages
-        run: |
-          echo "Chrome version:"
+          echo "🧩 Installed Chrome version:"
           google-chrome --version
 
+          echo "🧩 Getting matching ChromeDriver..."
           FULL_VERSION=$(google-chrome --version | grep -oE '[0-9]+\.[0-9]+\.[0-9]+')
-          echo "Full Chrome version: $FULL_VERSION"
-
-          CHROME_VERSION=$(echo "$FULL_VERSION" | cut -d '.' -f1,2)
-          echo "Using Chrome major.minor version: $CHROME_VERSION"
-
-          # Try to get matching chromedriver version
-          CHROMEDRIVER_VERSION=$(wget -qO- https://chromedriver.storage.googleapis.com/LATEST_RELEASE_$CHROME_VERSION || true)
+          MAJOR_VERSION=$(echo "$FULL_VERSION" | cut -d '.' -f1)
+          CHROMEDRIVER_VERSION=$(wget -qO- https://chromedriver.storage.googleapis.com/LATEST_RELEASE_$MAJOR_VERSION || true)
 
           if [ -z "$CHROMEDRIVER_VERSION" ]; then
-            echo "⚠️ No matching version for $CHROME_VERSION, falling back to latest"
+            echo "⚠️ No exact chromedriver for Chrome $MAJOR_VERSION, using latest available"
             CHROMEDRIVER_VERSION=$(wget -qO- https://chromedriver.storage.googleapis.com/LATEST_RELEASE)
           fi
 
-          echo "ChromeDriver version to use: $CHROMEDRIVER_VERSION"
-
           wget https://chromedriver.storage.googleapis.com/$CHROMEDRIVER_VERSION/chromedriver_linux64.zip
           unzip chromedriver_linux64.zip
-          sudo mv chromedriver /usr/local/bin/
+          sudo rm -f /usr/bin/chromedriver /usr/local/bin/chromedriver || true
+          sudo mv chromedriver /usr/local/bin/chromedriver
           sudo chmod +x /usr/local/bin/chromedriver
 
+          echo "✅ Chromedriver installed:"
+          chromedriver --version
+
+          echo "🧩 Installing Python packages..."
           python -m pip install --upgrade pip
           pip install selenium pyvirtualdisplay pynacl requests
 
-
-
       - name: Run token scraper
         env:
-          PERSONAL_ACCESS_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          GITHUB_PAT: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
         run: |
           xvfb-run --auto-servernum python docs/TokenUpdater.py
 
   run-scraper:
     needs: scrape-token
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -81,7 +73,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run python script
+      - name: Run FuelFinderRequests.py
         env:
           AUTH_TOKEN: ${{ secrets.AUTH_TOKEN }}
         run: |
@@ -90,7 +82,7 @@ jobs:
       - name: Commit changes
         run: |
           git config --global user.name 'github-actions'
-          git config --global user.email 'github-actions@github-actions@github.com'
+          git config --global user.email 'github-actions@github.com'
           git add docs/locations.json docs/FuelFinder.log
           git commit -m "Update gas data JSON" || echo "No changes to commit"
           git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
