@@ -23,31 +23,36 @@ jobs:
           sudo dpkg -i google-chrome-stable_current_amd64.deb || true
           sudo apt-get install -f -y
 
-          echo "🧩 Installed Chrome version:"
+          echo "✅ Installed Chrome:"
           google-chrome --version
 
-          echo "🧩 Getting matching ChromeDriver..."
+          echo "🧩 Determining correct Chromedriver..."
           FULL_VERSION=$(google-chrome --version | grep -oE '[0-9]+\.[0-9]+\.[0-9]+')
           MAJOR_VERSION=$(echo "$FULL_VERSION" | cut -d '.' -f1)
-          CHROMEDRIVER_VERSION=$(wget -qO- https://chromedriver.storage.googleapis.com/LATEST_RELEASE_$MAJOR_VERSION || true)
-
-          if [ -z "$CHROMEDRIVER_VERSION" ]; then
-            echo "⚠️ No exact chromedriver for Chrome $MAJOR_VERSION, using latest available"
-            CHROMEDRIVER_VERSION=$(wget -qO- https://chromedriver.storage.googleapis.com/LATEST_RELEASE)
+          DRIVER_VERSION=$(wget -qO- https://chromedriver.storage.googleapis.com/LATEST_RELEASE_$MAJOR_VERSION || echo "")
+          
+          if [ -z "$DRIVER_VERSION" ]; then
+            echo "❗ Could not fetch matching Chromedriver version for Chrome $MAJOR_VERSION. Aborting."
+            exit 1
           fi
 
-          wget https://chromedriver.storage.googleapis.com/$CHROMEDRIVER_VERSION/chromedriver_linux64.zip
-          unzip chromedriver_linux64.zip
-          sudo rm -f /usr/bin/chromedriver /usr/local/bin/chromedriver || true
-          sudo mv chromedriver /usr/local/bin/chromedriver
-          sudo chmod +x /usr/local/bin/chromedriver
+          echo "🔧 Removing system Chromedriver..."
+          sudo rm -f /usr/bin/chromedriver || true
+          sudo rm -f /usr/local/bin/chromedriver || true
 
-          echo "✅ Chromedriver installed:"
+          echo "⬇️ Downloading Chromedriver $DRIVER_VERSION"
+          wget https://chromedriver.storage.googleapis.com/${DRIVER_VERSION}/chromedriver_linux64.zip
+          unzip chromedriver_linux64.zip
+          chmod +x chromedriver
+          sudo mv chromedriver /usr/local/bin/chromedriver
+
+          echo "✅ Chromedriver version installed:"
           chromedriver --version
 
-          echo "🧩 Installing Python packages..."
+          echo "📦 Installing Python packages..."
           python -m pip install --upgrade pip
           pip install selenium pyvirtualdisplay pynacl requests
+
 
       - name: Run token scraper
         env:
