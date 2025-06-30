@@ -1,67 +1,12 @@
-name: FuelFinder Full Workflow
+name: FuelFinderRequests.py
 
 on:
   schedule:
     - cron: '0 */2 * * *'  # Every 2 hours
-  workflow_dispatch:
+  workflow_dispatch:       # Manual trigger
 
 jobs:
-  scrape-token:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Install Chrome, Chromedriver, and Python packages
-        run: |
-          echo "🧩 Installing Chrome and dependencies..."
-          sudo apt-get update
-          sudo apt-get install -y wget unzip xvfb libxi6 libnss3 libxss1 fonts-liberation
-
-          wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-          sudo dpkg -i google-chrome-stable_current_amd64.deb || true
-          sudo apt-get install -f -y
-
-          echo "✅ Installed Chrome:"
-          google-chrome --version
-
-          echo "🧩 Determining correct Chromedriver..."
-          FULL_VERSION=$(google-chrome --version | grep -oE '[0-9]+\.[0-9]+\.[0-9]+')
-          MAJOR_VERSION=$(echo "$FULL_VERSION" | cut -d '.' -f1)
-          DRIVER_VERSION=$(wget -qO- https://chromedriver.storage.googleapis.com/LATEST_RELEASE_$MAJOR_VERSION || echo "")
-          
-          if [ -z "$DRIVER_VERSION" ]; then
-            echo "❗ Could not fetch matching Chromedriver version for Chrome $MAJOR_VERSION. Aborting."
-            exit 1
-          fi
-
-          echo "🔧 Removing system Chromedriver..."
-          sudo rm -f /usr/bin/chromedriver || true
-          sudo rm -f /usr/local/bin/chromedriver || true
-
-          echo "⬇️ Downloading Chromedriver $DRIVER_VERSION"
-          wget https://chromedriver.storage.googleapis.com/${DRIVER_VERSION}/chromedriver_linux64.zip
-          unzip chromedriver_linux64.zip
-          chmod +x chromedriver
-          sudo mv chromedriver /usr/local/bin/chromedriver
-
-          echo "✅ Chromedriver version installed:"
-          chromedriver --version
-
-          echo "📦 Installing Python packages..."
-          python -m pip install --upgrade pip
-          pip install selenium pyvirtualdisplay pynacl requests
-
-
-      - name: Run token scraper
-        env:
-          GITHUB_PAT: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-        run: |
-          xvfb-run --auto-servernum python docs/TokenUpdater.py
-
   run-scraper:
-    needs: scrape-token
     runs-on: ubuntu-latest
 
     steps:
@@ -78,7 +23,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run FuelFinderRequests.py
+      - name: Run python script
         env:
           AUTH_TOKEN: ${{ secrets.AUTH_TOKEN }}
         run: |
@@ -88,6 +33,7 @@ jobs:
         run: |
           git config --global user.name 'github-actions'
           git config --global user.email 'github-actions@github.com'
-          git add docs/locations.json docs/FuelFinder.log
+          git add docs/locations.json
+          git add docs/FuelFinder.log
           git commit -m "Update gas data JSON" || echo "No changes to commit"
           git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
