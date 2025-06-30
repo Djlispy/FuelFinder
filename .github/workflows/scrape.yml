@@ -33,7 +33,5 @@ jobs:
         pip install selenium selenium-wire selenium-stealth pynacl requests blinker==1.7.0
 
 
-
-
     - name: Run scraping script
       run: python docs/get_token.py
