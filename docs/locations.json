@@ -8,11 +8,11 @@
     "state": "FL",
     "country": "US",
     "postal_code": "33614-2671",
-    "regular_price": 3.169,
-    "mid_grade_price": 3.669,
-    "premium_price": 3.969,
+    "regular_price": 3.159,
+    "mid_grade_price": 3.659,
+    "premium_price": 3.959,
     "diesel_price": null,
-    "last_updated_label": "9 hours ago"
+    "last_updated_label": "an hour ago"
   },
   {
     "lat": 28.024909,
@@ -23,11 +23,11 @@
     "state": "FL",
     "country": "US",
     "postal_code": "33614-2716",
-    "regular_price": 3.169,
-    "mid_grade_price": 3.669,
-    "premium_price": 3.969,
+    "regular_price": 3.149,
+    "mid_grade_price": 3.649,
+    "premium_price": 3.949,
     "diesel_price": null,
-    "last_updated_label": "22 hours ago"
+    "last_updated_label": "an hour ago"
   },
   {
     "lat": 27.99672,
@@ -42,7 +42,7 @@
     "mid_grade_price": 3.669,
     "premium_price": 3.969,
     "diesel_price": 3.779,
-    "last_updated_label": "13 hours ago"
+    "last_updated_label": "21 hours ago"
   },
   {
     "lat": 27.996703,
@@ -56,8 +56,8 @@
     "regular_price": 3.169,
     "mid_grade_price": 3.669,
     "premium_price": 3.969,
-    "diesel_price": 3.719,
-    "last_updated_label": "11 hours ago"
+    "diesel_price": 3.679,
+    "last_updated_label": "3 hours ago"
   },
   {
     "lat": 28.024982,
@@ -68,11 +68,11 @@
     "state": "FL",
     "country": "US",
     "postal_code": "33604-2752",
-    "regular_price": 3.169,
-    "mid_grade_price": 3.669,
-    "premium_price": 3.969,
+    "regular_price": 3.149,
+    "mid_grade_price": 3.649,
+    "premium_price": 3.949,
     "diesel_price": null,
-    "last_updated_label": "19 hours ago"
+    "last_updated_label": "an hour ago"
   },
   {
     "lat": 27.980903,
@@ -83,26 +83,26 @@
     "state": "FL",
     "country": "US",
     "postal_code": "33607",
-    "regular_price": 3.149,
-    "mid_grade_price": 3.649,
-    "premium_price": 3.949,
+    "regular_price": 3.159,
+    "mid_grade_price": 3.659,
+    "premium_price": 3.959,
     "diesel_price": 3.779,
-    "last_updated_label": "a day ago"
+    "last_updated_label": "an hour ago"
   },
   {
     "lat": 28.02508,
     "lon": -82.46736,
     "address": "824 W Waters Ave",
-    "city": "Tampa",
+    "city": "TAMPA",
     "phone": "8139331682",
     "state": "FL",
     "country": "US",
-    "postal_code": "33604-2946",
-    "regular_price": 3.169,
-    "mid_grade_price": 3.669,
-    "premium_price": 3.969,
+    "postal_code": "336042946",
+    "regular_price": 3.149,
+    "mid_grade_price": 3.649,
+    "premium_price": 3.949,
     "diesel_price": null,
-    "last_updated_label": "19 hours ago"
+    "last_updated_label": "an hour ago"
   },
   {
     "lat": 28.040293,
@@ -113,11 +113,11 @@
     "state": "FL",
     "country": "US",
     "postal_code": "33612-7559",
-    "regular_price": 3.179,
-    "mid_grade_price": 3.679,
-    "premium_price": 3.979,
+    "regular_price": 3.139,
+    "mid_grade_price": 3.639,
+    "premium_price": 3.939,
     "diesel_price": null,
-    "last_updated_label": "8 hours ago"
+    "last_updated_label": "an hour ago"
   },
   {
     "lat": 27.96631,
@@ -128,11 +128,11 @@
     "state": "FL",
     "country": "US",
     "postal_code": "33607-1822",
-    "regular_price": 3.159,
-    "mid_grade_price": 3.659,
-    "premium_price": 3.959,
+    "regular_price": 3.149,
+    "mid_grade_price": 3.649,
+    "premium_price": 3.949,
     "diesel_price": null,
-    "last_updated_label": "14 hours ago"
+    "last_updated_label": "an hour ago"
   },
   {
     "lat": 28.03933,
@@ -143,26 +143,26 @@
     "state": "FL",
     "country": "US",
     "postal_code": "33625-5699",
-    "regular_price": 3.159,
-    "mid_grade_price": 3.659,
-    "premium_price": 3.959,
+    "regular_price": 3.149,
+    "mid_grade_price": 3.649,
+    "premium_price": 3.949,
     "diesel_price": null,
-    "last_updated_label": "12 hours ago"
+    "last_updated_label": "3 hours ago"
   },
   {
     "lat": 27.982201,
     "lon": -82.550907,
     "address": "5001 Memorial Hwy",
-    "city": "Tampa",
+    "city": "TAMPA",
     "phone": "8138856390",
     "state": "FL",
     "country": "US",
-    "postal_code": "33634-7355",
+    "postal_code": "336347355",
     "regular_price": 3.099,
     "mid_grade_price": 3.599,
     "premium_price": 3.899,
     "diesel_price": 3.649,
-    "last_updated_label": "6 hours ago"
+    "last_updated_label": "14 hours ago"
   },
   {
     "lat": 27.98175,
@@ -173,11 +173,11 @@
     "state": "FL",
     "country": "US",
     "postal_code": "33603",
-    "regular_price": 3.099,
-    "mid_grade_price": 3.599,
-    "premium_price": 3.899,
+    "regular_price": 3.089,
+    "mid_grade_price": 3.589,
+    "premium_price": 3.889,
     "diesel_price": 3.779,
-    "last_updated_label": "11 hours ago"
+    "last_updated_label": "an hour ago"
   },
   {
     "lat": 28.04756,
@@ -192,7 +192,7 @@
     "mid_grade_price": 3.589,
     "premium_price": 3.889,
     "diesel_price": 3.779,
-    "last_updated_label": "9 hours ago"
+    "last_updated_label": "17 hours ago"
   },
   {
     "lat": 28.010358,
@@ -203,11 +203,11 @@
     "state": "FL",
     "country": "US",
     "postal_code": "33610-1357",
-    "regular_price": 3.179,
-    "mid_grade_price": 3.679,
-    "premium_price": 3.979,
+    "regular_price": 3.129,
+    "mid_grade_price": 3.629,
+    "premium_price": 3.929,
     "diesel_price": null,
-    "last_updated_label": "10 hours ago"
+    "last_updated_label": "32 minutes ago"
   },
   {
     "lat": 27.952772,
@@ -222,22 +222,22 @@
     "mid_grade_price": 3.669,
     "premium_price": 3.969,
     "diesel_price": null,
-    "last_updated_label": "9 hours ago"
+    "last_updated_label": "17 hours ago"
   },
   {
     "lat": 27.997457,
     "lon": -82.575522,
     "address": "8305 W Hillsborough Ave",
-    "city": "Tampa",
+    "city": "TAMPA",
     "phone": "8138873105",
     "state": "FL",
     "country": "US",
-    "postal_code": "33615-3805",
-    "regular_price": 3.139,
-    "mid_grade_price": 3.639,
-    "premium_price": 3.939,
+    "postal_code": "336153805",
+    "regular_price": 3.119,
+    "mid_grade_price": 3.619,
+    "premium_price": 3.919,
     "diesel_price": null,
-    "last_updated_label": "6 hours ago"
+    "last_updated_label": "an hour ago"
   },
   {
     "lat": 27.9987,
@@ -248,32 +248,32 @@
     "state": "FL",
     "country": "US",
     "postal_code": "33615-3762",
-    "regular_price": 3.139,
-    "mid_grade_price": 3.639,
-    "premium_price": 3.939,
+    "regular_price": 3.119,
+    "mid_grade_price": 3.619,
+    "premium_price": 3.919,
     "diesel_price": null,
-    "last_updated_label": "6 hours ago"
+    "last_updated_label": "an hour ago"
   },
   {
     "lat": 28.08503,
     "lon": -82.51763,
     "address": "4301 Ehrlich Rd",
-    "city": "Tampa",
+    "city": "TAMPA",
     "phone": "8139635728",
     "state": "FL",
     "country": "US",
-    "postal_code": "33624-2201",
-    "regular_price": 3.059,
-    "mid_grade_price": 3.559,
-    "premium_price": 3.859,
+    "postal_code": "336242201",
+    "regular_price": 3.019,
+    "mid_grade_price": 3.519,
+    "premium_price": 3.819,
     "diesel_price": null,
-    "last_updated_label": "6 hours ago"
+    "last_updated_label": "a minute ago"
   },
   {
     "lat": 28.06518,
     "lon": -82.58025,
     "address": "8606 Citrus Park Dr",
-    "city": "Tampa",
+    "city": "TAMPA",
     "phone": "8139206392",
     "state": "FL",
     "country": "US",
@@ -282,7 +282,7 @@
     "mid_grade_price": 3.659,
     "premium_price": 3.959,
     "diesel_price": 3.799,
-    "last_updated_label": "9 hours ago"
+    "last_updated_label": "17 hours ago"
   },
   {
     "lat": 28.032127,
@@ -293,21 +293,21 @@
     "state": "FL",
     "country": "US",
     "postal_code": "33617-6023",
-    "regular_price": 3.169,
-    "mid_grade_price": 3.669,
-    "premium_price": 3.969,
+    "regular_price": 3.139,
+    "mid_grade_price": 3.639,
+    "premium_price": 3.939,
     "diesel_price": null,
-    "last_updated_label": "14 hours ago"
+    "last_updated_label": "2 minutes ago"
   },
   {
     "lat": 27.925806,
     "lon": -82.452532,
     "address": "311 E Davis Blvd",
-    "city": "Tampa",
+    "city": "TAMPA",
     "phone": "8132541359",
     "state": "FL",
     "country": "US",
-    "postal_code": "33606-3730",
+    "postal_code": "336063730",
     "regular_price": 3.039,
     "mid_grade_price": 3.539,
     "premium_price": 3.839,
@@ -318,16 +318,16 @@
     "lat": 28.01136,
     "lon": -82.61032,
     "address": "11292 W Hillsborough Ave",
-    "city": "Tampa",
+    "city": "TAMPA",
     "phone": "7275120779",
     "state": "FL",
     "country": "US",
     "postal_code": "33635",
-    "regular_price": 3.199,
-    "mid_grade_price": 3.699,
-    "premium_price": 3.999,
-    "diesel_price": 3.799,
-    "last_updated_label": "2 days ago"
+    "regular_price": 3.099,
+    "mid_grade_price": 3.609,
+    "premium_price": 3.909,
+    "diesel_price": 3.789,
+    "last_updated_label": "32 minutes ago"
   },
   {
     "lat": 28.020653,
@@ -338,11 +338,11 @@
     "state": "FL",
     "country": "US",
     "postal_code": "33617-7600",
-    "regular_price": 3.169,
-    "mid_grade_price": 3.669,
-    "premium_price": 3.969,
+    "regular_price": 3.139,
+    "mid_grade_price": 3.639,
+    "premium_price": 3.939,
     "diesel_price": null,
-    "last_updated_label": "14 hours ago"
+    "last_updated_label": "a minute ago"
   },
   {
     "lat": 27.99556,
@@ -356,8 +356,8 @@
     "regular_price": 3.189,
     "mid_grade_price": 3.689,
     "premium_price": 3.989,
-    "diesel_price": 3.669,
-    "last_updated_label": "3 hours ago"
+    "diesel_price": 3.659,
+    "last_updated_label": "an hour ago"
   },
   {
     "lat": 27.942626,
@@ -372,7 +372,7 @@
     "mid_grade_price": 3.599,
     "premium_price": 3.899,
     "diesel_price": null,
-    "last_updated_label": "11 hours ago"
+    "last_updated_label": "19 hours ago"
   },
   {
     "lat": 28.06867,
@@ -383,11 +383,11 @@
     "state": "FL",
     "country": "US",
     "postal_code": "33617-1157",
-    "regular_price": 3.159,
-    "mid_grade_price": 3.659,
-    "premium_price": 3.959,
-    "diesel_price": 3.779,
-    "last_updated_label": "2 hours ago"
+    "regular_price": 3.119,
+    "mid_grade_price": 3.619,
+    "premium_price": 3.919,
+    "diesel_price": 3.759,
+    "last_updated_label": "an hour ago"
   },
   {
     "lat": 27.894168,
@@ -398,11 +398,11 @@
     "state": "FL",
     "country": "US",
     "postal_code": "33611-2927",
-    "regular_price": 3.119,
-    "mid_grade_price": 3.619,
-    "premium_price": 3.919,
+    "regular_price": 3.099,
+    "mid_grade_price": 3.599,
+    "premium_price": 3.899,
     "diesel_price": null,
-    "last_updated_label": "17 hours ago"
+    "last_updated_label": "an hour ago"
   },
   {
     "lat": 28.05616,
@@ -413,41 +413,41 @@
     "state": "FL",
     "country": "US",
     "postal_code": "33626",
-    "regular_price": 3.139,
-    "mid_grade_price": 3.639,
-    "premium_price": 3.939,
+    "regular_price": 3.129,
+    "mid_grade_price": 3.629,
+    "premium_price": 3.929,
     "diesel_price": null,
-    "last_updated_label": "10 hours ago"
+    "last_updated_label": "an hour ago"
   },
   {
     "lat": 27.89369,
     "lon": -82.52621,
     "address": "4747 W Gandy Blvd",
-    "city": "Tampa",
+    "city": "TAMPA",
     "phone": "8138379509",
     "state": "FL",
     "country": "US",
     "postal_code": "33611",
-    "regular_price": 3.179,
-    "mid_grade_price": 3.679,
-    "premium_price": 3.979,
+    "regular_price": 3.169,
+    "mid_grade_price": 3.669,
+    "premium_price": 3.969,
     "diesel_price": 3.799,
-    "last_updated_label": "15 hours ago"
+    "last_updated_label": "32 minutes ago"
   },
   {
     "lat": 28.03218,
     "lon": -82.372978,
     "address": "7301 Temple Terrace Hwy",
-    "city": "Temple Terrace",
+    "city": "TEMPLE TERRACE",
     "phone": "8139854178",
     "state": "FL",
     "country": "US",
-    "postal_code": "33637-5705",
-    "regular_price": 3.169,
-    "mid_grade_price": 3.669,
-    "premium_price": 3.969,
+    "postal_code": "336375705",
+    "regular_price": 3.139,
+    "mid_grade_price": 3.639,
+    "premium_price": 3.939,
     "diesel_price": null,
-    "last_updated_label": "14 hours ago"
+    "last_updated_label": "2 minutes ago"
   },
   {
     "lat": 28.054729,
@@ -458,26 +458,26 @@
     "state": "FL",
     "country": "US",
     "postal_code": "33617-1802",
-    "regular_price": 3.099,
-    "mid_grade_price": 3.599,
-    "premium_price": 3.899,
-    "diesel_price": 3.789,
-    "last_updated_label": "4 hours ago"
+    "regular_price": 3.089,
+    "mid_grade_price": 3.589,
+    "premium_price": 3.889,
+    "diesel_price": 3.779,
+    "last_updated_label": "an hour ago"
   },
   {
     "lat": 28.070189,
     "lon": -82.63044,
     "address": "13151 Race Track Rd",
-    "city": "Tampa",
+    "city": "TAMPA",
     "phone": "8138559627",
     "state": "FL",
     "country": "US",
     "postal_code": "33626",
-    "regular_price": 3.139,
-    "mid_grade_price": 3.639,
-    "premium_price": 3.939,
+    "regular_price": 3.129,
+    "mid_grade_price": 3.629,
+    "premium_price": 3.929,
     "diesel_price": null,
-    "last_updated_label": "10 hours ago"
+    "last_updated_label": "58 minutes ago"
   },
   {
     "lat": 28.034129,
@@ -491,14 +491,14 @@
     "regular_price": 3.089,
     "mid_grade_price": 3.589,
     "premium_price": 3.889,
-    "diesel_price": 3.799,
-    "last_updated_label": "10 hours ago"
+    "diesel_price": 3.779,
+    "last_updated_label": "an hour ago"
   },
   {
     "lat": 27.96106,
     "lon": -82.35988,
     "address": "1902 N Us Highway 301",
-    "city": "Tampa",
+    "city": "TAMPA",
     "phone": "8136269598",
     "state": "FL",
     "country": "US",
@@ -518,11 +518,11 @@
     "state": "FL",
     "country": "US",
     "postal_code": "33619-4200",
-    "regular_price": 3.159,
-    "mid_grade_price": 3.659,
-    "premium_price": 3.959,
+    "regular_price": 3.129,
+    "mid_grade_price": 3.629,
+    "premium_price": 3.929,
     "diesel_price": null,
-    "last_updated_label": "15 hours ago"
+    "last_updated_label": "4 hours ago"
   },
   {
     "lat": 28.14406,
@@ -533,77 +533,77 @@
     "state": "FL",
     "country": "US",
     "postal_code": "33549",
-    "regular_price": 3.079,
-    "mid_grade_price": 3.479,
-    "premium_price": 3.829,
-    "diesel_price": 3.719,
-    "last_updated_label": "19 hours ago"
+    "regular_price": 3.059,
+    "mid_grade_price": 3.459,
+    "premium_price": 3.809,
+    "diesel_price": 3.689,
+    "last_updated_label": "3 hours ago"
   },
   {
     "lat": 28.151,
     "lon": -82.493,
     "address": "18902 N Dale Mabry Hwy",
-    "city": "Lutz",
+    "city": "LUTZ",
     "phone": "8139497164",
     "state": "FL",
     "country": "US",
     "postal_code": "33548",
-    "regular_price": 3.059,
-    "mid_grade_price": 3.559,
-    "premium_price": 3.859,
+    "regular_price": 3.019,
+    "mid_grade_price": 3.519,
+    "premium_price": 3.819,
     "diesel_price": null,
-    "last_updated_label": "6 hours ago"
+    "last_updated_label": "7 minutes ago"
   },
   {
     "lat": 27.92218,
     "lon": -82.369276,
     "address": "7711 Causeway Blvd",
-    "city": "Tampa",
+    "city": "TAMPA",
     "phone": "8136268017",
     "state": "FL",
     "country": "US",
-    "postal_code": "33619-5962",
+    "postal_code": "336195962",
     "regular_price": 3.159,
     "mid_grade_price": 3.659,
     "premium_price": 3.959,
     "diesel_price": null,
-    "last_updated_label": "12 hours ago"
+    "last_updated_label": "20 hours ago"
   },
   {
     "lat": 27.94062,
     "lon": -82.35401,
     "address": "1001 S Us Highway 301",
-    "city": "Tampa",
+    "city": "TAMPA",
     "phone": "8136263106",
     "state": "FL",
     "country": "US",
     "postal_code": "33619",
-    "regular_price": 3.159,
-    "mid_grade_price": 3.659,
-    "premium_price": 3.959,
+    "regular_price": 3.129,
+    "mid_grade_price": 3.629,
+    "premium_price": 3.929,
     "diesel_price": null,
-    "last_updated_label": "15 hours ago"
+    "last_updated_label": "4 hours ago"
   },
   {
     "lat": 28.042256,
     "lon": -82.671481,
-    "address": "3855 Tampa Road @ Pine Ave",
-    "city": "Oldsmar",
+    "address": "3855 Tampa Road",
+    "city": "OLDSMAR",
     "phone": "8138187553",
     "state": "FL",
     "country": "US",
-    "postal_code": "34677-3008",
+    "postal_code": "346773008",
     "regular_price": 3.089,
     "mid_grade_price": 3.589,
     "premium_price": 3.889,
     "diesel_price": 3.759,
-    "last_updated_label": "8 hours ago"
+    "last_updated_label": "16 hours ago"
   },
   {
     "lat": 28.118738,
     "lon": -82.378895,
     "address": "5102 Pointe Of Tampa Way",
-    "city": "Tampa",
+    "city": "TAMPA",
     "phone": "8138669524",
     "state": "FL",
     "country": "US",
@@ -627,7 +627,7 @@
     "mid_grade_price": 3.669,
     "premium_price": 3.969,
     "diesel_price": 3.719,
-    "last_updated_label": "10 hours ago"
+    "last_updated_label": "18 hours ago"
   },
   {
     "lat": 27.940751,
@@ -638,11 +638,11 @@
     "state": "FL",
     "country": "US",
     "postal_code": "33619",
-    "regular_price": 3.159,
-    "mid_grade_price": 3.659,
-    "premium_price": 3.959,
-    "diesel_price": 3.699,
-    "last_updated_label": "9 hours ago"
+    "regular_price": 3.129,
+    "mid_grade_price": 3.629,
+    "premium_price": 3.929,
+    "diesel_price": 3.689,
+    "last_updated_label": "2 hours ago"
   },
   {
     "lat": 27.916049,
@@ -657,28 +657,28 @@
     "mid_grade_price": 3.669,
     "premium_price": 3.969,
     "diesel_price": 3.719,
-    "last_updated_label": "10 hours ago"
+    "last_updated_label": "18 hours ago"
   },
   {
     "lat": 28.129456,
     "lon": -82.366028,
-    "address": "17621 Bruce B Downs Blvd @ Richmond Place",
-    "city": "Tampa",
+    "address": "17621 Bruce B Downs Blvd",
+    "city": "TAMPA",
     "phone": "8139710694",
     "state": "FL",
     "country": "US",
-    "postal_code": "33647-2453",
+    "postal_code": "336472453",
     "regular_price": 2.999,
     "mid_grade_price": 3.499,
     "premium_price": 3.799,
     "diesel_price": 3.679,
-    "last_updated_label": "12 hours ago"
+    "last_updated_label": "20 hours ago"
   },
   {
     "lat": 27.86828,
     "lon": -82.62084,
     "address": "10820 Gandy Blvd N",
-    "city": "Saint Petersburg",
+    "city": "SAINT PETERSBURG",
     "phone": "7274390255",
     "state": "FL",
     "country": "US",
@@ -686,29 +686,29 @@
     "regular_price": 3.159,
     "mid_grade_price": 3.659,
     "premium_price": 3.959,
-    "diesel_price": 3.729,
-    "last_updated_label": "2 hours ago"
+    "diesel_price": 3.719,
+    "last_updated_label": "7 minutes ago"
   },
   {
     "lat": 27.877184,
     "lon": -82.639809,
     "address": "11590 4Th St North",
-    "city": "Saint Petersburg",
+    "city": "SAINT PETERSBURG",
     "phone": "7272179156",
     "state": "FL",
     "country": "US",
-    "postal_code": "33716-2943",
+    "postal_code": "337162943",
     "regular_price": 3.159,
     "mid_grade_price": 3.659,
     "premium_price": 3.959,
-    "diesel_price": 3.729,
-    "last_updated_label": "2 hours ago"
+    "diesel_price": 3.719,
+    "last_updated_label": "6 minutes ago"
   },
   {
     "lat": 28.021755,
     "lon": -82.709863,
     "address": "2789 State Road 580",
-    "city": "Clearwater",
+    "city": "CLEARWATER",
     "phone": "7277241624",
     "state": "FL",
     "country": "US",
@@ -728,11 +728,11 @@
     "state": "FL",
     "country": "US",
     "postal_code": "33558",
-    "regular_price": 3.119,
-    "mid_grade_price": 3.619,
-    "premium_price": 3.919,
-    "diesel_price": 3.749,
-    "last_updated_label": "12 hours ago"
+    "regular_price": 3.099,
+    "mid_grade_price": 3.599,
+    "premium_price": 3.899,
+    "diesel_price": 3.699,
+    "last_updated_label": "an hour ago"
   },
   {
     "lat": 28.192078,
@@ -743,32 +743,32 @@
     "state": "FL",
     "country": "US",
     "postal_code": "34639-4907",
-    "regular_price": 3.119,
-    "mid_grade_price": 3.619,
-    "premium_price": 3.919,
-    "diesel_price": 3.719,
-    "last_updated_label": "8 hours ago"
+    "regular_price": 3.099,
+    "mid_grade_price": 3.599,
+    "premium_price": 3.899,
+    "diesel_price": 3.659,
+    "last_updated_label": "an hour ago"
   },
   {
     "lat": 28.19849,
     "lon": -82.4923,
     "address": "19677 State Rd 54",
-    "city": "Lutz",
+    "city": "LUTZ",
     "phone": "8134828488",
     "state": "FL",
     "country": "US",
     "postal_code": "33558",
-    "regular_price": 3.099,
-    "mid_grade_price": 3.599,
-    "premium_price": 3.899,
-    "diesel_price": 3.749,
-    "last_updated_label": "12 hours ago"
+    "regular_price": 3.079,
+    "mid_grade_price": 3.579,
+    "premium_price": 3.879,
+    "diesel_price": 3.699,
+    "last_updated_label": "an hour ago"
   },
   {
     "lat": 27.982095,
     "lon": -82.285363,
     "address": "1606 S Parsons Ave",
-    "city": "Seffner",
+    "city": "SEFFNER",
     "phone": "8136548046",
     "state": "FL",
     "country": "US",
@@ -777,7 +777,7 @@
     "mid_grade_price": 3.639,
     "premium_price": 3.939,
     "diesel_price": null,
-    "last_updated_label": "3 hours ago"
+    "last_updated_label": "11 hours ago"
   },
   {
     "lat": 27.938382,
@@ -792,22 +792,22 @@
     "mid_grade_price": 3.559,
     "premium_price": 3.859,
     "diesel_price": 3.749,
-    "last_updated_label": "10 hours ago"
+    "last_updated_label": "18 hours ago"
   },
   {
     "lat": 28.193206,
     "lon": -82.592854,
     "address": "13440 State Road 54",
-    "city": "Odessa",
+    "city": "ODESSA",
     "phone": "8139264833",
     "state": "FL",
     "country": "US",
-    "postal_code": "33556-3536",
+    "postal_code": "335563536",
     "regular_price": 3.149,
     "mid_grade_price": 3.649,
     "premium_price": 3.949,
     "diesel_price": 3.769,
-    "last_updated_label": "7 hours ago"
+    "last_updated_label": "4 hours ago"
   },
   {
     "lat": 27.848159,
@@ -818,11 +818,11 @@
     "state": "FL",
     "country": "US",
     "postal_code": "33702",
-    "regular_price": 3.179,
-    "mid_grade_price": 3.679,
-    "premium_price": 3.979,
-    "diesel_price": 3.789,
-    "last_updated_label": "18 hours ago"
+    "regular_price": 3.169,
+    "mid_grade_price": 3.669,
+    "premium_price": 3.969,
+    "diesel_price": 3.729,
+    "last_updated_label": "7 minutes ago"
   },
   {
     "lat": 28.194579,
@@ -837,22 +837,22 @@
     "mid_grade_price": 3.649,
     "premium_price": 3.949,
     "diesel_price": 3.769,
-    "last_updated_label": "7 hours ago"
+    "last_updated_label": "15 hours ago"
   },
   {
     "lat": 28.066818,
     "lon": -82.72274,
     "address": "3398 Tampa Road",
-    "city": "Palm Harbor",
+    "city": "PALM HARBOR",
     "phone": "7277711720",
     "state": "FL",
     "country": "US",
-    "postal_code": "34684-3425",
+    "postal_code": "346843425",
     "regular_price": 3.049,
     "mid_grade_price": 3.549,
     "premium_price": 3.849,
     "diesel_price": null,
-    "last_updated_label": "12 hours ago"
+    "last_updated_label": "20 hours ago"
   },
   {
     "lat": 27.848348,
@@ -863,26 +863,26 @@
     "state": "FL",
     "country": "US",
     "postal_code": "33702",
-    "regular_price": 3.179,
-    "mid_grade_price": 3.679,
-    "premium_price": 3.979,
-    "diesel_price": 3.789,
-    "last_updated_label": "12 hours ago"
+    "regular_price": 3.169,
+    "mid_grade_price": 3.669,
+    "premium_price": 3.969,
+    "diesel_price": 3.729,
+    "last_updated_label": "7 minutes ago"
   },
   {
     "lat": 27.92123,
     "lon": -82.29445,
     "address": "1020 S Kings Ave",
-    "city": "Brandon",
+    "city": "BRANDON",
     "phone": "8136512611",
     "state": "FL",
     "country": "US",
-    "postal_code": "33511-6206",
+    "postal_code": "335116206",
     "regular_price": 3.099,
     "mid_grade_price": 3.599,
     "premium_price": 3.899,
     "diesel_price": null,
-    "last_updated_label": "11 hours ago"
+    "last_updated_label": "19 hours ago"
   },
   {
     "lat": 27.954859,
@@ -893,17 +893,17 @@
     "state": "FL",
     "country": "US",
     "postal_code": "33764",
-    "regular_price": 3.159,
-    "mid_grade_price": 3.659,
-    "premium_price": 3.959,
+    "regular_price": 2.999,
+    "mid_grade_price": 3.499,
+    "premium_price": 3.799,
     "diesel_price": null,
-    "last_updated_label": "12 hours ago"
+    "last_updated_label": "an hour ago"
   },
   {
     "lat": 28.126163,
     "lon": -82.69774,
-    "address": "1290 East Lake Rd S Ridge Line Blvd",
-    "city": "Tarpon Springs",
+    "address": "1290 East Lake Rd S",
+    "city": "TARPON SPRINGS",
     "phone": "7279421048",
     "state": "FL",
     "country": "US",
@@ -912,22 +912,22 @@
     "mid_grade_price": 3.579,
     "premium_price": 3.879,
     "diesel_price": null,
-    "last_updated_label": "10 hours ago"
+    "last_updated_label": "18 hours ago"
   },
   {
     "lat": 27.916667,
     "lon": -82.714297,
     "address": "2980 Roosevelt Blvd",
-    "city": "Clearwater",
+    "city": "CLEARWATER",
     "phone": "7273304139",
     "state": "FL",
     "country": "US",
-    "postal_code": "33760-0000",
+    "postal_code": "337600000",
     "regular_price": 3.099,
     "mid_grade_price": 3.599,
     "premium_price": 3.899,
     "diesel_price": 3.729,
-    "last_updated_label": "10 hours ago"
+    "last_updated_label": "18 hours ago"
   },
   {
     "lat": 28.18542,
@@ -942,7 +942,7 @@
     "mid_grade_price": 3.649,
     "premium_price": 3.949,
     "diesel_price": 3.769,
-    "last_updated_label": "7 hours ago"
+    "last_updated_label": "15 hours ago"
   },
   {
     "lat": 28.219139,
@@ -953,11 +953,11 @@
     "state": "FL",
     "country": "US",
     "postal_code": "34639",
-    "regular_price": 3.119,
-    "mid_grade_price": 3.619,
-    "premium_price": 3.919,
+    "regular_price": 3.099,
+    "mid_grade_price": 3.599,
+    "premium_price": 3.899,
     "diesel_price": 3.689,
-    "last_updated_label": "10 hours ago"
+    "last_updated_label": "an hour ago"
   },
   {
     "lat": 27.938364,
@@ -968,11 +968,11 @@
     "state": "FL",
     "country": "US",
     "postal_code": "33511",
-    "regular_price": 3.049,
-    "mid_grade_price": 3.549,
-    "premium_price": 3.849,
-    "diesel_price": 3.649,
-    "last_updated_label": "5 hours ago"
+    "regular_price": 3.039,
+    "mid_grade_price": 3.539,
+    "premium_price": 3.839,
+    "diesel_price": 3.629,
+    "last_updated_label": "an hour ago"
   },
   {
     "lat": 28.01995,
@@ -1002,13 +1002,13 @@
     "mid_grade_price": 3.599,
     "premium_price": 3.899,
     "diesel_price": null,
-    "last_updated_label": "12 hours ago"
+    "last_updated_label": "20 hours ago"
   },
   {
     "lat": 27.968372,
     "lon": -82.745475,
-    "address": "205 N Belcher Rd @ Drew",
-    "city": "Clearwater",
+    "address": "205 N Belcher Rd",
+    "city": "CLEARWATER",
     "phone": "7277930109",
     "state": "FL",
     "country": "US",
@@ -1017,13 +1017,13 @@
     "mid_grade_price": 3.529,
     "premium_price": 3.829,
     "diesel_price": null,
-    "last_updated_label": "16 hours ago"
+    "last_updated_label": "a day ago"
   },
   {
     "lat": 27.855729,
     "lon": -82.327479,
-    "address": "9817 Us 301 Gibsonton Rd",
-    "city": "Riverview",
+    "address": "9817 Us 301",
+    "city": "RIVERVIEW",
     "phone": "8134397701",
     "state": "FL",
     "country": "US",
@@ -1032,7 +1032,7 @@
     "mid_grade_price": 3.639,
     "premium_price": 3.939,
     "diesel_price": null,
-    "last_updated_label": "14 hours ago"
+    "last_updated_label": "22 hours ago"
   },
   {
     "lat": 27.98951,
@@ -1047,7 +1047,7 @@
     "mid_grade_price": 3.649,
     "premium_price": 3.949,
     "diesel_price": 3.759,
-    "last_updated_label": "7 hours ago"
+    "last_updated_label": "15 hours ago"
   },
   {
     "lat": 27.937113,
@@ -1058,17 +1058,17 @@
     "state": "FL",
     "country": "US",
     "postal_code": "33511",
-    "regular_price": 3.049,
-    "mid_grade_price": 3.549,
-    "premium_price": 3.849,
+    "regular_price": 3.039,
+    "mid_grade_price": 3.539,
+    "premium_price": 3.839,
     "diesel_price": null,
-    "last_updated_label": "5 hours ago"
+    "last_updated_label": "an hour ago"
   },
   {
     "lat": 28.193271,
     "lon": -82.354454,
     "address": "2525 Bruce B Downs Blvd",
-    "city": "Wesley Chapel",
+    "city": "WESLEY CHAPEL",
     "phone": "8139949599",
     "state": "FL",
     "country": "US",
@@ -1077,7 +1077,7 @@
     "mid_grade_price": 3.339,
     "premium_price": 3.639,
     "diesel_price": 3.779,
-    "last_updated_label": "12 hours ago"
+    "last_updated_label": "20 hours ago"
   },
   {
     "lat": 27.961026,
@@ -1092,7 +1092,7 @@
     "mid_grade_price": 3.499,
     "premium_price": 3.799,
     "diesel_price": null,
-    "last_updated_label": "16 hours ago"
+    "last_updated_label": "a day ago"
   },
   {
     "lat": 27.894215,
@@ -1103,26 +1103,26 @@
     "state": "FL",
     "country": "US",
     "postal_code": "33771",
-    "regular_price": 3.179,
-    "mid_grade_price": 3.679,
-    "premium_price": 3.979,
+    "regular_price": 3.099,
+    "mid_grade_price": 3.599,
+    "premium_price": 3.899,
     "diesel_price": 3.759,
-    "last_updated_label": "15 hours ago"
+    "last_updated_label": "an hour ago"
   },
   {
     "lat": 28.021916,
     "lon": -82.24365,
     "address": "12902 Newsome Rd",
-    "city": "Dover",
+    "city": "DOVER",
     "phone": "8136593990",
     "state": "FL",
     "country": "US",
-    "postal_code": "33527-4133",
+    "postal_code": "335274133",
     "regular_price": 3.179,
     "mid_grade_price": 3.679,
     "premium_price": 3.979,
     "diesel_price": 3.699,
-    "last_updated_label": "10 hours ago"
+    "last_updated_label": "18 hours ago"
   },
   {
     "lat": 27.839217,
@@ -1133,17 +1133,17 @@
     "state": "FL",
     "country": "US",
     "postal_code": "33781",
-    "regular_price": 3.159,
-    "mid_grade_price": 3.659,
-    "premium_price": 3.959,
-    "diesel_price": 3.679,
-    "last_updated_label": "12 hours ago"
+    "regular_price": 3.149,
+    "mid_grade_price": 3.649,
+    "premium_price": 3.949,
+    "diesel_price": 3.659,
+    "last_updated_label": "7 minutes ago"
   },
   {
     "lat": 28.055585,
     "lon": -82.764468,
     "address": "801 County Road 1",
-    "city": "Dunedin",
+    "city": "DUNEDIN",
     "phone": "7277334201",
     "state": "FL",
     "country": "US",
@@ -1152,7 +1152,7 @@
     "mid_grade_price": 3.599,
     "premium_price": 3.899,
     "diesel_price": null,
-    "last_updated_label": "12 hours ago"
+    "last_updated_label": "20 hours ago"
   },
   {
     "lat": 27.967541,
@@ -1167,13 +1167,13 @@
     "mid_grade_price": 3.499,
     "premium_price": 3.799,
     "diesel_price": null,
-    "last_updated_label": "13 hours ago"
+    "last_updated_label": "21 hours ago"
   },
   {
     "lat": 27.854042,
     "lon": -82.301394,
     "address": "10016 Mcmullen Rd",
-    "city": "Riverview",
+    "city": "RIVERVIEW",
     "phone": "8136714097",
     "state": "FL",
     "country": "US",
@@ -1181,23 +1181,23 @@
     "regular_price": 3.159,
     "mid_grade_price": 3.659,
     "premium_price": 3.959,
-    "diesel_price": 3.669,
-    "last_updated_label": "15 hours ago"
+    "diesel_price": 3.639,
+    "last_updated_label": "an hour ago"
   },
   {
     "lat": 27.878772,
     "lon": -82.728321,
     "address": "11787 66Th Street N",
-    "city": "Largo",
+    "city": "LARGO",
     "phone": "7275091194",
     "state": "FL",
     "country": "US",
     "postal_code": "33773",
-    "regular_price": 3.179,
-    "mid_grade_price": 3.679,
-    "premium_price": 3.979,
+    "regular_price": 3.099,
+    "mid_grade_price": 3.599,
+    "premium_price": 3.899,
     "diesel_price": 3.759,
-    "last_updated_label": "15 hours ago"
+    "last_updated_label": "an hour ago"
   },
   {
     "lat": 28.191944,
@@ -1212,7 +1212,7 @@
     "mid_grade_price": 3.339,
     "premium_price": 3.639,
     "diesel_price": 3.599,
-    "last_updated_label": "12 hours ago"
+    "last_updated_label": "20 hours ago"
   },
   {
     "lat": 28.067768,
@@ -1227,22 +1227,22 @@
     "mid_grade_price": 3.579,
     "premium_price": 3.879,
     "diesel_price": null,
-    "last_updated_label": "17 hours ago"
+    "last_updated_label": "a day ago"
   },
   {
     "lat": 28.206736,
     "lon": -82.665521,
-    "address": "9023 State Road 54 @ Little Road",
-    "city": "New Port Richey",
+    "address": "9023 State Road 54",
+    "city": "NEW PORT RICHEY",
     "phone": "7278084256",
     "state": "FL",
     "country": "US",
-    "postal_code": "34655-1861",
+    "postal_code": "346551861",
     "regular_price": 3.149,
     "mid_grade_price": 3.649,
     "premium_price": 3.949,
     "diesel_price": 3.769,
-    "last_updated_label": "11 hours ago"
+    "last_updated_label": "18 hours ago"
   },
   {
     "lat": 27.79198,
@@ -1257,7 +1257,7 @@
     "mid_grade_price": 3.489,
     "premium_price": 3.839,
     "diesel_price": 3.599,
-    "last_updated_label": "5 hours ago"
+    "last_updated_label": "13 hours ago"
   },
   {
     "lat": 27.798983,
@@ -1268,11 +1268,11 @@
     "state": "FL",
     "country": "US",
     "postal_code": "33704-2518",
-    "regular_price": 3.169,
-    "mid_grade_price": 3.669,
-    "premium_price": 3.969,
+    "regular_price": 3.149,
+    "mid_grade_price": 3.649,
+    "premium_price": 3.949,
     "diesel_price": null,
-    "last_updated_label": "12 hours ago"
+    "last_updated_label": "an hour ago"
   },
   {
     "lat": 27.791654,
@@ -1283,11 +1283,11 @@
     "state": "FL",
     "country": "US",
     "postal_code": "33704-3204",
-    "regular_price": 3.169,
-    "mid_grade_price": 3.669,
-    "premium_price": 3.969,
+    "regular_price": 3.149,
+    "mid_grade_price": 3.649,
+    "premium_price": 3.949,
     "diesel_price": null,
-    "last_updated_label": "16 hours ago"
+    "last_updated_label": "an hour ago"
   },
   {
     "lat": 28.194057,
@@ -1302,7 +1302,7 @@
     "mid_grade_price": 3.659,
     "premium_price": 3.959,
     "diesel_price": null,
-    "last_updated_label": "14 hours ago"
+    "last_updated_label": "21 hours ago"
   },
   {
     "lat": 27.89379,
@@ -1313,11 +1313,11 @@
     "state": "FL",
     "country": "US",
     "postal_code": "33771",
-    "regular_price": 3.199,
-    "mid_grade_price": 3.699,
-    "premium_price": 3.999,
+    "regular_price": 3.099,
+    "mid_grade_price": 3.599,
+    "premium_price": 3.899,
     "diesel_price": 3.759,
-    "last_updated_label": "16 hours ago"
+    "last_updated_label": "an hour ago"
   },
   {
     "lat": 28.238856,
@@ -1332,7 +1332,7 @@
     "mid_grade_price": 3.469,
     "premium_price": 3.769,
     "diesel_price": null,
-    "last_updated_label": "11 hours ago"
+    "last_updated_label": "3 hours ago"
   },
   {
     "lat": 27.85282,
@@ -1347,37 +1347,37 @@
     "mid_grade_price": 3.659,
     "premium_price": 3.959,
     "diesel_price": null,
-    "last_updated_label": "15 hours ago"
+    "last_updated_label": "23 hours ago"
   },
   {
     "lat": 27.937055,
     "lon": -82.220011,
     "address": "3629 E State Road 60",
-    "city": "Valrico",
+    "city": "VALRICO",
     "phone": "8136574648",
     "state": "FL",
     "country": "US",
     "postal_code": "33594",
-    "regular_price": 3.119,
-    "mid_grade_price": 3.619,
-    "premium_price": 3.919,
+    "regular_price": 3.049,
+    "mid_grade_price": 3.549,
+    "premium_price": 3.849,
     "diesel_price": null,
-    "last_updated_label": "13 hours ago"
+    "last_updated_label": "45 minutes ago"
   },
   {
     "lat": 27.791485,
     "lon": -82.33411,
     "address": "13220 Us Highway 301 S",
-    "city": "Riverview",
+    "city": "RIVERVIEW",
     "phone": "8136723842",
     "state": "FL",
     "country": "US",
     "postal_code": "33578",
-    "regular_price": 3.099,
-    "mid_grade_price": 3.599,
-    "premium_price": 3.899,
-    "diesel_price": 3.639,
-    "last_updated_label": "11 hours ago"
+    "regular_price": 3.069,
+    "mid_grade_price": 3.569,
+    "premium_price": 3.869,
+    "diesel_price": 3.599,
+    "last_updated_label": "an hour ago"
   },
   {
     "lat": 27.9615,
@@ -1392,7 +1392,7 @@
     "mid_grade_price": 3.499,
     "premium_price": 3.799,
     "diesel_price": null,
-    "last_updated_label": "16 hours ago"
+    "last_updated_label": "a day ago"
   },
   {
     "lat": 28.216363,
@@ -1407,7 +1407,7 @@
     "mid_grade_price": 3.629,
     "premium_price": 3.929,
     "diesel_price": null,
-    "last_updated_label": "14 hours ago"
+    "last_updated_label": "22 hours ago"
   },
   {
     "lat": 27.917174,
@@ -1418,11 +1418,11 @@
     "state": "FL",
     "country": "US",
     "postal_code": "33770",
-    "regular_price": 3.099,
-    "mid_grade_price": 3.599,
-    "premium_price": 3.899,
+    "regular_price": 3.049,
+    "mid_grade_price": 3.549,
+    "premium_price": 3.849,
     "diesel_price": null,
-    "last_updated_label": "7 hours ago"
+    "last_updated_label": "an hour ago"
   },
   {
     "lat": 28.177869,
@@ -1437,7 +1437,7 @@
     "mid_grade_price": 3.589,
     "premium_price": 3.889,
     "diesel_price": 3.699,
-    "last_updated_label": "8 hours ago"
+    "last_updated_label": "32 minutes ago"
   },
   {
     "lat": 28.22546,
@@ -1452,7 +1452,7 @@
     "mid_grade_price": 3.629,
     "premium_price": 3.929,
     "diesel_price": 3.739,
-    "last_updated_label": "14 hours ago"
+    "last_updated_label": "22 hours ago"
   },
   {
     "lat": 28.175628,
@@ -1466,14 +1466,14 @@
     "regular_price": 3.059,
     "mid_grade_price": 3.559,
     "premium_price": 3.859,
-    "diesel_price": 3.769,
-    "last_updated_label": "12 hours ago"
+    "diesel_price": 3.699,
+    "last_updated_label": "32 minutes ago"
   },
   {
     "lat": 27.77696,
     "lon": -82.67874,
     "address": "475 34Th St N",
-    "city": "Saint Petersburg",
+    "city": "SAINT PETERSBURG",
     "phone": "7273177982",
     "state": "FL",
     "country": "US",
@@ -1482,13 +1482,13 @@
     "mid_grade_price": 3.649,
     "premium_price": 3.949,
     "diesel_price": null,
-    "last_updated_label": "5 hours ago"
+    "last_updated_label": "13 hours ago"
   },
   {
     "lat": 28.289391,
     "lon": -82.489436,
     "address": "9077 Land O' Lakes Blvd",
-    "city": "Land O' Lakes",
+    "city": "LAND O' LAKES",
     "phone": "8135276721",
     "state": "FL",
     "country": "US",
@@ -1497,7 +1497,7 @@
     "mid_grade_price": 3.619,
     "premium_price": 3.919,
     "diesel_price": 3.689,
-    "last_updated_label": "9 hours ago"
+    "last_updated_label": "4 hours ago"
   },
   {
     "lat": 27.801737,
@@ -1508,56 +1508,56 @@
     "state": "FL",
     "country": "US",
     "postal_code": "33569",
-    "regular_price": 3.139,
-    "mid_grade_price": 3.489,
-    "premium_price": 3.789,
-    "diesel_price": 3.699,
-    "last_updated_label": "a day ago"
+    "regular_price": 3.069,
+    "mid_grade_price": 3.419,
+    "premium_price": 3.719,
+    "diesel_price": 3.599,
+    "last_updated_label": "27 minutes ago"
   },
   {
     "lat": 27.767765,
     "lon": -82.335806,
     "address": "14361 Us-301",
-    "city": "Wimauma",
+    "city": "WIMAUMA",
     "phone": "8135908367",
     "state": "FL",
     "country": "US",
     "postal_code": "33598",
-    "regular_price": 3.119,
-    "mid_grade_price": 3.619,
-    "premium_price": 3.919,
-    "diesel_price": 3.659,
-    "last_updated_label": "11 hours ago"
+    "regular_price": 3.089,
+    "mid_grade_price": 3.589,
+    "premium_price": 3.889,
+    "diesel_price": 3.619,
+    "last_updated_label": "an hour ago"
   },
   {
     "lat": 27.841434,
     "lon": -82.762864,
     "address": "7612 Starkey Rd",
-    "city": "Seminole",
+    "city": "SEMINOLE",
     "phone": "7273930918",
     "state": "FL",
     "country": "US",
-    "postal_code": "33777-4304",
-    "regular_price": 3.139,
-    "mid_grade_price": 3.639,
-    "premium_price": 3.939,
+    "postal_code": "337774304",
+    "regular_price": 3.099,
+    "mid_grade_price": 3.599,
+    "premium_price": 3.899,
     "diesel_price": null,
-    "last_updated_label": "5 hours ago"
+    "last_updated_label": "an hour ago"
   },
   {
     "lat": 28.273502,
     "lon": -82.624035,
-    "address": "8018 Moon Lake Road @ Ridge Road",
-    "city": "New Port Richey",
+    "address": "8018 Moon Lake Road",
+    "city": "NEW PORT RICHEY",
     "phone": "7278563443",
     "state": "FL",
     "country": "US",
-    "postal_code": "34654-5303",
-    "regular_price": 3.149,
-    "mid_grade_price": 3.649,
-    "premium_price": 3.949,
+    "postal_code": "346545303",
+    "regular_price": 3.129,
+    "mid_grade_price": 3.629,
+    "premium_price": 3.929,
     "diesel_price": 3.779,
-    "last_updated_label": "9 hours ago"
+    "last_updated_label": "2 hours ago"
   },
   {
     "lat": 28.22466,
@@ -1572,7 +1572,7 @@
     "mid_grade_price": 3.599,
     "premium_price": 3.899,
     "diesel_price": null,
-    "last_updated_label": "12 hours ago"
+    "last_updated_label": "20 hours ago"
   },
   {
     "lat": 27.86566,
@@ -1583,11 +1583,11 @@
     "state": "FL",
     "country": "US",
     "postal_code": "33778",
-    "regular_price": 3.179,
-    "mid_grade_price": 3.679,
-    "premium_price": 3.979,
-    "diesel_price": 3.759,
-    "last_updated_label": "5 hours ago"
+    "regular_price": 3.139,
+    "mid_grade_price": 3.639,
+    "premium_price": 3.939,
+    "diesel_price": 3.699,
+    "last_updated_label": "2 minutes ago"
   },
   {
     "lat": 28.209306,
@@ -1602,7 +1602,7 @@
     "mid_grade_price": 3.659,
     "premium_price": 3.959,
     "diesel_price": null,
-    "last_updated_label": "14 hours ago"
+    "last_updated_label": "22 hours ago"
   },
   {
     "lat": 28.258354,
@@ -1613,32 +1613,32 @@
     "state": "FL",
     "country": "US",
     "postal_code": "34655-1010",
-    "regular_price": 3.129,
-    "mid_grade_price": 3.629,
-    "premium_price": 3.929,
+    "regular_price": 3.099,
+    "mid_grade_price": 3.599,
+    "premium_price": 3.899,
     "diesel_price": null,
-    "last_updated_label": "12 hours ago"
+    "last_updated_label": "3 hours ago"
   },
   {
     "lat": 27.8807,
     "lon": -82.798263,
     "address": "11505 Walsingham Road",
-    "city": "Largo",
+    "city": "LARGO",
     "phone": "7275864029",
     "state": "FL",
     "country": "US",
-    "postal_code": "33778-2528",
-    "regular_price": 3.199,
-    "mid_grade_price": 3.699,
-    "premium_price": 3.999,
+    "postal_code": "337782528",
+    "regular_price": 3.159,
+    "mid_grade_price": 3.659,
+    "premium_price": 3.959,
     "diesel_price": null,
-    "last_updated_label": "5 hours ago"
+    "last_updated_label": "7 minutes ago"
   },
   {
     "lat": 27.734155,
     "lon": -82.393209,
     "address": "3017 19Th Avenue Ne",
-    "city": "Ruskin",
+    "city": "RUSKIN",
     "phone": "8136416227",
     "state": "FL",
     "country": "US",
@@ -1647,7 +1647,7 @@
     "mid_grade_price": 3.619,
     "premium_price": 3.919,
     "diesel_price": 3.749,
-    "last_updated_label": "3 hours ago"
+    "last_updated_label": "11 hours ago"
   },
   {
     "lat": 28.22398,
@@ -1662,13 +1662,13 @@
     "mid_grade_price": 3.659,
     "premium_price": 3.959,
     "diesel_price": 3.739,
-    "last_updated_label": "14 hours ago"
+    "last_updated_label": "22 hours ago"
   },
   {
     "lat": 28.250205,
     "lon": -82.699791,
-    "address": "6315 Rowan Rd @ Nebraska",
-    "city": "New Port Richey",
+    "address": "6315 Rowan Rd",
+    "city": "NEW PORT RICHEY",
     "phone": "7278169530",
     "state": "FL",
     "country": "US",
@@ -1677,13 +1677,13 @@
     "mid_grade_price": 3.569,
     "premium_price": 3.869,
     "diesel_price": null,
-    "last_updated_label": "7 hours ago"
+    "last_updated_label": "15 hours ago"
   },
   {
     "lat": 27.719967,
     "lon": -82.40275,
     "address": "2371 E Shell Point Road",
-    "city": "Ruskin",
+    "city": "RUSKIN",
     "phone": "3526811336",
     "state": "FL",
     "country": "US",
@@ -1692,7 +1692,7 @@
     "mid_grade_price": 3.619,
     "premium_price": 3.919,
     "diesel_price": 3.749,
-    "last_updated_label": "4 hours ago"
+    "last_updated_label": "12 hours ago"
   },
   {
     "lat": 27.879782,
@@ -1707,13 +1707,13 @@
     "mid_grade_price": 3.699,
     "premium_price": 3.999,
     "diesel_price": null,
-    "last_updated_label": "13 hours ago"
+    "last_updated_label": "3 hours ago"
   },
   {
     "lat": 28.2728,
     "lon": -82.31962,
     "address": "30052 Overpass Rd",
-    "city": "Wesley Chapel",
+    "city": "WESLEY CHAPEL",
     "phone": "3528381956",
     "state": "FL",
     "country": "US",
@@ -1722,22 +1722,22 @@
     "mid_grade_price": 3.469,
     "premium_price": 3.769,
     "diesel_price": 3.739,
-    "last_updated_label": "5 hours ago"
+    "last_updated_label": "13 hours ago"
   },
   {
     "lat": 28.21924,
     "lon": -82.24569,
     "address": "34511 Pure Water Way",
-    "city": "Zephyrhills",
+    "city": "ZEPHYRHILLS",
     "phone": "8137024050",
     "state": "FL",
     "country": "US",
     "postal_code": "33541",
-    "regular_price": 3.019,
-    "mid_grade_price": 3.519,
-    "premium_price": 3.819,
+    "regular_price": 2.999,
+    "mid_grade_price": 3.499,
+    "premium_price": 3.799,
     "diesel_price": 3.749,
-    "last_updated_label": "5 hours ago"
+    "last_updated_label": "an hour ago"
   },
   {
     "lat": 28.25061,
@@ -1752,7 +1752,7 @@
     "mid_grade_price": 3.599,
     "premium_price": 3.899,
     "diesel_price": 3.739,
-    "last_updated_label": "12 hours ago"
+    "last_updated_label": "20 hours ago"
   },
   {
     "lat": 28.292164,
@@ -1767,7 +1767,7 @@
     "mid_grade_price": 3.499,
     "premium_price": 3.799,
     "diesel_price": 3.759,
-    "last_updated_label": "9 hours ago"
+    "last_updated_label": "17 hours ago"
   },
   {
     "lat": 28.281193,
@@ -1778,10 +1778,10 @@
     "state": "FL",
     "country": "US",
     "postal_code": "34668",
-    "regular_price": 3.089,
-    "mid_grade_price": 3.589,
-    "premium_price": 3.889,
+    "regular_price": 3.069,
+    "mid_grade_price": 3.569,
+    "premium_price": 3.869,
     "diesel_price": null,
-    "last_updated_label": "12 hours ago"
+    "last_updated_label": "3 hours ago"
   }
 ]
