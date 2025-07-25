@@ -2,17 +2,6 @@
 
 **FuelFinder** is a full-stack web application that helps users find nearby gas stations and view updated fuel prices. Built with **Python** and **Javascript**, it offers a sleek, modern UI with updated location and fuel data integration.
 
-## 📸 Preview
-
-<div align="center">
-
-### 🖥️ Desktop View  
-<img src="docs/static/assets/FuelFinder-Preview-Desktop.png" alt="FuelFinder Desktop Preview" width="80%" />
-
-### 📱 Mobile View  
-<img src="docs/static/assets/FuelFinder-Preview-Mobile.jpg" alt="FuelFinder Mobile Preview" width="300px" />
-
-</div>
 
 🔗 **Live Site**: [https://djlispy.github.io/FuelFinder/](https://djlispy.github.io/FuelFinder/)
 
@@ -21,3 +10,16 @@
 - 💰 **Live Fuel Prices** — Up-to-date pricing information from original sources
 - 🧾 **Station Details** — Name, address, fuel types, and more
 - 💻 **Responsive Design** — Optimized for both desktop and mobile
+
+
+## 📸 Preview
+
+<div align="center">
+
+### 🖥️ Desktop View  
+<img src="docs/static/assets/FuelFinder-Preview-Desktop.png" alt="FuelFinder Desktop Preview" width="80%" style="border-radius: 20px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);"/>
+
+### 📱 Mobile View  
+<img src="docs/static/assets/FuelFinder-Preview-Mobile.jpg" alt="FuelFinder Mobile Preview" width="300px" style="border-radius: 20px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);"/>
+
+</div>
