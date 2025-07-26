@@ -7,82 +7,85 @@
     <title>FuelFinder</title>
     <link rel="stylesheet" href="static/css/styles.css">
 
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
-    crossorigin=""/>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
 
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
-    crossorigin=""></script>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 
-    <meta name="google-site-verification" content="MGiOxkUw46kQsxSCjEFJECC6HOjFpF9BB82hobNbJNk" />
+    <meta name="google-site-verification" content="MGiOxkUw46kQsxSCjEFJECC6HOjFpF9BB82hobNbJNk">
 </head>
 <body>
 
 <main>
-  <div class="map-bubble-wrapper">
+
+<div class="map-bubble-wrapper">
     <div class="map-container">
-      <div id="map"></div>
+    <div id="map"></div>
       
-      <!-- Desktop fuel buttons (below map) -->
-      <div id="desktop-fuel-selector" class="fuel-buttons-row desktop-only">
-        <button data-fuel="regular_price">
-          <img src="https://www.7-eleven.com/assets/img/store-locator/fuel.svg" alt="Gas" width="16" height="16" />
-          Regular
-        </button>
-        <button data-fuel="premium_price">
-          <img src="https://www.7-eleven.com/assets/img/store-locator/fuel.svg" alt="Gas" width="16" height="16" />
-          Premium
-        </button>
-        <button data-fuel="mid_grade_price">
-          <img src="https://www.7-eleven.com/assets/img/store-locator/fuel.svg" alt="Gas" width="16" height="16" />
-          Mid-Grade
-        </button>
-        <button data-fuel="diesel_price">
-          <img src="https://www.7-eleven.com/assets/img/store-locator/fuel.svg" alt="Gas" width="16" height="16" />
-          Diesel
-        </button>
-      </div>
+        <!-- Desktop fuel buttons (below map) -->
+        <div id="desktop-fuel-selector" class="fuel-buttons-row desktop-only">
+
+            <button data-fuel="regular_price">
+            <img src="https://www.7-eleven.com/assets/img/store-locator/fuel.svg" alt="Gas" width="16" height="16">
+            Regular
+            </button>
+
+            <button data-fuel="premium_price">
+            <img src="https://www.7-eleven.com/assets/img/store-locator/fuel.svg" alt="Gas" width="16" height="16">
+            Premium
+            </button>
+
+            <button data-fuel="mid_grade_price">
+            <img src="https://www.7-eleven.com/assets/img/store-locator/fuel.svg" alt="Gas" width="16" height="16">
+            Mid-Grade
+            </button>
+
+            <button data-fuel="diesel_price">
+            <img src="https://www.7-eleven.com/assets/img/store-locator/fuel.svg" alt="Gas" width="16" height="16">
+            Diesel
+            </button>
+        </div>
     </div>
 
     <!-- Bubbles + Buttons section -->
     <div class="right-column">
       <!-- Mobile fuel buttons (in right column) -->
-      <div id="fuel-selector" class="fuel-buttons-row mobile-only">
+        <div id="fuel-selector" class="fuel-buttons-row mobile-only">
+
         <button data-fuel="regular_price">
-          <img src="https://www.7-eleven.com/assets/img/store-locator/fuel.svg" alt="Gas" width="10" height="10" />
-          Regular
+        <img src="https://www.7-eleven.com/assets/img/store-locator/fuel.svg" alt="Gas" width="10" height="10">
+        Regular
         </button>
+
         <button data-fuel="premium_price">
-          <img src="https://www.7-eleven.com/assets/img/store-locator/fuel.svg" alt="Gas" width="10" height="10" />
-          Premium
+        <img src="https://www.7-eleven.com/assets/img/store-locator/fuel.svg" alt="Gas" width="10" height="10">
+        Premium
         </button>
+
         <button data-fuel="mid_grade_price">
-          <img src="https://www.7-eleven.com/assets/img/store-locator/fuel.svg" alt="Gas" width="10" height="10" />
-          Mid-Grade
+        <img src="https://www.7-eleven.com/assets/img/store-locator/fuel.svg" alt="Gas" width="10" height="10">
+        Mid-Grade
         </button>
+
         <button data-fuel="diesel_price">
-          <img src="https://www.7-eleven.com/assets/img/store-locator/fuel.svg" alt="Gas" width="10" height="10" />
-          Diesel
+        <img src="https://www.7-eleven.com/assets/img/store-locator/fuel.svg" alt="Gas" width="10" height="10">
+        Diesel
         </button>
-      </div>
 
-      <div class="bubble-section">
-        <div id="cheapest-regular" class="station-bubble"></div>
-        <div id="cheapest-midgrade" class="station-bubble"></div>
-        <div id="cheapest-premium" class="station-bubble"></div>
-        <div id="cheapest-diesel" class="station-bubble"></div>
-        <div id="last-updated" class="last-updated"></div>
-      </div>
+        </div>
+
+        <div class="bubble-section">
+            <div id="cheapest-regular" class="station-bubble"></div>
+            <div id="cheapest-midgrade" class="station-bubble"></div>
+            <div id="cheapest-premium" class="station-bubble"></div>
+            <div id="cheapest-diesel" class="station-bubble"></div>
+            <div id="last-updated" class="last-updated"></div>
+        </div>
     </div>
-  </div>
+</div>
 </main>
-
-
 
     <script type="module" src="static/scripts/markers.js"></script>
     <script type="module" src="static/scripts/last-updated.js"></script>
-
 
 </body>
 </html>
