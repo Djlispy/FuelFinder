@@ -587,12 +587,12 @@
   {
     "lat": 28.042256,
     "lon": -82.671481,
-    "address": "3855 Tampa Road @ Pine Ave",
-    "city": "Oldsmar",
+    "address": "3855 Tampa Road",
+    "city": "OLDSMAR",
     "phone": "8138187553",
     "state": "FL",
     "country": "US",
-    "postal_code": "34677-3008",
+    "postal_code": "346773008",
     "regular_price": 3.199,
     "mid_grade_price": 3.699,
     "premium_price": 3.999,
@@ -687,7 +687,7 @@
     "mid_grade_price": 3.699,
     "premium_price": 3.999,
     "diesel_price": 3.699,
-    "last_updated_label": "10 hours ago"
+    "last_updated_label": "12 hours ago"
   },
   {
     "lat": 27.877184,
@@ -702,7 +702,7 @@
     "mid_grade_price": 3.699,
     "premium_price": 3.999,
     "diesel_price": 3.699,
-    "last_updated_label": "10 hours ago"
+    "last_updated_label": "12 hours ago"
   },
   {
     "lat": 28.021755,
@@ -747,7 +747,7 @@
     "mid_grade_price": 3.699,
     "premium_price": 3.999,
     "diesel_price": 3.699,
-    "last_updated_label": "15 hours ago"
+    "last_updated_label": "17 hours ago"
   },
   {
     "lat": 28.19849,
@@ -807,7 +807,7 @@
     "mid_grade_price": 3.699,
     "premium_price": 3.999,
     "diesel_price": 3.699,
-    "last_updated_label": "10 hours ago"
+    "last_updated_label": "12 hours ago"
   },
   {
     "lat": 27.848159,
@@ -867,7 +867,7 @@
     "mid_grade_price": 3.699,
     "premium_price": 3.999,
     "diesel_price": 3.699,
-    "last_updated_label": "10 hours ago"
+    "last_updated_label": "12 hours ago"
   },
   {
     "lat": 27.92123,
@@ -1137,7 +1137,7 @@
     "mid_grade_price": 3.699,
     "premium_price": 3.999,
     "diesel_price": 3.699,
-    "last_updated_label": "10 hours ago"
+    "last_updated_label": "12 hours ago"
   },
   {
     "lat": 28.055585,
@@ -1272,7 +1272,7 @@
     "mid_grade_price": 3.699,
     "premium_price": 3.999,
     "diesel_price": null,
-    "last_updated_label": "10 hours ago"
+    "last_updated_label": "12 hours ago"
   },
   {
     "lat": 27.791654,
@@ -1497,7 +1497,7 @@
     "mid_grade_price": 3.699,
     "premium_price": 3.999,
     "diesel_price": 3.699,
-    "last_updated_label": "10 hours ago"
+    "last_updated_label": "12 hours ago"
   },
   {
     "lat": 27.801737,
@@ -1542,7 +1542,7 @@
     "mid_grade_price": 3.699,
     "premium_price": 3.999,
     "diesel_price": null,
-    "last_updated_label": "3 hours ago"
+    "last_updated_label": "5 hours ago"
   },
   {
     "lat": 28.273502,
@@ -1632,7 +1632,7 @@
     "mid_grade_price": 3.699,
     "premium_price": 3.999,
     "diesel_price": null,
-    "last_updated_label": "3 hours ago"
+    "last_updated_label": "5 hours ago"
   },
   {
     "lat": 27.734155,
@@ -1707,7 +1707,7 @@
     "mid_grade_price": 3.699,
     "premium_price": 3.999,
     "diesel_price": null,
-    "last_updated_label": "10 hours ago"
+    "last_updated_label": "12 hours ago"
   },
   {
     "lat": 28.2728,
