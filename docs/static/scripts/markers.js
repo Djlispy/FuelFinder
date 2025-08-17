@@ -19,33 +19,36 @@ fetchLocations()
 
 		const cheapestStations = {};
 
-		fuelTypes.forEach(({ key, id, label }) => {
-		const validStations = data.filter(loc => loc[key] !== null && loc[key] !== undefined);
+    fuelTypes.forEach(({ key, id, label }) => {
+      const validStations = data.filter(loc => loc[key] !== null && loc[key] !== undefined);
 
-		if (validStations.length > 0) {
-			const cheapest = validStations.reduce((min, loc) => {
-			const currentPrefix = String(loc[key]).slice(0, 4);
-			const minPrefix = String(min[key]).slice(0, 4);
+      if (validStations.length > 0) {
+        // Sort by price
+        const sorted = [...validStations].sort((a, b) => parseFloat(a[key]) - parseFloat(b[key]));
 
-			if (currentPrefix < minPrefix) return loc;
-			if (currentPrefix > minPrefix) return min;
+        // Find the lowest price
+        const lowestPrice = parseFloat(sorted[0][key]);
 
-			return parseFloat(loc[key]) < parseFloat(min[key]) ? loc : min;
-			});
+        // Get *all* stations with that lowest price
+        const cheapest = sorted.filter(loc => parseFloat(loc[key]) === lowestPrice);
 
-			cheapestStations[key] = cheapest;
+        // Store as an array
+        cheapestStations[key] = cheapest;
 
-			const priceFormatted = parseFloat(cheapest[key]).toFixed(3);
-			const infoDiv = document.getElementById(id);
-			if (infoDiv) {
-			infoDiv.innerHTML = `
-				<strong>Cheapest ${label}</strong><br>
-				Address: ${cheapest.address}<br>
-				Coordinates: ${cheapest.latitude.toFixed(6)}, ${cheapest.longitude.toFixed(6)}<br>
-				Price: <strong>$${priceFormatted}</strong>`;
-			}
-		}
+        // Update info panel with the first cheapest (or list all if you want)
+        const priceFormatted = lowestPrice.toFixed(3);
+        const infoDiv = document.getElementById(id);
+        if (infoDiv) {
+          infoDiv.innerHTML = `
+            <strong>Cheapest ${label}</strong><br>
+            Address: ${cheapest[0].address}<br>
+            Coordinates: ${cheapest[0].latitude.toFixed(6)}, ${cheapest[0].longitude.toFixed(6)}<br>
+            Price: <strong>$${priceFormatted}</strong>
+          `;
+        }
+      }
     });
+
 
     renderMarkers('regular_price', data, cheapestStations); // default on load
 	})
@@ -64,13 +67,16 @@ function renderMarkers(selectedFuelKey, data, cheapestStations) {
 		if (!location[selectedFuelKey]) return;
 
     const isCheapest = (() => {
-      const cheapest = cheapestStations[selectedFuelKey];
+      const cheapestArray = cheapestStations[selectedFuelKey];
       return (
-        cheapest &&
-        location.latitude === cheapest.latitude &&
-        location.longitude === cheapest.longitude
+        cheapestArray &&
+        cheapestArray.some(
+          s => s.latitude === location.latitude && s.longitude === location.longitude
+        )
       );
     })();
+
+
 
     const strokeStyle = isCheapest ? 'stroke="green" stroke-width="3"' : '';
 
