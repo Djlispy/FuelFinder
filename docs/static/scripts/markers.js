@@ -14,28 +14,29 @@ const fuelTypes = [
 let allLocations = [];
 
 fetchLocations()
-	.then(data => {
-		allLocations = data;
+  .then(data => {
+    allLocations = data;
 
-		const cheapestStations = {};
+    const cheapestStations = {};
 
     fuelTypes.forEach(({ key, id, label }) => {
       const validStations = data.filter(loc => loc[key] !== null && loc[key] !== undefined);
 
       if (validStations.length > 0) {
-        // Sort by price
-        const sorted = [...validStations].sort((a, b) => parseFloat(a[key]) - parseFloat(b[key]));
+        // Sort stations for this fuel type
+        const sorted = [...validStations].sort(
+          (a, b) => parseFloat(a[key]) - parseFloat(b[key])
+        );
 
-        // Find the lowest price
+        // Find lowest price
         const lowestPrice = parseFloat(sorted[0][key]);
 
-        // Get *all* stations with that lowest price
+        // Collect *all* stations at that lowest price
         const cheapest = sorted.filter(loc => parseFloat(loc[key]) === lowestPrice);
 
-        // Store as an array
         cheapestStations[key] = cheapest;
 
-        // Update info panel with the first cheapest (or list all if you want)
+        // Update info div (still only shows first one, but you could loop if you want all)
         const priceFormatted = lowestPrice.toFixed(3);
         const infoDiv = document.getElementById(id);
         if (infoDiv) {
@@ -43,43 +44,35 @@ fetchLocations()
             <strong>Cheapest ${label}</strong><br>
             Address: ${cheapest[0].address}<br>
             Coordinates: ${cheapest[0].latitude.toFixed(6)}, ${cheapest[0].longitude.toFixed(6)}<br>
-            Price: <strong>$${priceFormatted}</strong>
-          `;
+            Price: <strong>$${priceFormatted}</strong>`;
         }
       }
     });
 
-
-    renderMarkers('regular_price', data, cheapestStations); // default on load
-	})
+    // ✅ Now markers for regular show up immediately
+    renderMarkers('regular_price', data, cheapestStations); 
+  })
   .catch(error => console.error('Error loading locations:', error));
 
+
 function renderMarkers(selectedFuelKey, data, cheapestStations) {
-	
-	// Clear existing markers
-	map.eachLayer(layer => {
-		if (layer instanceof L.Marker) {
-			map.removeLayer(layer);
+  // Clear existing markers
+  map.eachLayer(layer => {
+    if (layer instanceof L.Marker) {
+      map.removeLayer(layer);
     }
   });
 
-	data.forEach(location => {
-		if (!location[selectedFuelKey]) return;
+  data.forEach(location => {
+    if (!location[selectedFuelKey]) return;
 
-    const isCheapest = (() => {
-      const cheapestArray = cheapestStations[selectedFuelKey];
-      return (
-        cheapestArray &&
-        cheapestArray.some(
-          s => s.latitude === location.latitude && s.longitude === location.longitude
-        )
-      );
-    })();
-
-
+    // Now cheapestStations[selectedFuelKey] is an array
+    const cheapestArray = cheapestStations[selectedFuelKey] || [];
+    const isCheapest = cheapestArray.some(
+      s => s.latitude === location.latitude && s.longitude === location.longitude
+    );
 
     const strokeStyle = isCheapest ? 'stroke="green" stroke-width="3"' : '';
-
     const price = location[selectedFuelKey];
 
     const customIcon = L.divIcon({
@@ -92,7 +85,8 @@ function renderMarkers(selectedFuelKey, data, cheapestStations) {
         </div>
         <svg width="40" height="40" viewBox="0 0 40 40">
           <circle cx="20" cy="20" r="16" fill="white" ${strokeStyle} />
-          <image href="https://www.7-eleven.com/assets/img/store/7E_Logo_App-Icon_RGB.svg" x="4" y="4" width="32" height="32" />
+          <image href="https://www.7-eleven.com/assets/img/store/7E_Logo_App-Icon_RGB.svg" 
+                 x="4" y="4" width="32" height="32" />
         </svg>`,
       iconSize: [40, 50],
       iconAnchor: [20, 50]
@@ -110,7 +104,7 @@ function renderMarkers(selectedFuelKey, data, cheapestStations) {
     L.marker([location.latitude, location.longitude], { icon: customIcon })
       .addTo(map)
       .bindPopup(popupContent);
-	});
+  });
 }
 
 function updateMarkersByFuelType(fuelKey) {
@@ -123,20 +117,27 @@ function updateMarkersByFuelType(fuelKey) {
       fuelTypes.forEach(({ key }) => {
         const validStations = data.filter(loc => loc[key] !== null && loc[key] !== undefined);
         if (validStations.length > 0) {
-          const cheapest = validStations.reduce((min, loc) => {
-            const currentPrefix = String(loc[key]).slice(0, 4);
-            const minPrefix = String(min[key]).slice(0, 4);
-            if (currentPrefix < minPrefix) return loc;
-            if (currentPrefix > minPrefix) return min;
-            return parseFloat(loc[key]) < parseFloat(min[key]) ? loc : min;
-          });
+          // Sort stations for this fuel type
+          const sorted = [...validStations].sort(
+            (a, b) => parseFloat(a[key]) - parseFloat(b[key])
+          );
+
+          // Find lowest price
+          const lowestPrice = parseFloat(sorted[0][key]);
+
+          // Collect *all* stations at that lowest price
+          const cheapest = sorted.filter(loc => parseFloat(loc[key]) === lowestPrice);
+
           cheapestStations[key] = cheapest;
         }
       });
 
       renderMarkers(fuelKey, data, cheapestStations);
-    });
+    })
+    .catch(err => console.error("Error updating markers:", err));
 }
+
+
 
 document.addEventListener('DOMContentLoaded', () => {
   // Get both mobile and desktop button sets
