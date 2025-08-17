@@ -17,7 +17,7 @@ driver = webdriver.Chrome(service=Service("/usr/local/bin/chromedriver"), option
 stealth(driver,
     languages=["en-US", "en"],
     vendor="Google Inc.",
-    platform="Win32",  # sometimes Windows is less suspicious than MacIntel on Linux runners
+    platform="Win32",
     webgl_vendor="Intel Inc.",
     renderer="Intel Iris OpenGL Engine",
     fix_hairline=True,
