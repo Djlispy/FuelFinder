@@ -5,62 +5,63 @@ import { fetchLocations } from './data.js';
 import { formatPrice } from './utils.js';
 
 const fuelTypes = [
-  { key: 'regular_price', id: 'cheapest-regular', label: 'Regular' },
-  { key: 'mid_grade_price', id: 'cheapest-midgrade', label: 'Mid-Grade' },
-  { key: 'premium_price', id: 'cheapest-premium', label: 'Premium' },
-  { key: 'diesel_price', id: 'cheapest-diesel', label: 'Diesel' }
+	{ key: 'regular_price', id: 'cheapest-regular', label: 'Regular' },
+	{ key: 'mid_grade_price', id: 'cheapest-midgrade', label: 'Mid-Grade' },
+	{ key: 'premium_price', id: 'cheapest-premium', label: 'Premium' },
+	{ key: 'diesel_price', id: 'cheapest-diesel', label: 'Diesel' }
 ];
 
 let allLocations = [];
 
 fetchLocations()
-  .then(data => {
-    allLocations = data;
+	.then(data => {
+		allLocations = data;
 
-    const cheapestStations = {};
+		const cheapestStations = {};
 
-    fuelTypes.forEach(({ key, id, label }) => {
-      const validStations = data.filter(loc => loc[key] !== null && loc[key] !== undefined);
+		fuelTypes.forEach(({ key, id, label }) => {
+		const validStations = data.filter(loc => loc[key] !== null && loc[key] !== undefined);
 
-      if (validStations.length > 0) {
-        const cheapest = validStations.reduce((min, loc) => {
-          const currentPrefix = String(loc[key]).slice(0, 4);
-          const minPrefix = String(min[key]).slice(0, 4);
+		if (validStations.length > 0) {
+			const cheapest = validStations.reduce((min, loc) => {
+			const currentPrefix = String(loc[key]).slice(0, 4);
+			const minPrefix = String(min[key]).slice(0, 4);
 
-          if (currentPrefix < minPrefix) return loc;
-          if (currentPrefix > minPrefix) return min;
+			if (currentPrefix < minPrefix) return loc;
+			if (currentPrefix > minPrefix) return min;
 
-          return parseFloat(loc[key]) < parseFloat(min[key]) ? loc : min;
-        });
+			return parseFloat(loc[key]) < parseFloat(min[key]) ? loc : min;
+			});
 
-        cheapestStations[key] = cheapest;
+			cheapestStations[key] = cheapest;
 
-        const priceFormatted = parseFloat(cheapest[key]).toFixed(3);
-        const infoDiv = document.getElementById(id);
-        if (infoDiv) {
-          infoDiv.innerHTML = `
-            <strong>Cheapest ${label}</strong><br>
-            Address: ${cheapest.address}<br>
-            Coordinates: ${cheapest.latitude.toFixed(6)}, ${cheapest.longitude.toFixed(6)}<br>
-            Price: <strong>$${priceFormatted}</strong>`;
-        }
-      }
+			const priceFormatted = parseFloat(cheapest[key]).toFixed(3);
+			const infoDiv = document.getElementById(id);
+			if (infoDiv) {
+			infoDiv.innerHTML = `
+				<strong>Cheapest ${label}</strong><br>
+				Address: ${cheapest.address}<br>
+				Coordinates: ${cheapest.latitude.toFixed(6)}, ${cheapest.longitude.toFixed(6)}<br>
+				Price: <strong>$${priceFormatted}</strong>`;
+			}
+		}
     });
 
     renderMarkers('regular_price', data, cheapestStations); // default on load
-  })
+	})
   .catch(error => console.error('Error loading locations:', error));
 
 function renderMarkers(selectedFuelKey, data, cheapestStations) {
-  // Clear existing markers
-  map.eachLayer(layer => {
-    if (layer instanceof L.Marker) {
-      map.removeLayer(layer);
+	
+	// Clear existing markers
+	map.eachLayer(layer => {
+		if (layer instanceof L.Marker) {
+			map.removeLayer(layer);
     }
   });
 
-  data.forEach(location => {
-    if (!location[selectedFuelKey]) return;
+	data.forEach(location => {
+		if (!location[selectedFuelKey]) return;
 
     const isCheapest = (() => {
       const cheapest = cheapestStations[selectedFuelKey];
@@ -93,6 +94,7 @@ function renderMarkers(selectedFuelKey, data, cheapestStations) {
 
     const popupContent = `
       <strong>${location.address}</strong><br>
+      Coordinates: ${location.latitude}, ${location.longitude}<br>
       Regular: ${formatPrice(location.regular_price)}<br>
       Mid-Grade: ${formatPrice(location.mid_grade_price)}<br>
       Premium: ${formatPrice(location.premium_price)}<br>
@@ -102,7 +104,7 @@ function renderMarkers(selectedFuelKey, data, cheapestStations) {
     L.marker([location.latitude, location.longitude], { icon: customIcon })
       .addTo(map)
       .bindPopup(popupContent);
-  });
+	});
 }
 
 function updateMarkersByFuelType(fuelKey) {
@@ -167,36 +169,18 @@ document.addEventListener('DOMContentLoaded', () => {
   });
   
   // Add click event listeners to desktop buttons
-  desktopButtons.forEach(button => {
-    button.addEventListener('click', () => {
-      handleButtonClick(button, desktopButtons);
+	desktopButtons.forEach(button => {
+		button.addEventListener('click', () => {
+			handleButtonClick(button, desktopButtons);
     });
   });
   
   // Set default selected button on both mobile and desktop
-  if (mobileButtons.length > 0) {
-    mobileButtons[0].classList.add('selected');
+	if (mobileButtons.length > 0) {
+		mobileButtons[0].classList.add('selected');
   }
   
-  if (desktopButtons.length > 0) {
-    desktopButtons[0].classList.add('selected');
+	if (desktopButtons.length > 0) {
+		desktopButtons[0].classList.add('selected');
   }
 });
-
-
-
-
-
-// import { fetchLastUpdateFromLog } from './last-updated.js';
-
-// document.addEventListener('DOMContentLoaded', async () => {
-//   try {
-//     const timestamp = await fetchLastUpdateFromLog();
-//     const el = document.getElementById('last-updated');
-//     if (el) {
-//       el.textContent = `Last updated: ${timestamp}`;
-//     }
-//   } catch (err) {
-//     console.error('Could not read update time:', err);
-//   }
-// });
