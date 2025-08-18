@@ -1,200 +1,201 @@
 html, body {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  font-family: system-ui, sans-serif;
-  background-color: #1e1e1e;
-  color: #fff;
-  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	font-family: "Bebas Neue", system-ui, sans-serif;
+
+	background-color: #1e1e1e;
+	color: #fff;
+	box-sizing: border-box;
 }
 
 /* MAP and Bubble Styling */
 #map,
 .station-bubble {
-  width: 100%;
-  max-width: calc(100% - 2rem); /* Adds 1rem margin each side */
-  margin: 1rem auto 0;
-  border-radius: 1rem;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-  box-sizing: border-box;
+	width: 100%;
+	max-width: calc(100% - 2rem);
+	margin: 1rem auto 0;
+	border-radius: 1rem;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+	box-sizing: border-box;
 }
 
 #map {
-  height: 70vh;
+	height: 70vh;
 }
 
 .station-bubble {
-  background-color: #2a2a2a;
-  padding: 1rem 1.5rem;
-  font-size: 0.7rem;
-  line-height: 1.6;
-  color: #fff;
+	background-color: #2a2a2a;
+	padding: 1rem 1.5rem;
+	font-size: 0.7rem;
+	line-height: 1.6;
+	color: #fff;
 }
 
 .station-bubble strong {
-  color: #28a745;
+	color: #28a745;
 }
 
 .fuel-buttons-row {
-  display: flex;
-  width: 100%;
-  max-width: calc(100% - 2rem); /* Matches map width */
-  margin: 0 auto;
-  gap: 5px;
-  box-sizing: border-box;
-  
+	display: flex;
+	width: 100%;
+	max-width: calc(100% - 2rem); /* Matches map width */
+	margin: 0 auto;
+	gap: 5px;
+	box-sizing: border-box;
 }
 
 .fuel-buttons-row button {
-  flex: 1;
-  padding: 0.55rem 0.55rem;
-  font-size: 0.58rem;
-  border: none;
-  border-radius: 7px;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 5px;
-  background-color: #fcfcfc;
-  color: black;
-  min-width: 0;
-  transition: background-color 0.2s;
-  white-space: nowrap;
+	flex: 1;
+	padding: 0.55rem 0.55rem;
+	font-size: 0.58rem;
+	border: none;
+	border-radius: 7px;
+	font-family: "Bebas Neue", system-ui, sans-serif;
+	font-weight: 500;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 5px;
+	background-color: #f0f0f0;
+
+	color: #333;
+	min-width: 0;
+	transition: background-color 0.3s ease;
+	white-space: nowrap;
+
+	box-shadow: 0 1px 2px rgba(19, 19, 19, 0.4)
 }
 
 .fuel-buttons-row button:hover {
-  background-color: #cfcfcf;
+	background-color: #cfcfcf;
 }
 
 #fuel-selector button.selected,
 #desktop-fuel-selector button.selected {
-  background-color: #cfcfcf;
+	background-color: #cfcfcf;
 }
 
 /* Map + Bubble Wrapper */
 .map-bubble-wrapper {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  padding: 0 1rem;
-  /* height: 140vh; */
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	padding: 0 1rem;
 }
 
 /* Map container for desktop layout */
 .map-container {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-  width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+	width: 100%;
 }
 
 
 /* Bubble Section */
 .bubble-section {
-  display: flex;
-  flex-direction: column;
-  gap: 0.2rem;
+	display: flex;
+	flex-direction: column;
+	gap: 0.2rem;
 }
 
-/* Last updated text */
 .last-updated {
-  text-align: center;
-  margin-top: 1rem;
-  font-size: 0.55rem;
-  color: #dbdbdb;
+	text-align: center;
+	margin-top: 1rem;
+	font-size: 0.55rem;
+	color: #dbdbdb;
 }
 
-/* Price Marker Styles */
 .price-marker {
-  text-align: center;
+	text-align: center;
 }
 
 .price-text {
-  font-size: 13px;
-  margin-bottom: 2px;
-  color: white;
+	font-size: 13px;
+	margin-bottom: 2px;
+	color: white;
 }
 
 .gas-image {
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  background-color: white;
-  padding: 2px;
-  box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background-color: white;
+	padding: 2px;
+	box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
 }
 
 .price-label {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 4px;
-  background: white;
-  color: black;
-  padding: 1px 3px;
-  border-radius: 4px;
-  font-size: 10px;
-  
-  width: fit-content;
-  margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 4px;
+	background: white;
+	color: black;
+	padding: 1px 3px;
+	border-radius: 4px;
+	font-size: 10px;
+	width: fit-content;
+	margin: 0 auto;
 }
 
 /* Mobile/Desktop visibility classes */
 .desktop-only {
-  display: none;
+	display: none;
 }
 
 .mobile-only {
-  display: flex;
+	display: flex;
 }
 
 /* Responsive Layout for Desktop */
 @media (min-width: 768px) {
-  .map-bubble-wrapper {
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
-  }
+	.map-bubble-wrapper {
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: flex-start;
+	}
 
-  .map-container {
-    flex: 2;
-    max-width: 58%;
-  }
+	.map-container {
+		flex: 2;
+		max-width: 58%;
+	}
 
-  #map {
-    width: 100%;
-    max-width: 100%;
-  }
+	#map {
+		width: 100%;
+		max-width: 100%;
+	}
 
-  .right-column {
-    flex: 1;
-    max-width: 40%;
-  }
+	.right-column {
+		flex: 1;
+		max-width: 40%;
+	}
 
-  .bubble-section {
-    overflow-y: auto;
-  }
-  
-  /* Show desktop buttons, hide mobile buttons */
-  .desktop-only {
-    display: flex;
-  }
-  
-  .mobile-only {
-    display: none;
-  }
+	.bubble-section {
+		overflow-y: auto;
+	}
+	
+	/* Show desktop buttons, hide mobile buttons */
+	.desktop-only {
+		display: flex;
+	}
+	
+	.mobile-only {
+		display: none;
+	}
 
-  .fuel-buttons-row button {
-  flex: 1;
-  padding: 0.8rem 0.8rem;
-  font-size: 0.9rem;
-  border: none;
-  gap: 8px;
+	.fuel-buttons-row button {
+	flex: 1;
+	padding: 0.8rem 0.8rem;
+	font-size: 0.9rem;
+	border: none;
+	gap: 8px;
 
-  }
+	}
 }
 
 #fuel-selector {
-  margin-top: 0;
+	margin-top: 0;
 }
