@@ -18,6 +18,6 @@
 <kbd> <img src="docs/static/assets/FuelFinder-Preview-Desktop.png" alt="FuelFinder Desktop Preview" width="80%"/> </kbd>
 
 ### 📱 Mobile View  
-<kbd> <img src="docs/static/assets/FuelFinder-Preview-Mobile.jpg" alt="FuelFinder Mobile Preview" width="300px"/> </kbd>
+<kbd> <img src="docs/static/assets/FuelFinder-Preview-Mobile.png" alt="FuelFinder Mobile Preview" width="300px"/> </kbd>
 
 </div>
